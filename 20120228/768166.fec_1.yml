@@ -1,0 +1,1742 @@
+countrows: 14
+filename: 768166.fec
+header: {}
+rows:
+- 2
+- input: "F24A\x1CC00252940\x1C48\x1C20120217\x1C League of Conservation Voters Action
+    Fund\x1C1920 L St NW Suite 800\x1C\x1CWashington\x1CDC\x1C20036    \x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: '20120217'
+  - name: COMMITTEE NAME
+    number: '5'
+    value: ' League of Conservation Voters Action Fund'
+  - name: STREET 1
+    number: '6'
+    value: 1920 L St NW Suite 800
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Washington
+  - name: STATE
+    number: '9'
+    value: DC
+  - name: ZIP
+    number: '10'
+    value: '20036    '
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Collins
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Patrick
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20120227
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E74A68D3889314E71838
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Sir Speedy
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2001 L ST NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200364905'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120215'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1021.38'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '11814.32'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Feb GiveGreen Appeal - Printing
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CE74A68D3889314E71838\x1C\x1C\x1CORG\x1CSir Speedy\x1C\x1C\x1C\x1C\x1C\x1C2001
+    L ST NW\x1C\x1CWashington\x1CDC\x1C200364905\x1CP2012\x1C\x1C20120215\x1C1021.38\x1C11814.32\x1CFeb
+    GiveGreen Appeal - Printing\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E5BC0868301D14B8A8D4
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: GI
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 28930
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Richmond
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '23228'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120131'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '720.27'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '6283.85'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Jan GiveGreen Appeal printing
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CE5BC0868301D14B8A8D4\x1C\x1C\x1CORG\x1CGI\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 28930\x1C\x1CRichmond\x1CVA\x1C23228\x1CP2012\x1C\x1C20120131\x1C720.27\x1C6283.85\x1CJan
+    GiveGreen Appeal printing\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC6A4605C7D2542C5835
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ProList
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 8341 Beechcraft Ave
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Gaithersburg
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20879'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120131'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '952.82'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '6283.85'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Jan GiveGreen Appeal - Mailshop
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CEC6A4605C7D2542C5835\x1C\x1C\x1CORG\x1CProList\x1C\x1C\x1C\x1C\x1C\x1C8341
+    Beechcraft Ave\x1C\x1CGaithersburg\x1CMD\x1C20879\x1CP2012\x1C\x1C20120131\x1C952.82\x1C6283.85\x1CJan
+    GiveGreen Appeal - Mailshop\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EEED73F5CD964454B830
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Bulletproof
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: '1840 41st Ave #102-333'
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Capitola
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '95010'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120131'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '150.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '6283.85'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Jan GiveGreen Appeal - proofreading
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CEEED73F5CD964454B830\x1C\x1C\x1CORG\x1CBulletproof\x1C\x1C\x1C\x1C\x1C\x1C1840
+    41st Ave #102-333\x1C\x1CCapitola\x1CCA\x1C95010\x1CP2012\x1C\x1C20120131\x1C150.00\x1C6283.85\x1CJan
+    GiveGreen Appeal - proofreading\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E48A05546A3794B77A59
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Dulpi
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 11500
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Syracuse
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '13218'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120131'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '592.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '6283.85'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Jan GiveGreen Appeal OSE printing
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CE48A05546A3794B77A59\x1C\x1C\x1CORG\x1CDulpi\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 11500\x1C\x1CSyracuse\x1CNY\x1C13218\x1CP2012\x1C\x1C20120131\x1C592.22\x1C6283.85\x1CJan
+    GiveGreen Appeal OSE printing\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC0071FAAE7C9436F9F4
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: League of Conservation Voters, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1920 L Street, NW Ste 800
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036 '
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120210'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '571.24'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9824.39'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Email & Staff for Bundling Appeal
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CEC0071FAAE7C9436F9F4\x1C\x1C\x1CORG\x1CLeague of Conservation
+    Voters, Inc.\x1C\x1C\x1C\x1C\x1C\x1C1920 L Street, NW Ste 800\x1C\x1CWashington\x1CDC\x1C20036
+    \x1CP2012\x1C\x1C20120210\x1C571.24\x1C9824.39\x1CEmail & Staff for Bundling Appeal\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E300F14D4E1DB4678A49
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: USPS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2100 M St NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120215'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '999.05'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '11814.32'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Feb GiveGreen Appeal - Postage
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CE300F14D4E1DB4678A49\x1C\x1C\x1CORG\x1CUSPS\x1C\x1C\x1C\x1C\x1C\x1C2100
+    M St NW\x1C\x1CWashington\x1CDC\x1C20036\x1CP2012\x1C\x1C20120215\x1C999.05\x1C11814.32\x1CFeb
+    GiveGreen Appeal - Postage\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EAAAB9EFE13224E56B44
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Production Management Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6940 Columbia Gateway Dr Ste 220
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Columbia
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '210462876'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120131'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2969.30'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '9253.15'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: January GiveGreen Appeal Postage
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CEAAAB9EFE13224E56B44\x1C\x1C\x1CORG\x1CProduction Management
+    Group\x1C\x1C\x1C\x1C\x1C\x1C6940 Columbia Gateway Dr Ste 220\x1C\x1CColumbia\x1CMD\x1C210462876\x1CP2012\x1C\x1C20120131\x1C2969.30\x1C9253.15\x1CJanuary
+    GiveGreen Appeal Postage\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ED5B8C49CA3594D1CB8D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: League of Conservation Voters, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1920 L Street, NW Ste 800
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036    '
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120215'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '14.50'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '11814.32'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Feb GiveGreen Appeal - Staff Time
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CED5B8C49CA3594D1CB8D\x1C\x1C\x1CORG\x1CLeague of Conservation
+    Voters, Inc.\x1C\x1C\x1C\x1C\x1C\x1C1920 L Street, NW Ste 800\x1C\x1CWashington\x1CDC\x1C20036
+    \   \x1CP2012\x1C\x1C20120215\x1C14.50\x1C11814.32\x1CFeb GiveGreen Appeal - Staff
+    Time\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E58BCA5C81F684D41A45
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Allied
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 6506
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Carlstadt
+  - name: PAYEE STATE
+    number: '16'
+    value: NJ
+  - name: PAYEE ZIP
+    number: '17'
+    value: '07072'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120131'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1356.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '6283.85'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Jan GiveGreen Appeal - printing
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CE58BCA5C81F684D41A45\x1C\x1C\x1CORG\x1CAllied\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 6506\x1C\x1CCarlstadt\x1CNJ\x1C07072\x1CP2012\x1C\x1C20120131\x1C1356.80\x1C6283.85\x1CJan
+    GiveGreen Appeal - printing\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E7B3DB94771554289AA3
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: CCA&H
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1600 Wilson Blvd Ste 300
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22209'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120131'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2250.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '6283.85'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Jan GiveGreen Appeal Art/Copy Fee/List
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CE7B3DB94771554289AA3\x1C\x1C\x1CORG\x1CCCA&H\x1C\x1C\x1C\x1C\x1C\x1C1600
+    Wilson Blvd Ste 300\x1C\x1CArlington\x1CVA\x1C22209\x1CP2012\x1C\x1C20120131\x1C2250.00\x1C6283.85\x1CJan
+    GiveGreen Appeal Art/Copy Fee/List\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00252940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E1B90FE103CDD469F88A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: TriState
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 433
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Beltsville
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20704'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120131'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '216.74'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '6283.85'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Jan GiveGreen Appeal - BRE Printing
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Kaine
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Timothy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: M.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Collins
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Patrick
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120227'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00252940\x1CE1B90FE103CDD469F88A\x1C\x1C\x1CORG\x1CTriState\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 433\x1C\x1CBeltsville\x1CMD\x1C20704\x1CP2012\x1C\x1C20120131\x1C216.74\x1C6283.85\x1CJan
+    GiveGreen Appeal - BRE Printing\x1C\x1C\x1CS\x1C\x1CKaine\x1CTimothy\x1CM.\x1C\x1C\x1CS\x1CVA\x1C\x1CCollins\x1CPatrick\x1C\x1C\x1C\x1C20120227\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20120228
+type: chunk
