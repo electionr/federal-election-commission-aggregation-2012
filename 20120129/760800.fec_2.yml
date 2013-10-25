@@ -1,0 +1,666 @@
+countrows: 10
+filename: 760800.fec
+header: {}
+rows:
+- input: "SD10\x1CC00330142\x1CSD10.45757\x1CORG\x1CAmerican Express\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 114\x1C\x1CNewark\x1CNJ\x1C07101\x1CCredit card\x1C1228.82\x1C0.00\x1C1228.82\x1C0.00\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.45757
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: American Express
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: P.O. Box 114
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Newark
+  - name: CREDITOR STATE
+    number: '14'
+    value: NJ
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '07101'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Credit card
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '1228.82'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '1228.82'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0.00
+
+'
+- input: "SD10\x1CC00330142\x1CSD10.46719\x1CORG\x1CC Street Investments\x1C\x1C\x1C\x1C\x1C\x1C901
+    Seventh Street NW\x1C\x1CWashington\x1CDC\x1C20001\x1CEvent Staff\x1C0.00\x1C1000.00\x1C0.00\x1C1000.00\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.46719
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: C Street Investments
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 901 Seventh Street NW
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Washington
+  - name: CREDITOR STATE
+    number: '14'
+    value: DC
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '20001'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Event Staff
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '1000.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1000.00
+
+'
+- input: "SD10\x1CC00330142\x1CSD10.45987\x1CORG\x1CHoffman Auto\x1C\x1C\x1C\x1C\x1C\x1CConnecticut
+    Blvd.\x1C\x1CEadt Hartford\x1CCT\x1C06108\x1CAuto Repairs\x1C924.44\x1C0.00\x1C924.44\x1C0.00\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.45987
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Hoffman Auto
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: Connecticut Blvd.
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Eadt Hartford
+  - name: CREDITOR STATE
+    number: '14'
+    value: CT
+  - name: CREDITOR ZIP
+    number: '15'
+    value: 06108
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Auto Repairs
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '924.44'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '924.44'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0.00
+
+'
+- input: "SD10\x1CC00330142\x1CSD10.46722\x1CORG\x1CImages Printing\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 258\x1C\x1CBloomfield\x1CCT\x1C06002\x1CPrinting\x1C0.00\x1C1669.69\x1C0.00\x1C1669.69\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.46722
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Images Printing
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: PO Box 258
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Bloomfield
+  - name: CREDITOR STATE
+    number: '14'
+    value: CT
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '06002'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Printing
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '1669.69'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '1669.69
+
+'
+- input: "SD10\x1CC00330142\x1CSD10.43734\x1CORG\x1CPerkins Coie\x1C\x1C\x1C\x1C\x1C\x1C1201
+    Third Avenue\x1C\x1CSeattle\x1CWA\x1C98101\x1CCompliance advice\x1C630.00\x1C0.00\x1C0.00\x1C630.00\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.43734
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Perkins Coie
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 1201 Third Avenue
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Seattle
+  - name: CREDITOR STATE
+    number: '14'
+    value: WA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '98101'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Compliance advice
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '630.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '630.00
+
+'
+- input: "SD10\x1CC00330142\x1CSD10.45986\x1CORG\x1CPerkins Coie\x1C\x1C\x1C\x1C\x1C\x1C1201
+    Third Avenue\x1C\x1CSeattle\x1CWA\x1C98101\x1CCompliance Advice\x1C170.00\x1C0.00\x1C170.00\x1C0.00\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.45986
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Perkins Coie
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 1201 Third Avenue
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Seattle
+  - name: CREDITOR STATE
+    number: '14'
+    value: WA
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '98101'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Compliance Advice
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '170.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '170.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0.00
+
+'
+- input: "SD10\x1CC00330142\x1CSD10.37308\x1CORG\x1CSteptoe & Johnson, LLP\x1C\x1C\x1C\x1C\x1C\x1C1330
+    Connecticut Avenue, NW\x1C\x1CWashington\x1CDC\x1C20036\x1CFacility Fee\x1C50.00\x1C0.00\x1C0.00\x1C50.00\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.37308
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Steptoe & Johnson, LLP
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 1330 Connecticut Avenue, NW
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Washington
+  - name: CREDITOR STATE
+    number: '14'
+    value: DC
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '20036'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Facility Fee
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '50.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '50.00
+
+'
+- input: "SD10\x1CC00330142\x1CSD10.42519\x1CORG\x1CVerizon Wireless\x1C\x1C\x1C\x1C\x1C\x1C20
+    Alexander Drive\x1C\x1CWallingford\x1CCT\x1C06492\x1CCell phone service\x1C482.92\x1C0.00\x1C0.00\x1C482.92\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.42519
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Verizon Wireless
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 20 Alexander Drive
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Wallingford
+  - name: CREDITOR STATE
+    number: '14'
+    value: CT
+  - name: CREDITOR ZIP
+    number: '15'
+    value: 06492
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Cell phone service
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '482.92'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '482.92
+
+'
+- input: "SD10\x1CC00330142\x1CSD10.46740\x1CORG\x1CVerizon Wireless\x1C\x1C\x1C\x1C\x1C\x1C20
+    Alexander Drive\x1C\x1CWallingford\x1CCT\x1C06492\x1CCell phone service\x1C0.00\x1C713.52\x1C0.00\x1C713.52\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.46740
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Verizon Wireless
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 20 Alexander Drive
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Wallingford
+  - name: CREDITOR STATE
+    number: '14'
+    value: CT
+  - name: CREDITOR ZIP
+    number: '15'
+    value: 06492
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Cell phone service
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '713.52'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '713.52
+
+'
+- input: "SD10\x1CC00330142\x1CSD10.46741\x1CORG\x1CVerizon Wireless\x1C\x1C\x1C\x1C\x1C\x1C20
+    Alexander Drive\x1C\x1CWallingford\x1CCT\x1C06492\x1CCell phone service\x1C0.00\x1C434.57\x1C0.00\x1C434.57\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.46741
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Verizon Wireless
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 20 Alexander Drive
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Wallingford
+  - name: CREDITOR STATE
+    number: '14'
+    value: CT
+  - name: CREDITOR ZIP
+    number: '15'
+    value: 06492
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Cell phone service
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '434.57'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '434.57
+
+'
+sourceurl: !!python/unicode 20120129
+type: chunk
