@@ -1,0 +1,416 @@
+countrows: 4
+filename: 806069.fec
+header: {}
+rows:
+- input: "SB21b\x1CC00032979\x1C29019889\x1C\x1C\x1CORG\x1CWells Fargo Bank\x1C\x1C\x1C\x1C\x1C\x1C1753
+    Pinnacle Drive, 3rd Floor, VA\x1C\x1CMcLean\x1CVA\x1C22102\x1C\x1C\x1C20120711\x1C2049.26\x1C0.00\x1CSERVICE
+    CHARGES 7/11/12\x1C001\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CSERVICE
+    CHARGES 7/11/12\x1C\n"
+  record: fec.version.v8_0.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21b
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00032979
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '29019889'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Wells Fargo Bank
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1753 Pinnacle Drive, 3rd Floor, VA
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: McLean
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22102'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120711'
+  - name: EXPENDITURE AMOUNT (F3L Bundled)
+    number: '21'
+    value: '2049.26'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: '0.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: SERVICE CHARGES 7/11/12
+  - name: CATEGORY CODE
+    number: '24'
+    value: '001'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: SERVICE CHARGES 7/11/12
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SD10\x1CC00032979\x1C29218954\x1CORG\x1CPeake Delancey Printers\x1C\x1C\x1C\x1C\x1C\x1C2500
+    Schuster Drive\x1C\x1CCheverly\x1CMD\x1C20781\x1CTeamsters for Obama Rally Signs\x1C8200.00\x1C0.00\x1C0.00\x1C8200.00\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00032979
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '29218954'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Peake Delancey Printers
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 2500 Schuster Drive
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Cheverly
+  - name: CREDITOR STATE
+    number: '14'
+    value: MD
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '20781'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Teamsters for Obama Rally Signs
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '8200.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '8200.00
+
+'
+- input: "SD10\x1CC00032979\x1C29218955\x1CORG\x1CUnion Marketing Ideas Inc\x1C\x1C\x1C\x1C\x1C\x1C300
+    NW 70th Avenue, Ste 106\x1C\x1CPlantation\x1CFL\x1C33317\x1CTeamsters for Obama
+    Stickers/Bumper Stickers\x1C0.00\x1C3325.75\x1C0.00\x1C3325.75\n"
+  record: fec.version.v8_0.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00032979
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '29218955'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Union Marketing Ideas Inc
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 300 NW 70th Avenue, Ste 106
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Plantation
+  - name: CREDITOR STATE
+    number: '14'
+    value: FL
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '33317'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Teamsters for Obama Stickers/Bumper Stickers
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '0.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '3325.75'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '0.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '3325.75
+
+'
+- input: "SE\x1CC00032979\x1C29013274\x1C\x1C\x1C\x1CUnion Marketing Ideas, Inc.\x1C\x1C\x1C\x1C\x1C\x1C300
+    NW 70th Ave., Ste 106\x1C\x1CPlantation\x1CFL\x1C33317\x1CG2012\x1C\x1C20120731\x1C3325.75\x1C11525.75\x1CTEAMSTERS
+    FOR OBAMA STICKERS/BUMPER STIC\x1C006\x1CC00431445\x1CS\x1C\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1CHall\x1CKen\x1C\x1C\x1C\x1C20120820\x1CX\x1CTEAMSTERS
+    FOR OBAMA STICKERS/BUMPER STICKERS\n"
+  record: fec.version.v8_0.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00032979
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '29013274'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Union Marketing Ideas, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 300 NW 70th Ave., Ste 106
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Plantation
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '33317'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120731'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3325.75'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '11525.75'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: TEAMSTERS FOR OBAMA STICKERS/BUMPER STIC
+  - name: CATEGORY CODE
+    number: '24'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00431445
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Hall
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Ken
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120820'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: 'TEAMSTERS FOR OBAMA STICKERS/BUMPER STICKERS
+
+'
+sourceurl: !!python/unicode 20120820
+type: chunk

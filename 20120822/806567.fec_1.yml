@@ -1,0 +1,367 @@
+countrows: 6
+filename: 806567.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00508804\x1C\x1CKyrsten Sinema for Congress\x1CPO Box 25879\x1C\x1CTempe\x1CAZ\x1C85285\x1CH2AZ09019\x1CSinema\x1CKyrsten\x1C\x1C\x1C\x1CH\x1CAZ\x1C09\x1CAnderson\x1CStephen\x1CW.\x1C\x1C\x1C20120822\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00508804
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Kyrsten Sinema for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 25879
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tempe
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85285'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2AZ09019
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Sinema
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Kyrsten
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: 09
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Anderson
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Stephen
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: W.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120822
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00508804
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 11ai-000007476
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hale
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Harry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3220 E Stanford Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Paradise Valley
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '852537525'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120821'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Arizona State University
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Theater Technical Director
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00508804\x1C11ai-000007476\x1CIND\x1C\x1CHale\x1CHarry\x1C\x1C\x1C\x1C3220
+    E Stanford Dr\x1C\x1CParadise Valley\x1CAZ\x1C852537525\x1C\x1C20120821\x1C1500.00\x1CArizona
+    State University\x1CTheater Technical Director\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00508804
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 11ai-000007474
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Smith
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Patrick
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11445 E Via Linda
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Scottsdale
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '852592654'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120821'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: TASER Int'l
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00508804\x1C11ai-000007474\x1CIND\x1C\x1CSmith\x1CPatrick\x1C\x1C\x1C\x1C11445
+    E Via Linda\x1C\x1CScottsdale\x1CAZ\x1C852592654\x1C\x1C20120821\x1C1000.00\x1CTASER
+    Int'l\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00508804
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 11ai-000007532
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Carey
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Rea
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2432 20th St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20009'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120821'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: National Gay and Lesbian Task Force
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive Director
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00508804\x1C11ai-000007532\x1CIND\x1C\x1CCarey\x1CRea\x1C\x1C\x1C\x1C2432
+    20th St NW\x1C\x1CWashington\x1CDC\x1C20009\x1C\x1C20120821\x1C1000.00\x1CNational
+    Gay and Lesbian Task Force\x1CExecutive Director\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00508804
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 11ai-000007535
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hays
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jane
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 55 S Flower St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lakewood
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '802261206'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120820'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00508804\x1C11ai-000007535\x1CIND\x1C\x1CHays\x1CJane\x1C\x1C\x1C\x1C55
+    S Flower St\x1C\x1CLakewood\x1CCO\x1C802261206\x1C\x1C20120820\x1C1000.00\x1CN/A\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120822
+type: chunk
