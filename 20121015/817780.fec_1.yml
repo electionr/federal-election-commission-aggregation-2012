@@ -1,0 +1,3417 @@
+countrows: 50
+filename: 817780.fec
+header: {}
+rows:
+- 2
+- input: "F7N\x1CC70002563\x1CNational Association of Realtors\x1C430 N MICHIGAN AVENUE\x1C\x1CCHICAGO\x1CIL\x1C60611
+    \   \x1CM\x1CQ3\x1C\x1C\x1C20120701\x1C20120930\x1C248230.27\x1CArmstrong\x1CWilliam\x1C\x1C\x1C\x1CTreasurer\x1C20121015\n"
+  record: fec.version.v8_0.F7
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F7N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: ORGANIZATION NAME
+    number: '3'
+    value: National Association of Realtors
+  - name: ORGANIZATION STREET 1
+    number: '4'
+    value: 430 N MICHIGAN AVENUE
+  - name: ORGANIZATION STREET 2
+    number: '5'
+    value: ''
+  - name: ORGANIZATION CITY
+    number: '6'
+    value: CHICAGO
+  - name: ORGANIZATION STATE
+    number: '7'
+    value: IL
+  - name: ORGANIZATION ZIP
+    number: '8'
+    value: '60611    '
+  - name: ORGANIZATION TYPE
+    number: '9'
+    value: M
+  - name: REPORT CODE
+    number: '10'
+    value: Q3
+  - name: DATE OF ELECTION
+    number: '11'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '12'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '13'
+    value: '20120701'
+  - name: COVERAGE THROUGH DATE
+    number: '14'
+    value: '20120930'
+  - name: TOTAL COSTS
+    number: '15'
+    value: '248230.27'
+  - name: PERSON DESIGNATED TO SIGN LAST NAME
+    number: '16'
+    value: Armstrong
+  - name: PERSON DESIGNATED TO SIGN FIRST NAME
+    number: '17'
+    value: William
+  - name: PERSON DESIGNATED TO SIGN MIDDLE NAME
+    number: '18'
+    value: ''
+  - name: PERSON DESIGNATED TO SIGN PREFIX
+    number: '19'
+    value: ''
+  - name: PERSON DESIGNATED TO SIGN SUFFIX
+    number: '20'
+    value: ''
+  - name: PERSON DESIGNATED TO SIGN TITLE
+    number: '21'
+    value: Treasurer
+  - name: DATE SIGNED
+    number: '22'
+    value: '20121015
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EDF68937451B84F53993
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120920'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '3231.73'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6CA24113
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Sherman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Brad
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '30'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEDF68937451B84F53993\x1CDM\x1C\x1CM\x1C20120920\x1C3231.73\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH6CA24113\x1CSherman\x1CBrad\x1C\x1CRep.\x1C\x1CH\x1CCA\x1C30\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E511483D78EB8443D90E
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120720'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '325.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6GA05217
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Lewis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: John
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: GA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '05'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE511483D78EB8443D90E\x1CDM\x1C\x1CM\x1C20120720\x1C325.00\x1CP2012\x1C\x1CS\x1CH6GA05217\x1CLewis\x1CJohn\x1C\x1CRep.\x1C\x1CH\x1CGA\x1C05\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E7557C6C1DCFF4A5CA70
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120806'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '325.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8FL06056
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Stearns
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Cliff
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: B.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: FL
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE7557C6C1DCFF4A5CA70\x1CDM\x1C\x1CM\x1C20120806\x1C325.00\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH8FL06056\x1CStearns\x1CCliff\x1CB.\x1CRep.\x1C\x1CH\x1CFL\x1C03\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E4B8FF4C7FF05464DA99
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120906'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '3600.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Latham
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Tom
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE4B8FF4C7FF05464DA99\x1CDM\x1C\x1CM\x1C20120906\x1C3600.00\x1CO2012\x1CGeneral
+    2012\x1CS\x1C\x1CLatham\x1CTom\x1C\x1CRep.\x1C\x1CH\x1CIA\x1C03\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EB34A42759D4D4EC9BCA
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120824'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '260.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8MA02041
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Neal
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Richard
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: E.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '01'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEB34A42759D4D4EC9BCA\x1CDM\x1C\x1CM\x1C20120824\x1C260.00\x1CP2012\x1C\x1CS\x1CH8MA02041\x1CNeal\x1CRichard\x1CE.\x1CRep.\x1C\x1CH\x1CMA\x1C01\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EAC8D09F2068A4A2F8CD
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120918'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '1929.67'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H2MD06054
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Bartlett
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Roscoe
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: G.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MD
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '06'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEAC8D09F2068A4A2F8CD\x1CDM\x1C\x1CM\x1C20120918\x1C1929.67\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH2MD06054\x1CBartlett\x1CRoscoe\x1CG.\x1CRep.\x1C\x1CH\x1CMD\x1C06\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E4875835B40E245ECBD9
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120917'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '2450.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6IA01098
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Braley
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Bruce
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: L.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '01'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE4875835B40E245ECBD9\x1CDM\x1C\x1CM\x1C20120917\x1C2450.00\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH6IA01098\x1CBraley\x1CBruce\x1CL.\x1CRep.\x1C\x1CH\x1CIA\x1C01\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC5733B3613CB4B81ADC
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120921'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '4547.39'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8CA41063
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Miller
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Gary
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: G.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '31'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEC5733B3613CB4B81ADC\x1CDM\x1C\x1CM\x1C20120921\x1C4547.39\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH8CA41063\x1CMiller\x1CGary\x1CG.\x1CRep.\x1C\x1CH\x1CCA\x1C31\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EE42CCC14902E4CC2994
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120711'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '650.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Williams
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Roger
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: TX
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '25'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEE42CCC14902E4CC2994\x1CDM\x1C\x1CM\x1C20120711\x1C650.00\x1CP2012\x1C\x1CS\x1C\x1CWilliams\x1CRoger\x1C\x1CRep.\x1C\x1CH\x1CTX\x1C25\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E3B08BA23FB2041FE9EC
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120716'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '11256.30'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6MI04113
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Upton
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Fred
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '06'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE3B08BA23FB2041FE9EC\x1CDM\x1C\x1CM\x1C20120716\x1C11256.30\x1CP2012\x1C\x1CS\x1CH6MI04113\x1CUpton\x1CFred\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C06\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EDF754A2B75384067BE3
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120824'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '3515.80'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8MA02041
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Neal
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Richard
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: E.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '01'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEDF754A2B75384067BE3\x1CDM\x1C\x1CM\x1C20120824\x1C3515.80\x1CP2012\x1C\x1CS\x1CH8MA02041\x1CNeal\x1CRichard\x1CE.\x1CRep.\x1C\x1CH\x1CMA\x1C01\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E709E7D2AF50B4697950
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120720'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '3149.47'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6GA05217
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Lewis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: John
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: GA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '05'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE709E7D2AF50B4697950\x1CDM\x1C\x1CM\x1C20120720\x1C3149.47\x1CP2012\x1C\x1CS\x1CH6GA05217\x1CLewis\x1CJohn\x1C\x1CRep.\x1C\x1CH\x1CGA\x1C05\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E48CD02C897784298B90
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120921'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '3231.73'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8CA41063
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Miller
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Gary
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: G.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '31'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE48CD02C897784298B90\x1CDM\x1C\x1CM\x1C20120921\x1C3231.73\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH8CA41063\x1CMiller\x1CGary\x1CG.\x1CRep.\x1C\x1CH\x1CCA\x1C31\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EE2E3A49667A34BD1929
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120906'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '3764.88'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Latham
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Tom
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEE2E3A49667A34BD1929\x1CDM\x1C\x1CM\x1C20120906\x1C3764.88\x1CO2012\x1CGeneral
+    2012\x1CS\x1C\x1CLatham\x1CTom\x1C\x1CRep.\x1C\x1CH\x1CIA\x1C03\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E4081DA280E8A4FC8900
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120718'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '14975.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Aubuchon
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Gary
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: FL
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '19'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE4081DA280E8A4FC8900\x1CDM\x1C\x1CM\x1C20120718\x1C14975.00\x1CP2012\x1C\x1CS\x1C\x1CAubuchon\x1CGary\x1C\x1C\x1C\x1CH\x1CFL\x1C19\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EA66D59C1E16949CAA45
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120920'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '4087.08'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H0WI07051
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Duffy
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Sean
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: P.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEA66D59C1E16949CAA45\x1CDM\x1C\x1CM\x1C20120920\x1C4087.08\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH0WI07051\x1CDuffy\x1CSean\x1CP.\x1C\x1C\x1CH\x1CWI\x1C07\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EAEDD1D0644214DD4841
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120918'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '3229.46'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8IL13069
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Biggert
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Judy
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: IL
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '11'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEAEDD1D0644214DD4841\x1CDM\x1C\x1CM\x1C20120918\x1C3229.46\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH8IL13069\x1CBiggert\x1CJudy\x1C\x1CRep.\x1C\x1CH\x1CIL\x1C11\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC3E5999253EF4328B7E
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120716'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '4265.12'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6MI04113
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Upton
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Fred
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '06'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEC3E5999253EF4328B7E\x1CDM\x1C\x1CM\x1C20120716\x1C4265.12\x1CP2012\x1C\x1CS\x1CH6MI04113\x1CUpton\x1CFred\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C06\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EEA3015222F794216896
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120920'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '4563.64'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6CA24113
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Sherman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Brad
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '30'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEEA3015222F794216896\x1CDM\x1C\x1CM\x1C20120920\x1C4563.64\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH6CA24113\x1CSherman\x1CBrad\x1C\x1CRep.\x1C\x1CH\x1CCA\x1C30\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC259776CEDD64CBC9E5
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120823'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '1130.09'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H2PA06114
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Gerlach
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Jim
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: W.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '06'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEC259776CEDD64CBC9E5\x1CDM\x1C\x1CM\x1C20120823\x1C1130.09\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH2PA06114\x1CGerlach\x1CJim\x1CW.\x1CRep.\x1C\x1CH\x1CPA\x1C06\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E02D2B83FD1264EA5B01
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120716'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '8662.91'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8MI09068
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Peters
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Gary
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: C.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '14'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE02D2B83FD1264EA5B01\x1CDM\x1C\x1CM\x1C20120716\x1C8662.91\x1CP2012\x1C\x1CS\x1CH8MI09068\x1CPeters\x1CGary\x1CC.\x1CRep.\x1C\x1CH\x1CMI\x1C14\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E00BA1DFD8A9A42A8BA1
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120710'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '975.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Veasey
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Marc
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: TX
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '33'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE00BA1DFD8A9A42A8BA1\x1CDM\x1C\x1CM\x1C20120710\x1C975.00\x1CP2012\x1C\x1CS\x1C\x1CVeasey\x1CMarc\x1C\x1CRep.\x1C\x1CH\x1CTX\x1C33\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E47D01BAEF11C47A68F5
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120906'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '3675.84'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H4LA07029
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Boustany
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Charles
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: W.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: Jr.
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: LA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE47D01BAEF11C47A68F5\x1CDM\x1C\x1CM\x1C20120906\x1C3675.84\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH4LA07029\x1CBoustany\x1CCharles\x1CW.\x1CRep.\x1CJr.\x1CH\x1CLA\x1C03\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EADA0204A13F3455A912
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120920'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '780.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H4PA08074
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Fitzpatrick
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Michael
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: G.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: 08
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEADA0204A13F3455A912\x1CDM\x1C\x1CM\x1C20120920\x1C780.00\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH4PA08074\x1CFitzpatrick\x1CMichael\x1CG.\x1CRep.\x1C\x1CH\x1CPA\x1C08\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EFAF2983D3CCE4E008F2
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120710'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '14647.03'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Dewhurst
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: David
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: H
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Hon.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: TX
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEFAF2983D3CCE4E008F2\x1CDM\x1C\x1CM\x1C20120710\x1C14647.03\x1CP2012\x1C\x1CS\x1C\x1CDewhurst\x1CDavid\x1CH\x1CHon.\x1C\x1CS\x1CTX\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8FDB1CB2A5DA42A6ABE
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120924'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '278.00'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H2PA11098
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Barletta
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Louis
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: J.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '11'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE8FDB1CB2A5DA42A6ABE\x1CDM\x1C\x1CM\x1C20120924\x1C278.00\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH2PA11098\x1CBarletta\x1CLouis\x1CJ.\x1C\x1C\x1CH\x1CPA\x1C11\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E9764D5B256C44090AA1
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120824'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '266.05'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8MA02041
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Neal
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Richard
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: E.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '01'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE9764D5B256C44090AA1\x1CDM\x1C\x1CM\x1C20120824\x1C266.05\x1CP2012\x1C\x1CS\x1CH8MA02041\x1CNeal\x1CRichard\x1CE.\x1CRep.\x1C\x1CH\x1CMA\x1C01\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E961298BD1FF747EAA5A
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120720'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '268.15'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6GA05217
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Lewis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: John
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: GA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '05'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE961298BD1FF747EAA5A\x1CDM\x1C\x1CM\x1C20120720\x1C268.15\x1CP2012\x1C\x1CS\x1CH6GA05217\x1CLewis\x1CJohn\x1C\x1CRep.\x1C\x1CH\x1CGA\x1C05\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E9491D03E56B14261A77
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120906'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '271.25'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Latham
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Tom
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE9491D03E56B14261A77\x1CDM\x1C\x1CM\x1C20120906\x1C271.25\x1CO2012\x1CGeneral
+    2012\x1CS\x1C\x1CLatham\x1CTom\x1C\x1CRep.\x1C\x1CH\x1CIA\x1C03\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EB512518465504B03B92
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120710'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '152.85'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Veasey
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Marc
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: TX
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '33'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEB512518465504B03B92\x1CDM\x1C\x1CM\x1C20120710\x1C152.85\x1CP2012\x1C\x1CS\x1C\x1CVeasey\x1CMarc\x1C\x1CRep.\x1C\x1CH\x1CTX\x1C33\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EA06EAD6FACBC4FCAA3B
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120920'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '1928.03'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H4PA08074
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Fitzpatrick
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Michael
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: G.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: 08
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEA06EAD6FACBC4FCAA3B\x1CDM\x1C\x1CM\x1C20120920\x1C1928.03\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH4PA08074\x1CFitzpatrick\x1CMichael\x1CG.\x1CRep.\x1C\x1CH\x1CPA\x1C08\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8B99E0D087F84CF39E1
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120920'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '1645.01'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H0WI07051
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Duffy
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Sean
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: P.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE8B99E0D087F84CF39E1\x1CDM\x1C\x1CM\x1C20120920\x1C1645.01\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH0WI07051\x1CDuffy\x1CSean\x1CP.\x1C\x1C\x1CH\x1CWI\x1C07\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E5200EB4EE89C492F806
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120710'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '78298.69'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Dewhurst
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: David
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: H
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Hon.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: TX
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE5200EB4EE89C492F806\x1CDM\x1C\x1CM\x1C20120710\x1C78298.69\x1CP2012\x1C\x1CS\x1C\x1CDewhurst\x1CDavid\x1CH\x1CHon.\x1C\x1CS\x1CTX\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EA7B21CEBB2F54442A13
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120711'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '8526.70'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Williams
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Roger
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: TX
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '25'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CEA7B21CEBB2F54442A13\x1CDM\x1C\x1CM\x1C20120711\x1C8526.70\x1CP2012\x1C\x1CS\x1C\x1CWilliams\x1CRoger\x1C\x1CRep.\x1C\x1CH\x1CTX\x1C25\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E267B9931CD694F6DB04
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120917'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '1036.50'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6IA01098
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Braley
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Bruce
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: L.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '01'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE267B9931CD694F6DB04\x1CDM\x1C\x1CM\x1C20120917\x1C1036.50\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH6IA01098\x1CBraley\x1CBruce\x1CL.\x1CRep.\x1C\x1CH\x1CIA\x1C01\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E69562BCA7A454435A36
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120711'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '407.95'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Williams
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Roger
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: TX
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '25'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE69562BCA7A454435A36\x1CDM\x1C\x1CM\x1C20120711\x1C407.95\x1CP2012\x1C\x1CS\x1C\x1CWilliams\x1CRoger\x1C\x1CRep.\x1C\x1CH\x1CTX\x1C25\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E68B92632A27649E095E
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120917'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '260.95'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6IA01098
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Braley
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Bruce
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: L.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '01'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE68B92632A27649E095E\x1CDM\x1C\x1CM\x1C20120917\x1C260.95\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH6IA01098\x1CBraley\x1CBruce\x1CL.\x1CRep.\x1C\x1CH\x1CIA\x1C01\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E00EBF2C7997D4822AC6
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120716'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '254.55'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H6MI04113
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Upton
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Fred
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '06'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE00EBF2C7997D4822AC6\x1CDM\x1C\x1CM\x1C20120716\x1C254.55\x1CP2012\x1C\x1CS\x1CH6MI04113\x1CUpton\x1CFred\x1C\x1CRep.\x1C\x1CH\x1CMI\x1C06\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E32F9D756127141CBB3F
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120806'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '279.55'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8FL06056
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Stearns
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Cliff
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: B.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: FL
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE32F9D756127141CBB3F\x1CDM\x1C\x1CM\x1C20120806\x1C279.55\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH8FL06056\x1CStearns\x1CCliff\x1CB.\x1CRep.\x1C\x1CH\x1CFL\x1C03\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E5831F4F65DD8445FB11
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120716'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '250.75'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8MI09068
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Peters
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Gary
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: C.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '14'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE5831F4F65DD8445FB11\x1CDM\x1C\x1CM\x1C20120716\x1C250.75\x1CP2012\x1C\x1CS\x1CH8MI09068\x1CPeters\x1CGary\x1CC.\x1CRep.\x1C\x1CH\x1CMI\x1C14\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E31E3A6C7ABD4429DACE
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120906'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '229.05'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H4LA07029
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Boustany
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Charles
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: W.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: Jr.
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: LA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE31E3A6C7ABD4429DACE\x1CDM\x1C\x1CM\x1C20120906\x1C229.05\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH4LA07029\x1CBoustany\x1CCharles\x1CW.\x1CRep.\x1CJr.\x1CH\x1CLA\x1C03\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E4AE12D06AFDA4740A00
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120920'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '348.95'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H4PA08074
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Fitzpatrick
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Michael
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: G.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: 08
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE4AE12D06AFDA4740A00\x1CDM\x1C\x1CM\x1C20120920\x1C348.95\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH4PA08074\x1CFitzpatrick\x1CMichael\x1CG.\x1CRep.\x1C\x1CH\x1CPA\x1C08\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E11453EF3B06643F588E
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120920'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '247.95'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H0WI07051
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Duffy
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Sean
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: P.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE11453EF3B06643F588E\x1CDM\x1C\x1CM\x1C20120920\x1C247.95\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH0WI07051\x1CDuffy\x1CSean\x1CP.\x1C\x1C\x1CH\x1CWI\x1C07\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8E7319C130B64DBBB54
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120716'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '11522.16'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8MI09068
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Peters
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Gary
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: C.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '14'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE8E7319C130B64DBBB54\x1CDM\x1C\x1CM\x1C20120716\x1C11522.16\x1CP2012\x1C\x1CS\x1CH8MI09068\x1CPeters\x1CGary\x1CC.\x1CRep.\x1C\x1CH\x1CMI\x1C14\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ED26884B63FC04F59AD3
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120710'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '3633.99'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Veasey
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Marc
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: TX
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '33'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CED26884B63FC04F59AD3\x1CDM\x1C\x1CM\x1C20120710\x1C3633.99\x1CP2012\x1C\x1CS\x1C\x1CVeasey\x1CMarc\x1C\x1CRep.\x1C\x1CH\x1CTX\x1C33\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E204A5314F0DD4BFD881
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120806'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '1371.90'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H8FL06056
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Stearns
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Cliff
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: B.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: FL
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE204A5314F0DD4BFD881\x1CDM\x1C\x1CM\x1C20120806\x1C1371.90\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH8FL06056\x1CStearns\x1CCliff\x1CB.\x1CRep.\x1C\x1CH\x1CFL\x1C03\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2528748B1D6F46B6AC5
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120718'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '30986.39'
+  - name: ELECTION CODE
+    number: '9'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Aubuchon
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Gary
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: FL
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '19'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE2528748B1D6F46B6AC5\x1CDM\x1C\x1CM\x1C20120718\x1C30986.39\x1CP2012\x1C\x1CS\x1C\x1CAubuchon\x1CGary\x1C\x1C\x1C\x1CH\x1CFL\x1C19\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C70002563
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0517EC857F974CE6A9B
+  - name: COMMUNICATION TYPE
+    number: '4'
+    value: DM
+  - name: COMMUNICATION TYPE - OTHER DESCRIPTION
+    number: '5'
+    value: ''
+  - name: COMMUNICATION CLASS
+    number: '6'
+    value: M
+  - name: COMMUNICATION DATE
+    number: '7'
+    value: '20120906'
+  - name: COMMUNICATION COST (per candidate)
+    number: '8'
+    value: '2536.76'
+  - name: ELECTION CODE
+    number: '9'
+    value: O2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '10'
+    value: General 2012
+  - name: SUPPORT/OPPOSE
+    number: '11'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '12'
+    value: H4LA07029
+  - name: S/O CANDIDATE LAST NAME
+    number: '13'
+    value: Boustany
+  - name: S/O CANDIDATE FIRST NAME
+    number: '14'
+    value: Charles
+  - name: S/O CANDIDATE MIDDLE NAME
+    number: '15'
+    value: W.
+  - name: S/O CANDIDATE PREFIX
+    number: '16'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '17'
+    value: Jr.
+  - name: S/O CANDIDATE OFFICE
+    number: '18'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '19'
+    value: LA
+  - name: S/O CANDIDATE DISTRICT
+    number: '20'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 20
+  input: "F76\x1CC70002563\x1CE0517EC857F974CE6A9B\x1CDM\x1C\x1CM\x1C20120906\x1C2536.76\x1CO2012\x1CGeneral
+    2012\x1CS\x1CH4LA07029\x1CBoustany\x1CCharles\x1CW.\x1CRep.\x1CJr.\x1CH\x1CLA\x1C03\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F76
+  result: []
+sourceurl: !!python/unicode 20121015
+type: chunk
