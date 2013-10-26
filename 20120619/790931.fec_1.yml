@@ -1,0 +1,226 @@
+countrows: 4
+filename: 790931.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00515601\x1C\x1CCarvin 2012\x1CPO Box 933\x1C\x1CRye\x1CNY\x1C105800933\x1CH2NY17139\x1CCarvin\x1CJoseph\x1C\x1CMr.\x1C\x1CH\x1CNY\x1C17\x1CJulia\x1CKillian\x1C\x1C\x1C\x1C20120619\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00515601
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Carvin 2012
+  - name: STREET 1
+    number: '5'
+    value: PO Box 933
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Rye
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '105800933'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2NY17139
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Carvin
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Joseph
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '17'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Julia
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Killian
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120619
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00515601
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '257000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sheridan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 242 Kings Highway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tappan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '109832021'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120619'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sotheby's
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chief Financial Officer
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00515601\x1C257000\x1CIND\x1C\x1CSheridan\x1CWilliam\x1C\x1CMr.\x1C\x1C242
+    Kings Highway\x1C\x1CTappan\x1CNY\x1C109832021\x1C\x1C20120619\x1C1000\x1CSotheby's\x1CChief
+    Financial Officer\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00515601
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '258000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Tananbaum
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Steven
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10 Loden Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Purchase
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '105772310'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120619'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Golden Tree Asset Mgmt.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chief Investment Officer
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00515601\x1C258000\x1CIND\x1C\x1CTananbaum\x1CSteven\x1C\x1CMr.\x1C\x1C10
+    Loden Lane\x1C\x1CPurchase\x1CNY\x1C105772310\x1C\x1C20120619\x1C1000\x1CGolden
+    Tree Asset Mgmt.\x1CChief Investment Officer\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120619
+type: chunk

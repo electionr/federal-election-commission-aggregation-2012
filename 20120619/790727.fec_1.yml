@@ -1,0 +1,297 @@
+countrows: 5
+filename: 790727.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00236513\x1C\x1CEngel for Congress\x1C462 California Road\x1C\x1CBronxville\x1CNY\x1C10708\x1CH8NY19058\x1CEngel\x1CEliot\x1CL.\x1CRep.\x1C\x1CH\x1CNY\x1C17\x1CLinhardt\x1CArnold\x1C\x1C\x1C\x1C20120619\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Engel for Congress
+  - name: STREET 1
+    number: '5'
+    value: 462 California Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bronxville
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10708'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8NY19058
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Engel
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Eliot
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: L.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Rep.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '17'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Linhardt
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Arnold
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120619
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 63CD18C335FD04EC9A67
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Berman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gary
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8124 Split Oak Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '208176937'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120619'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Berman Enterprises
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00236513\x1C63CD18C335FD04EC9A67\x1CIND\x1C\x1CBerman\x1CGary\x1C\x1C\x1C\x1C8124
+    Split Oak Dr\x1C\x1CBethesda\x1CMD\x1C208176937\x1C\x1C20120619\x1C1000.00\x1CBerman
+    Enterprises\x1CReal Estate\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6D36171AA11A54498BE2
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Snyder
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lynn
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Shapiro
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5813 Mossrock Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Rockville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '208523238'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120619'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: EPSTEIN, BECKER & GREEN
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00236513\x1C6D36171AA11A54498BE2\x1CIND\x1C\x1CSnyder\x1CLynn\x1CShapiro\x1C\x1C\x1C5813
+    Mossrock Dr\x1C\x1CRockville\x1CMD\x1C208523238\x1C\x1C20120619\x1C1000.00\x1CEPSTEIN,
+    BECKER & GREEN\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00236513
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6C65B91E48EF04D8D938
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Goldstein
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6814 Tammy Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '208174206'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120619'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Nixon Peabody
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00236513\x1C6C65B91E48EF04D8D938\x1CIND\x1C\x1CGoldstein\x1CRichard\x1C\x1C\x1C\x1C6814
+    Tammy Ct\x1C\x1CBethesda\x1CMD\x1C208174206\x1C\x1C20120619\x1C1000.00\x1CNixon
+    Peabody\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120619
+type: chunk

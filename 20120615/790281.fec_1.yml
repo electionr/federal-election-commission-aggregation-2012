@@ -1,0 +1,294 @@
+countrows: 5
+filename: 790281.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00464032\x1C\x1CTom Reed for Congress\x1CPO Box 450\x1C\x1CVictor\x1CNY\x1C145640450\x1CH0NY29054\x1CReed\x1CThomas\x1CW\x1C\x1CII\x1CH\x1CNY\x1C23\x1CReed\x1CJohn\x1C\x1C\x1C\x1C20120615\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00464032
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Tom Reed for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 450
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Victor
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '145640450'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0NY29054
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Reed
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Thomas
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: W
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: II
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '23'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Reed
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: John
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120615
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00464032
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '5942000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: National Structured Settlements PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1100 New York Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 750W
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200053934'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00219444
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00464032\x1C5942000\x1CCOM\x1CNational Structured Settlements PAC\x1C\x1C\x1C\x1C\x1C\x1C1100
+    New York Avenue NW\x1CSuite 750W\x1CWashington\x1CDC\x1C200053934\x1CC00219444\x1C20120614\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00464032
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '5945000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Northwestern Mutual PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 720 E Wisconsin Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Milwaukee
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '532024703'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00197095
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120614'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00464032\x1C5945000\x1CCOM\x1CNorthwestern Mutual PAC\x1C\x1C\x1C\x1C\x1C\x1C720
+    E Wisconsin Avenue\x1C\x1CMilwaukee\x1CWI\x1C532024703\x1CC00197095\x1C20120614\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00464032
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '5944000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: FMR PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 82 Devonshire Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Boston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 021093605
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00380550
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120615'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00464032\x1C5944000\x1CCOM\x1CFMR PAC\x1C\x1C\x1C\x1C\x1C\x1C82
+    Devonshire Street\x1C\x1CBoston\x1CMA\x1C021093605\x1CC00380550\x1C20120615\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120615
+type: chunk
