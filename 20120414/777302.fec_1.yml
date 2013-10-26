@@ -1,0 +1,151 @@
+countrows: 3
+filename: 777302.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH2CA02142\x1CLAMALFA\x1CDOUG\x1C\x1C\x1C\x1C\x1C16 LAMALFA LN.\x1C\x1CBIGGS\x1CCA\x1C95917\x1CREP\x1CH\x1CCA\x1C01\x1C2012\x1CC00509422\x1CDOUG
+    LAMALFA COMMITTEE\x1C2150 RIVER PLAZA DR., #150\x1C\x1CSACRAMENTO\x1CCA\x1C95833\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CLaMalfa\x1CDoug\x1C\x1C\x1C\x1C20120414\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2CA02142
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: LAMALFA
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: DOUG
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 16 LAMALFA LN.
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: BIGGS
+  - name: CANDIDATE STATE
+    number: '12'
+    value: CA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '95917'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00509422
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: DOUG LAMALFA COMMITTEE
+  - name: PCC STREET 1
+    number: '21'
+    value: '2150 RIVER PLAZA DR., #150'
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: SACRAMENTO
+  - name: PCC STATE
+    number: '24'
+    value: CA
+  - name: PCC ZIP
+    number: '25'
+    value: '95833'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: LaMalfa
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Doug
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20120414
+
+'
+- input: "TEXT\x1CH2CA02142\x1CTEXT-F2\x1C\x1CF2N\x1CInitial FEC 2 incorrectly listed
+    CA CD 2 rather than CA CD 1\n"
+  record: fec.version.v8_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: H2CA02142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-F2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F2N
+  - name: TEXT4000
+    number: '6'
+    value: 'Initial FEC 2 incorrectly listed CA CD 2 rather than CA CD 1
+
+'
+sourceurl: !!python/unicode 20120414
+type: chunk
