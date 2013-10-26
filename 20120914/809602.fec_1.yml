@@ -1,0 +1,1181 @@
+countrows: 10
+filename: 809602.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00003590\x1C48\x1C\x1CUnited Steelworkers Political Action Fund
+    \x1CFive Gateway Center   \x1C\x1CPittsburgh    \x1CPA\x1C15222    \x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20120914\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: 'United Steelworkers Political Action Fund '
+  - name: STREET 1
+    number: '6'
+    value: 'Five Gateway Center   '
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: 'Pittsburgh    '
+  - name: STATE
+    number: '9'
+    value: PA
+  - name: ZIP
+    number: '10'
+    value: '15222    '
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Johnson
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Stanley
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20120914
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E94C0FB77E5B146D487A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Printing
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PDQ
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3820 South Valley View Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '891032904'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120912'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '152.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '152.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Inv.#  84698 - Sherrod Brown Hard Hat Stickers
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S6OH00163
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Brown
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Sherrod
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120914'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CE94C0FB77E5B146D487A\x1C\x1C\x1CIND\x1C\x1CPrinting\x1CPDQ\x1C\x1C\x1C\x1C3820
+    South Valley View Blvd\x1C\x1CLas Vegas\x1CNV\x1C891032904\x1CG2012\x1C\x1C20120912\x1C152.97\x1C152.97\x1CInv.#
+    \ 84698 - Sherrod Brown Hard Hat Stickers\x1C\x1C\x1CS\x1CS6OH00163\x1CBrown\x1CSherrod\x1C\x1CSen.\x1C\x1CS\x1COH\x1C\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20120914\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EAF81527DCA8A4C5594D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Printing
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PDQ
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3820 South Valley View Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '891032904'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120912'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '152.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '152.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: 'Inv. # 84698 - Betty Sutton Hard Hat Stickers'
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H6OH13133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Sutton
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Betty
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '13'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120914'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CEAF81527DCA8A4C5594D\x1C\x1C\x1CIND\x1C\x1CPrinting\x1CPDQ\x1C\x1C\x1C\x1C3820
+    South Valley View Blvd\x1C\x1CLas Vegas\x1CNV\x1C891032904\x1CG2012\x1C\x1C20120912\x1C152.97\x1C152.97\x1CInv.
+    # 84698 - Betty Sutton Hard Hat Stickers\x1C\x1C\x1CS\x1CH6OH13133\x1CSutton\x1CBetty\x1C\x1CRep.\x1C\x1CH\x1COH\x1C13\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20120914\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0D202A335927488FB88
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Printing
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PDQ
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3820 South Valley View Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '891032904'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120912'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '152.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '152.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: 'Invoice # 84698 - Mark Critz Hard Hat Stickers'
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H0PA12132
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Critz
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Mark
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '12'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120914'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CE0D202A335927488FB88\x1C\x1C\x1CIND\x1C\x1CPrinting\x1CPDQ\x1C\x1C\x1C\x1C3820
+    South Valley View Blvd\x1C\x1CLas Vegas\x1CNV\x1C891032904\x1CG2012\x1C\x1C20120912\x1C152.97\x1C152.97\x1CInvoice
+    # 84698 - Mark Critz Hard Hat Stickers\x1C\x1C\x1CS\x1CH0PA12132\x1CCritz\x1CMark\x1C\x1C\x1C\x1CH\x1CPA\x1C12\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20120914\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E1940EE8FA80F41DA85A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: General Fund
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: USW
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: Five Gateway Center
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pittsburgh
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '15222'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120914'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '54495.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '73181.18'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Obama/Biden 2012 Campaign Shirts
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: DC
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120914'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CE1940EE8FA80F41DA85A\x1C\x1C\x1CIND\x1C\x1CGeneral Fund\x1CUSW\x1C\x1C\x1C\x1CFive
+    Gateway Center\x1C\x1CPittsburgh\x1CPA\x1C15222\x1CG2012\x1C\x1C20120914\x1C54495.00\x1C73181.18\x1CObama/Biden
+    2012 Campaign Shirts\x1C\x1C\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1CDC\x1C00\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20120914\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ED7310ED723B14BD8A36
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Printing
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PDQ
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3820 South Valley View Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '891032904'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120912'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '152.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '152.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: 'Inv. # 84698 - Elizabeth Warren Hard Hat Stickers'
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2MA00170
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Warren
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Elizabeth
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120914'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CED7310ED723B14BD8A36\x1C\x1C\x1CIND\x1C\x1CPrinting\x1CPDQ\x1C\x1C\x1C\x1C3820
+    South Valley View Blvd\x1C\x1CLas Vegas\x1CNV\x1C891032904\x1CG2012\x1C\x1C20120912\x1C152.97\x1C152.97\x1CInv.
+    # 84698 - Elizabeth Warren Hard Hat Stickers\x1C\x1C\x1CS\x1CS2MA00170\x1CWarren\x1CElizabeth\x1C\x1C\x1C\x1CS\x1CMA\x1C\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20120914\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2900C25A687C4560851
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Printing
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PDQ
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3820 South Valley View Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '891032904'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120912'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '152.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '152.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: 'Inv. # 84698 - Gary McDowell Hard Hat Stickers'
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H0MI01153
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: McDowell
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Gary
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '01'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120914'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CE2900C25A687C4560851\x1C\x1C\x1CIND\x1C\x1CPrinting\x1CPDQ\x1C\x1C\x1C\x1C3820
+    South Valley View Blvd\x1C\x1CLas Vegas\x1CNV\x1C891032904\x1CG2012\x1C\x1C20120912\x1C152.97\x1C152.97\x1CInv.
+    # 84698 - Gary McDowell Hard Hat Stickers\x1C\x1C\x1CS\x1CH0MI01153\x1CMcDowell\x1CGary\x1C\x1C\x1C\x1CH\x1CMI\x1C01\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20120914\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E7C51CCC969BF4AB68CD
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Printing
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PDQ
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3820 South Valley View Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '891032904'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120912'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '152.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '152.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: 'Inv. # 84698 - Larry Maggi Hard Hat Stickers'
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2PA18150
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Maggi
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Larry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '18'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120914'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CE7C51CCC969BF4AB68CD\x1C\x1C\x1CIND\x1C\x1CPrinting\x1CPDQ\x1C\x1C\x1C\x1C3820
+    South Valley View Blvd\x1C\x1CLas Vegas\x1CNV\x1C891032904\x1CG2012\x1C\x1C20120912\x1C152.97\x1C152.97\x1CInv.
+    # 84698 - Larry Maggi Hard Hat Stickers\x1C\x1C\x1CS\x1CH2PA18150\x1CMaggi\x1CLarry\x1C\x1C\x1C\x1CH\x1CPA\x1C18\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20120914\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E02E78D8E1C874734992
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Printing
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PDQ
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3820 South Valley View Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '891032904'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120912'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2950.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '18686.18'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: 'Invoice # 84698 - Obama Bumper Stickers'
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: DC
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120914'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CE02E78D8E1C874734992\x1C\x1C\x1CIND\x1C\x1CPrinting\x1CPDQ\x1C\x1C\x1C\x1C3820
+    South Valley View Blvd\x1C\x1CLas Vegas\x1CNV\x1C891032904\x1CG2012\x1C\x1C20120912\x1C2950.22\x1C18686.18\x1CInvoice
+    # 84698 - Obama Bumper Stickers\x1C\x1C\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1CDC\x1C00\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20120914\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20120914
+type: chunk

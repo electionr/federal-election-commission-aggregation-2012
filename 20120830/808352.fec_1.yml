@@ -1,0 +1,200 @@
+countrows: 3
+filename: 808352.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00523167\x1C24\x1C\x1CCOMMITTEE TO ELECT RICK MURPHY FOR CONGRESS\x1C2068
+    MCCULLOCH BLVD\x1C\x1CLAKE HAVASU CITY\x1CAZ\x1C86403\x1CRick\x1CMurphy\x1CL\x1C\x1C\x1C20120830\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00523167
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: COMMITTEE TO ELECT RICK MURPHY FOR CONGRESS
+  - name: STREET 1
+    number: '6'
+    value: 2068 MCCULLOCH BLVD
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: LAKE HAVASU CITY
+  - name: STATE
+    number: '9'
+    value: AZ
+  - name: ZIP
+    number: '10'
+    value: '86403'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Rick
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Murphy
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: L
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20120830
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00523167
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT2012730167-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CCM
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Mad Dog Wireless
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2068 McCulloch Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lake Havasu City
+  - name: PAYEE STATE
+    number: '16'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '17'
+    value: '86403'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120830'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '6849.16'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '15704.34'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Advertising
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H4AZ02093
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Rick
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Murphy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Rick
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Murphy
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: L
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120830'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00523167\x1CWFT2012730167-1\x1C\x1C\x1CCCM\x1CMad Dog Wireless\x1C\x1C\x1C\x1C\x1C\x1C2068
+    McCulloch Blvd\x1C\x1CLake Havasu City\x1CAZ\x1C86403\x1CP2012\x1C\x1C20120830\x1C6849.16\x1C15704.34\x1CAdvertising\x1C\x1C\x1CS\x1CH4AZ02093\x1CRick\x1CMurphy\x1C\x1C\x1C\x1CH\x1CAZ\x1C04\x1CRick\x1CMurphy\x1CL\x1C\x1C\x1C20120830\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20120830
+type: chunk
