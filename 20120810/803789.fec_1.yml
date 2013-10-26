@@ -1,0 +1,154 @@
+countrows: 3
+filename: 803789.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00501973\x1C\x1CMartha for Congress\x1CPO Box 1237\x1C\x1CGainesville\x1CGA\x1C305031237\x1CH2GA09143\x1CZoller\x1CMartha\x1C\x1C\x1C\x1CH\x1CGA\x1C09\x1CHarris\x1CLaura\x1C\x1C\x1C\x1C20120810\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501973
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Martha for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1237
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Gainesville
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '305031237'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2GA09143
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Zoller
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Martha
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: 09
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Harris
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Laura
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120810
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501973
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1502000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cottrell
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Connie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 907056
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Gainesville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '305010901'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120810'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00501973\x1C1502000\x1CIND\x1C\x1CCottrell\x1CConnie\x1C\x1C\x1C\x1CPO
+    Box 907056\x1C\x1CGainesville\x1CGA\x1C305010901\x1C\x1C20120810\x1C1000\x1CRetired\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120810
+type: chunk

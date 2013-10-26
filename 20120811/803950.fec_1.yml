@@ -1,0 +1,226 @@
+countrows: 4
+filename: 803950.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00464339\x1C\x1CDuffy for Congress\x1CPO Box 538\x1C\x1CWausau\x1CWI\x1C544020538\x1CH0WI07051\x1CDuffy\x1CSean\x1C\x1C\x1C\x1CH\x1CWI\x1C07\x1CMasterson\x1CMichael\x1C\x1C\x1C\x1C20120811\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00464339
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Duffy for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 538
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Wausau
+  - name: STATE
+    number: '8'
+    value: WI
+  - name: ZIP
+    number: '9'
+    value: '544020538'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0WI07051
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Duffy
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Sean
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: WI
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Masterson
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Michael
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120811
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00464339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '24372000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Brophy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carleen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 1185
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Jackson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '830011185'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120810'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: RN Hosp. Admin.
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00464339\x1C24372000\x1CIND\x1C\x1CBrophy\x1CCarleen\x1C\x1C\x1C\x1CPO
+    Box 1185\x1C\x1CJackson\x1CWY\x1C830011185\x1C\x1C20120810\x1C1000\x1CRetired\x1CRN
+    Hosp. Admin.\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00464339
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '24373000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Spiegl
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joshua
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6405  River Bend Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Weston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '544761917'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120810'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: First Impressions, S.C.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Pediatric Dentist
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00464339\x1C24373000\x1CIND\x1C\x1CSpiegl\x1CJoshua\x1C\x1C\x1C\x1C6405
+    \ River Bend Road\x1C\x1CWeston\x1CWI\x1C544761917\x1C\x1C20120810\x1C2500\x1CFirst
+    Impressions, S.C.\x1CPediatric Dentist\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120811
+type: chunk

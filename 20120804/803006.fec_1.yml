@@ -1,0 +1,226 @@
+countrows: 4
+filename: 803006.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00498196\x1C\x1CKoster for Congress - 2012\x1CPO Box 231\x1C\x1CArlington\x1CWA\x1C982230231\x1CH0WA02098\x1CKoster\x1CJohn\x1CM\x1C\x1C\x1CH\x1CWA\x1C01\x1CRoulstone\x1CDouglas\x1C\x1C\x1C\x1C20120804\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Koster for Congress - 2012
+  - name: STREET 1
+    number: '5'
+    value: PO Box 231
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '982230231'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0WA02098
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Koster
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: M
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: WA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Roulstone
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Douglas
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120804
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '18686000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kent
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jeffrey
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9570 Stein Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Custer
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '982409211'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120803'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Interlube International
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C18686000\x1CIND\x1C\x1CKent\x1CJeffrey\x1C\x1C\x1C\x1C9570
+    Stein Road\x1C\x1CCuster\x1CWA\x1C982409211\x1C\x1C20120803\x1C1000\x1CInterlube
+    International\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '18685000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Tilton
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9424 NE 14th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Clyde Hill
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '980043437'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120803'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: DRT Properties
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate Investor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C18685000\x1CIND\x1C\x1CTilton\x1CDavid\x1CR\x1C\x1C\x1C9424
+    NE 14th Street\x1C\x1CClyde Hill\x1CWA\x1C980043437\x1C\x1C20120803\x1C1000\x1CDRT
+    Properties\x1CReal Estate Investor\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120804
+type: chunk

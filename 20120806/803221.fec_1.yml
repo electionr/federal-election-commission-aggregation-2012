@@ -1,0 +1,1601 @@
+countrows: 13
+filename: 803221.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00525899\x1C24\x1C20120806\x1CConcerned American Voters\x1C3030
+    Clarendon Blvd Suite 204\x1C\x1CArlington\x1CVA\x1C22201\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: '20120806'
+  - name: COMMITTEE NAME
+    number: '5'
+    value: Concerned American Voters
+  - name: STREET 1
+    number: '6'
+    value: 3030 Clarendon Blvd Suite 204
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Arlington
+  - name: STATE
+    number: '9'
+    value: VA
+  - name: ZIP
+    number: '10'
+    value: '22201'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: King
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Edward
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20120806
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432905
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NorthStar Campaign Systems
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 11235 Davenport St. Ste 110B
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Omaha
+  - name: PAYEE STATE
+    number: '16'
+    value: NE
+  - name: PAYEE ZIP
+    number: '17'
+    value: '68154'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120804'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '221.69'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Phone minutes
+  - name: CATEGORY CODE
+    number: '24'
+    value: '007'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432905\x1C\x1C\x1CORG\x1CNorthStar Campaign Systems\x1C\x1C\x1C\x1C\x1C\x1C11235
+    Davenport St. Ste 110B\x1C\x1COmaha\x1CNE\x1C68154\x1CP2012\x1C\x1C20120804\x1C221.69\x1C13659.48\x1CPhone
+    minutes\x1C007\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432906
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Chipotle
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 4300 Wilson Blvd Ste 100
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22203'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120804'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '164.21'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Phone staff food
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432906\x1C\x1C\x1CORG\x1CChipotle\x1C\x1C\x1C\x1C\x1C\x1C4300
+    Wilson Blvd Ste 100\x1C\x1CArlington\x1CVA\x1C22203\x1CP2012\x1C\x1C20120804\x1C164.21\x1C13659.48\x1CPhone
+    staff food\x1C002\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432907
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: CVS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3141 Wilson Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22201'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120804'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '15.82'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Office Supplies
+  - name: CATEGORY CODE
+    number: '24'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432907\x1C\x1C\x1CORG\x1CCVS\x1C\x1C\x1C\x1C\x1C\x1C3141
+    Wilson Blvd\x1C\x1CArlington\x1CVA\x1C22201\x1CP2012\x1C\x1C20120804\x1C15.82\x1C13659.48\x1COffice
+    Supplies\x1C001\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432908
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Five Guys
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2300 Wilson Blvd Ste 150
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22201'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120804'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '202.77'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Phone staff food
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432908\x1C\x1C\x1CORG\x1CFive Guys\x1C\x1C\x1C\x1C\x1C\x1C2300
+    Wilson Blvd Ste 150\x1C\x1CArlington\x1CVA\x1C22201\x1CP2012\x1C\x1C20120804\x1C202.77\x1C13659.48\x1CPhone
+    staff food\x1C002\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432909
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Hard Times
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3028 Wilson Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22201'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120804'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '34.85'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Phone staff food
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432909\x1C\x1C\x1CORG\x1CHard Times\x1C\x1C\x1C\x1C\x1C\x1C3028
+    Wilson Blvd\x1C\x1CArlington\x1CVA\x1C22201\x1CP2012\x1C\x1C20120804\x1C34.85\x1C13659.48\x1CPhone
+    staff food\x1C002\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432924
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: CAV Call Agent Staff
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3030 Clarendon Blvd Ste 204
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22201'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120804'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '125.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Metro Fare
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432924\x1C\x1C\x1CORG\x1CCAV Call Agent Staff\x1C\x1C\x1C\x1C\x1C\x1C3030
+    Clarendon Blvd Ste 204\x1C\x1CArlington\x1CVA\x1C22201\x1CP2012\x1C\x1C20120804\x1C125.00\x1C13659.48\x1CMetro
+    Fare\x1C002\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432926
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: CAV Call Agent Staff
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3030 Clarendon Blvd Ste 204
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22201'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120805'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '40.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Cab fare
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432926\x1C\x1C\x1CORG\x1CCAV Call Agent Staff\x1C\x1C\x1C\x1C\x1C\x1C3030
+    Clarendon Blvd Ste 204\x1C\x1CArlington\x1CVA\x1C22201\x1CP2012\x1C\x1C20120805\x1C40.00\x1C13659.48\x1CCab
+    fare\x1C002\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432927
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: CAV Call Agent Staff
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3030 Clarendon Blvd Ste 204
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22201'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120805'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '160.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Call Staff Per Diem
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432927\x1C\x1C\x1CORG\x1CCAV Call Agent Staff\x1C\x1C\x1C\x1C\x1C\x1C3030
+    Clarendon Blvd Ste 204\x1C\x1CArlington\x1CVA\x1C22201\x1CP2012\x1C\x1C20120805\x1C160.00\x1C13659.48\x1CCall
+    Staff Per Diem\x1C002\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432910
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Jimmy John's
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 550 N Quincy St
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22203'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120805'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '154.73'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Phone staff food
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432910\x1C\x1C\x1CORG\x1CJimmy John's\x1C\x1C\x1C\x1C\x1C\x1C550
+    N Quincy St\x1C\x1CArlington\x1CVA\x1C22203\x1CP2012\x1C\x1C20120805\x1C154.73\x1C13659.48\x1CPhone
+    staff food\x1C002\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432911
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: CVS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3141 Wilson Blvd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22201'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120805'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '24.32'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Office supplies
+  - name: CATEGORY CODE
+    number: '24'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432911\x1C\x1C\x1CORG\x1CCVS\x1C\x1C\x1C\x1C\x1C\x1C3141
+    Wilson Blvd\x1C\x1CArlington\x1CVA\x1C22201\x1CP2012\x1C\x1C20120805\x1C24.32\x1C13659.48\x1COffice
+    supplies\x1C001\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00525899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B432912
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NorthStar Campaign Systems
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 11235 Davenport St. Ste 110B
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Omaha
+  - name: PAYEE STATE
+    number: '16'
+    value: NE
+  - name: PAYEE ZIP
+    number: '17'
+    value: '68154'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120805'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '145.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '13659.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Phone minutes
+  - name: CATEGORY CODE
+    number: '24'
+    value: '007'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: C00525899
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2MI11133
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Bentivolio
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Kerry
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: King
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Edward
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120806'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00525899\x1CB432912\x1C\x1C\x1CORG\x1CNorthStar Campaign Systems\x1C\x1C\x1C\x1C\x1C\x1C11235
+    Davenport St. Ste 110B\x1C\x1COmaha\x1CNE\x1C68154\x1CP2012\x1C\x1C20120805\x1C145.80\x1C13659.48\x1CPhone
+    minutes\x1C007\x1CC00525899\x1CS\x1CH2MI11133\x1CBentivolio\x1CKerry\x1C\x1C\x1C\x1CH\x1CMI\x1C11\x1CKing\x1CEdward\x1C\x1C\x1C\x1C20120806\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20120806
+type: chunk

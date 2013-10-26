@@ -1,0 +1,724 @@
+countrows: 11
+filename: 804335.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00376749\x1C\x1CRodney Alexander For Congress Inc.\x1C319 Nancy''s
+    Road\x1C\x1CQuitman\x1CLA\x1C71268\x1CH2LA05084\x1CAlexander\x1CRodney\x1C\x1CMr.\x1C\x1CH\x1CLA\x1C05\x1CLisker\x1CLisa\x1C\x1C\x1C\x1C20120814\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Rodney Alexander For Congress Inc.
+  - name: STREET 1
+    number: '5'
+    value: 319 Nancy''s Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Quitman
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '71268'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2LA05084
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Alexander
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Rodney
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: LA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Lisker
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Lisa
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120814
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16653000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Baugh
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Terry L.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 204 Parkwood Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Monroe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '712922464'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: D & J Construction
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CFO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00376749\x1C16653000\x1CIND\x1C\x1CBaugh\x1CTerry L.\x1C\x1CMr.\x1C\x1C204
+    Parkwood Boulevard\x1C\x1CWest Monroe\x1CLA\x1C712922464\x1C\x1C20120814\x1C2500\x1CD
+    & J Construction\x1CCFO\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16658000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Brown
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: A. Harris
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2470
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Monroe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '712072470'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Brownland Corp
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: president
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00376749\x1C16658000\x1CIND\x1C\x1CBrown\x1CA. Harris\x1C\x1C\x1C\x1CPO
+    Box 2470\x1C\x1CMonroe\x1CLA\x1C712072470\x1C\x1C20120814\x1C1000\x1CThe Brownland
+    Corp\x1Cpresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16655000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Farr
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joe
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2110
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Monroe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '712072110'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Thomas, Farr & Reeves
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Insurance Sales
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00376749\x1C16655000\x1CIND\x1C\x1CFarr\x1CJoe\x1C\x1C\x1C\x1CPO
+    Box 2110\x1C\x1CMonroe\x1CLA\x1C712072110\x1C\x1C20120814\x1C1000\x1CThomas, Farr
+    & Reeves\x1CInsurance Sales\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16657000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lazenby
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jerry G.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 742 Forty Oaks Farm Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Monroe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '712919467'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Lazenby and Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Engineer Consulting Firm
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00376749\x1C16657000\x1CIND\x1C\x1CLazenby\x1CJerry G.\x1C\x1CMr.\x1C\x1C742
+    Forty Oaks Farm Road\x1C\x1CWest Monroe\x1CLA\x1C712919467\x1C\x1C20120814\x1C1000\x1CLazenby
+    and Associates\x1CEngineer Consulting Firm\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16656000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Martin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Johnny
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4222  Highway 579
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Epps
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '712373709'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Information Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Information Requested
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00376749\x1C16656000\x1CIND\x1C\x1CMartin\x1CJohnny\x1C\x1C\x1C\x1C4222
+    \ Highway 579\x1C\x1CEpps\x1CLA\x1C712373709\x1C\x1C20120814\x1C1000\x1CInformation
+    Requested\x1CInformation Requested\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16654000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Mulhearn
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: T.M.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Sr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 757
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Monroe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '712940757'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Mulhearn Protective Insuranc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Insurance
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00376749\x1C16654000\x1CIND\x1C\x1CMulhearn\x1CT.M.\x1C\x1C\x1CSr.\x1CPO
+    Box 757\x1C\x1CWest Monroe\x1CLA\x1C712940757\x1C\x1C20120814\x1C1000\x1CMulhearn
+    Protective Insuranc\x1CInsurance\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16651000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Richardson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 113 Pin Oak Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Monroe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '712922161'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The R Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Hwy & Utility Contractor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00376749\x1C16651000\x1CIND\x1C\x1CRichardson\x1CRichard\x1CD\x1C\x1CJr\x1C113
+    Pin Oak Drive\x1C\x1CWest Monroe\x1CLA\x1C712922161\x1C\x1C20120814\x1C2500\x1CThe
+    R Group\x1CHwy & Utility Contractor\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16659000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Richardson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard Dewayne
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Sr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 107 Hunters Ridge
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Monroe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '712918750'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: D & J Construction
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00376749\x1C16659000\x1CIND\x1C\x1CRichardson\x1CRichard Dewayne\x1C\x1CMr.\x1CSr.\x1C107
+    Hunters Ridge\x1C\x1CWest Monroe\x1CLA\x1C712918750\x1C\x1C20120814\x1C2500\x1CD
+    & J Construction\x1CCEO\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376749
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '16652000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Richardson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: B
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 158 Rex Robertson Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Monroe
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '712911727'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120814'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The R Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Vice President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00376749\x1C16652000\x1CIND\x1C\x1CRichardson\x1CRobert\x1CB\x1C\x1C\x1C158
+    Rex Robertson Road\x1C\x1CWest Monroe\x1CLA\x1C712911727\x1C\x1C20120814\x1C2500\x1CThe
+    R Group\x1CVice President\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120814
+type: chunk

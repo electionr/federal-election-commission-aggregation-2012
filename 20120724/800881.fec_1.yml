@@ -1,0 +1,154 @@
+countrows: 3
+filename: 800881.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00370783\x1C\x1CGingrey for Congress, Inc.\x1CPO Box U\x1C\x1CMarietta\x1CGA\x1C30060\x1CH2GA11149\x1CGingrey\x1CPhil\x1C\x1CRep.\x1C\x1CH\x1CGA\x1C11\x1CGingrey\x1CWilliam\x1C\x1C\x1C\x1C20120724\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370783
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Gingrey for Congress, Inc.
+  - name: STREET 1
+    number: '5'
+    value: PO Box U
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Marietta
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30060'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2GA11149
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Gingrey
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Phil
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Rep.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '11'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Gingrey
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: William
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120724
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370783
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 688CCFFEA83E34B1899E
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Rocktenn PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 504 Thrasher St.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norcross
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '30071'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120723'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370783\x1C688CCFFEA83E34B1899E\x1CPAC\x1CRocktenn PAC\x1C\x1C\x1C\x1C\x1C\x1C504
+    Thrasher St.\x1C\x1CNorcross\x1CGA\x1C30071\x1C\x1C20120723\x1C2000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120724
+type: chunk

@@ -1,0 +1,38 @@
+countrows: 1
+filename: 804118.fec
+header: {}
+rows:
+- input: "\"TEXT\"\x1C\"C00003418\"\x1C\"TEXT0006\"\x1C\"\"\x1C\"F3XA\"\x1C\"Payments
+    to another political committee disclosed on Schedule B supporting Line 21(b) are
+    not contributions.  They are payments for goods and services received at usual
+    and normal rates.  With regard to the usual and normal rates, we are assured the
+    fee is a commercially reasonable rate because we regularly obtain similar products
+    from a variety of sources both political and commercial.\"\n"
+  record: fec.version.v8_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003418
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT0006
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3XA
+  - name: TEXT4000
+    number: '6'
+    value: 'Payments to another political committee disclosed on Schedule B supporting
+      Line 21(b) are not contributions.  They are payments for goods and services
+      received at usual and normal rates.  With regard to the usual and normal rates,
+      we are assured the fee is a commercially reasonable rate because we regularly
+      obtain similar products from a variety of sources both political and commercial.
+
+'
+sourceurl: !!python/unicode 20120813
+type: chunk

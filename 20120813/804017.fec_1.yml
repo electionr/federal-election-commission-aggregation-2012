@@ -1,0 +1,297 @@
+countrows: 5
+filename: 804017.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00502302\x1C\x1CAnderson for Congress\x1C160 Louisville Road\x1C\x1CGrovetown\x1CGA\x1C308134121\x1C\x1CAnderson\x1CLee\x1CI\x1C\x1C\x1C\x1CGA\x1C12\x1CAnderson\x1CDonna\x1C\x1C\x1C\x1C20120813\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00502302
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Anderson for Congress
+  - name: STREET 1
+    number: '5'
+    value: 160 Louisville Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Grovetown
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '308134121'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Anderson
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Lee
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: I
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: ''
+  - name: CANDIDATE STATE
+    number: '17'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Anderson
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Donna
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120813
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00502302
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1291000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bonecutter
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Lee
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 518
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Augusta
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '309030518'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120810'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: FPL Food LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: VP
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00502302\x1C1291000\x1CIND\x1C\x1CBonecutter\x1CLee\x1C\x1C\x1C\x1CPO
+    Box 518\x1C\x1CAugusta\x1CGA\x1C309030518\x1C\x1C20120810\x1C1000\x1CFPL Food
+    LLC\x1CVP\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00502302
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1293000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Harrison
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kristie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 534  Brandermill Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Evans
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '308093924'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120810'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: WH Reeves Co, Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: secretary
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00502302\x1C1293000\x1CIND\x1C\x1CHarrison\x1CKristie\x1C\x1C\x1C\x1C534
+    \ Brandermill Road\x1C\x1CEvans\x1CGA\x1C308093924\x1C\x1C20120810\x1C1000\x1CWH
+    Reeves Co, Inc\x1Csecretary\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00502302
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1294000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lepard
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Donald
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3346  Reflecting Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chattanooga
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '374155652'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120811'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Global Green Lighting
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00502302\x1C1294000\x1CIND\x1C\x1CLepard\x1CDonald\x1C\x1C\x1C\x1C3346
+    \ Reflecting Drive\x1C\x1CChattanooga\x1CTN\x1C374155652\x1C\x1C20120811\x1C2500\x1CGlobal
+    Green Lighting\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120813
+type: chunk

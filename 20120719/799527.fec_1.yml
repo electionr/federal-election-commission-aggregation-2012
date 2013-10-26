@@ -1,0 +1,155 @@
+countrows: 3
+filename: 799527.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00505255\x1C\x1CWright McLeod for Congress\x1CPO Box 2206\x1C\x1CEvans\x1CGA\x1C308092206\x1CH2GA12113\x1CMcLeod\x1CDaniel
+    Wright\x1C\x1C\x1C\x1CH\x1CGA\x1C12\x1CNixon\x1CCameron\x1C\x1C\x1C\x1C20120719\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00505255
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Wright McLeod for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 2206
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Evans
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '308092206'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2GA12113
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: McLeod
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Daniel Wright
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Nixon
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Cameron
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120719
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00505255
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1038000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: The Loose Group
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3379 Peachtree Road NE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 270
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Atlanta
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '303261418'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00010793
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120719'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00505255\x1C1038000\x1CCOM\x1CThe Loose Group\x1C\x1C\x1C\x1C\x1C\x1C3379
+    Peachtree Road NE\x1CSuite 270\x1CAtlanta\x1CGA\x1C303261418\x1CC00010793\x1C20120719\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120719
+type: chunk

@@ -1,0 +1,5782 @@
+countrows: 92
+filename: 803212.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F9N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: Mayors Against Illegal Guns Action Fund
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 909 Third Avenue
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: New York
+  - name: STATE
+    number: '14'
+    value: NY
+  - name: ZIP
+    number: '15'
+    value: '10022'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20110101'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20120805'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20120805'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: Demand A Plan
+  - name: FILER CODE
+    number: '22'
+    value: CLQ
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: N
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: McInerney
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: Kathleen
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: 909 Third Avenue
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: ''
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: New York
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: NY
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '10022'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: Geller & Co.
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: Financial Advisor
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '3379260.87'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '132986.55'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: Gerney
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: Arkadi
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20120806'
+  - value: '
+
+'
+  expected_count: 44
+  input: "F9N\x1CC30000897\x1CORG\x1CMayors Against Illegal Guns Action Fund\x1C\x1C\x1C\x1C\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C\x1C\x1C20110101\x1C20120805\x1C20120805\x1CDemand
+    A Plan\x1CCLQ\x1C\x1CN\x1CMcInerney\x1CKathleen\x1C\x1C\x1C\x1C909 Third Avenue\x1C\x1CNew
+    York\x1CNY\x1C10022\x1CGeller & Co.\x1CFinancial Advisor\x1C3379260.87\x1C132986.55\x1CGerney\x1CArkadi\x1C\x1C\x1C\x1C20120806\x1C\n"
+  input_count: 45
+  record: fec.version.v8_0.F9
+  result: []
+- input: "F91\x1CC30000897\x1CF91.4100\x1CGerney\x1CArkadi\x1C\x1C\x1C\x1C909 Third
+    Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1CMAIGAF\x1CChairman\n"
+  record: fec.version.v8_0.F91
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.4100
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Gerney
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Arkadi
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 909 Third Avenue
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: New York
+  - name: CONTROLLER STATE
+    number: '12'
+    value: NY
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '10022'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: MAIGAF
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: 'Chairman
+
+'
+- input: "F91\x1CC30000897\x1CF91.4101\x1CDeScherer\x1CRichard\x1C\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1CMAIGAF\x1CVice Chairman\n"
+  record: fec.version.v8_0.F91
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.4101
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: DeScherer
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Richard
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 909 Third Avenue
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: New York
+  - name: CONTROLLER STATE
+    number: '12'
+    value: NY
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '10022'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: MAIGAF
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: 'Vice Chairman
+
+'
+- input: "F91\x1CC30000897\x1CF91.4102\x1CGubelli\x1CDiane\x1C\x1C\x1C\x1C909 Third
+    Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1CMAIGAF\x1CSecretary/Treasurer\n"
+  record: fec.version.v8_0.F91
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.4102
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Gubelli
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Diane
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 909 Third Avenue
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: New York
+  - name: CONTROLLER STATE
+    number: '12'
+    value: NY
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '10022'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: MAIGAF
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: 'Secretary/Treasurer
+
+'
+- input: "F92\x1CC30000897\x1CF92.4107\x1C\x1C\x1CIND\x1C\x1CBentley\x1CLaurel\x1C\x1C\x1C\x1C5410
+    W. 149 Place\x1C\x1CHawthorne\x1CCA\x1C90250\x1C20110303\x1C500.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4107
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bentley
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Laurel
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 5410 W. 149 Place
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Hawthorne
+  - name: DONOR STATE
+    number: '16'
+    value: CA
+  - name: DONOR ZIP
+    number: '17'
+    value: '90250'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110303'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '500.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4109\x1C\x1C\x1CIND\x1C\x1CBentley\x1CLaurel\x1C\x1C\x1C\x1C5410
+    W. 149 Place\x1C\x1CHawthorne\x1CCA\x1C90250\x1C20110713\x1C500.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4109
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bentley
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Laurel
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 5410 W. 149 Place
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Hawthorne
+  - name: DONOR STATE
+    number: '16'
+    value: CA
+  - name: DONOR ZIP
+    number: '17'
+    value: '90250'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110713'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '500.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4113\x1C\x1C\x1CIND\x1C\x1CBentley\x1CLaurel\x1C\x1C\x1C\x1C5410
+    W. 149 Place\x1C\x1CHawthorne\x1CCA\x1C90250\x1C20120625\x1C500.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4113
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bentley
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Laurel
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 5410 W. 149 Place
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Hawthorne
+  - name: DONOR STATE
+    number: '16'
+    value: CA
+  - name: DONOR ZIP
+    number: '17'
+    value: '90250'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120625'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '500.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4156\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110120\x1C9780.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4156
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110120'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '9780.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4161\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110120\x1C1521.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4161
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110120'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1521.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4178\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110120\x1C96.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4178
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110120'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '96.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4159\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110126\x1C7125.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4159
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110126'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '7125.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4162\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110208\x1C1387.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4162
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110208'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1387.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4155\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110215\x1C1380.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4155
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110215'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1380.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4179\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110215\x1C182.51\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4179
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110215'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '182.51
+
+'
+- input: "F92\x1CC30000897\x1CF92.4125\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110222\x1C4130.95\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4125
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110222'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '4130.95
+
+'
+- input: "F92\x1CC30000897\x1CF92.4154\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110315\x1C7994.50\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4154
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110315'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '7994.50
+
+'
+- input: "F92\x1CC30000897\x1CF92.4180\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110315\x1C311.27\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4180
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110315'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '311.27
+
+'
+- input: "F92\x1CC30000897\x1CF92.4126\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110317\x1C8269.65\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4126
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110317'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '8269.65
+
+'
+- input: "F92\x1CC30000897\x1CF92.4163\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110322\x1C4112.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4163
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110322'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '4112.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4181\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110415\x1C335.50\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4181
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110415'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '335.50
+
+'
+- input: "F92\x1CC30000897\x1CF92.4164\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110420\x1C1239.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4164
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110420'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1239.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4153\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110421\x1C6242.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4153
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110421'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '6242.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4182\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110516\x1C252.82\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4182
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110516'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '252.82
+
+'
+- input: "F92\x1CC30000897\x1CF92.4165\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110517\x1C1460.72\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4165
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110517'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1460.72
+
+'
+- input: "F92\x1CC30000897\x1CF92.4127\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110520\x1C26784.95\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4127
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110520'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '26784.95
+
+'
+- input: "F92\x1CC30000897\x1CF92.4183\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110615\x1C221.02\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4183
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110615'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '221.02
+
+'
+- input: "F92\x1CC30000897\x1CF92.4128\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110627\x1C29223.83\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4128
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110627'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '29223.83
+
+'
+- input: "F92\x1CC30000897\x1CF92.4129\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110705\x1C24728.54\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4129
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110705'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '24728.54
+
+'
+- input: "F92\x1CC30000897\x1CF92.4184\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110715\x1C222.06\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4184
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110715'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '222.06
+
+'
+- input: "F92\x1CC30000897\x1CF92.4130\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110720\x1C24421.85\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4130
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110720'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '24421.85
+
+'
+- input: "F92\x1CC30000897\x1CF92.4152\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110720\x1C1380.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4152
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110720'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1380.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4131\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110809\x1C19866.54\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4131
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110809'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '19866.54
+
+'
+- input: "F92\x1CC30000897\x1CF92.4166\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110811\x1C470.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4166
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110811'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '470.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4185\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110815\x1C253.11\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4185
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110815'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '253.11
+
+'
+- input: "F92\x1CC30000897\x1CF92.4151\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110816\x1C9420.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4151
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110816'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '9420.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4132\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110824\x1C25078.85\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4132
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110824'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '25078.85
+
+'
+- input: "F92\x1CC30000897\x1CF92.4167\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110906\x1C2525.40\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4167
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110906'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '2525.40
+
+'
+- input: "F92\x1CC30000897\x1CF92.4121\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110912\x1C2550000.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4121
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110912'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '2550000.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4186\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110915\x1C227.60\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4186
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110915'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '227.60
+
+'
+- input: "F92\x1CC30000897\x1CF92.4150\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20110927\x1C10697.50\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4150
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110927'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '10697.50
+
+'
+- input: "F92\x1CC30000897\x1CF92.4133\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111003\x1C29658.46\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4133
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111003'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '29658.46
+
+'
+- input: "F92\x1CC30000897\x1CF92.4188\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111017\x1C209.56\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4188
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111017'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '209.56
+
+'
+- input: "F92\x1CC30000897\x1CF92.4168\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111020\x1C632.94\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4168
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111020'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '632.94
+
+'
+- input: "F92\x1CC30000897\x1CF92.4134\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111103\x1C22601.74\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4134
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111103'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '22601.74
+
+'
+- input: "F92\x1CC30000897\x1CF92.4149\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111108\x1C7388.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4149
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111108'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '7388.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4189\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111115\x1C257.92\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4189
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111115'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '257.92
+
+'
+- input: "F92\x1CC30000897\x1CF92.4169\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111117\x1C1020.81\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4169
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111117'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1020.81
+
+'
+- input: "F92\x1CC30000897\x1CF92.4148\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111118\x1C4875.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4148
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111118'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '4875.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4170\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111215\x1C2664.55\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4170
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111215'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '2664.55
+
+'
+- input: "F92\x1CC30000897\x1CF92.4190\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111215\x1C302.10\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4190
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111215'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '302.10
+
+'
+- input: "F92\x1CC30000897\x1CF92.4135\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111227\x1C18367.65\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4135
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111227'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '18367.65
+
+'
+- input: "F92\x1CC30000897\x1CF92.4147\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111228\x1C1000.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4147
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111228'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1000.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4191\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120117\x1C278.15\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4191
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120117'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '278.15
+
+'
+- input: "F92\x1CC30000897\x1CF92.4136\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120126\x1C26731.32\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4136
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120126'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '26731.32
+
+'
+- input: "F92\x1CC30000897\x1CF92.4192\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120215\x1C296.92\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4192
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120215'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '296.92
+
+'
+- input: "F92\x1CC30000897\x1CF92.4171\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120227\x1C2624.59\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4171
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120227'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '2624.59
+
+'
+- input: "F92\x1CC30000897\x1CF92.4137\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120306\x1C30542.03\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4137
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120306'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '30542.03
+
+'
+- input: "F92\x1CC30000897\x1CF92.4145\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120306\x1C3623.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4145
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120306'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '3623.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4146\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120306\x1C5922.50\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4146
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120306'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '5922.50
+
+'
+- input: "F92\x1CC30000897\x1CF92.4193\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120315\x1C293.55\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4193
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120315'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '293.55
+
+'
+- input: "F92\x1CC30000897\x1CF92.4138\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120328\x1C28058.35\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4138
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120328'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '28058.35
+
+'
+- input: "F92\x1CC30000897\x1CF92.4144\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120413\x1C12845.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4144
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120413'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '12845.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4196\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120416\x1C288.60\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4196
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120416'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '288.60
+
+'
+- input: "F92\x1CC30000897\x1CF92.4143\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120419\x1C2246.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4143
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120419'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '2246.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4139\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120424\x1C22863.48\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4139
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120424'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '22863.48
+
+'
+- input: "F92\x1CC30000897\x1CF92.4172\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120503\x1C930.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4172
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120503'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '930.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4195\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120515\x1C300.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4195
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120515'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '300.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4142\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120524\x1C3242.50\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4142
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120524'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '3242.50
+
+'
+- input: "F92\x1CC30000897\x1CF92.4194\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120615\x1C292.08\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4194
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120615'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '292.08
+
+'
+- input: "F92\x1CC30000897\x1CF92.4140\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120620\x1C15609.15\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4140
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120620'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '15609.15
+
+'
+- input: "F92\x1CC30000897\x1CF92.4173\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120620\x1C2504.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4173
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120620'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '2504.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4157\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120710\x1C22341.03\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4157
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120710'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '22341.03
+
+'
+- input: "F92\x1CC30000897\x1CF92.4158\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120712\x1C36421.11\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4158
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120712'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '36421.11
+
+'
+- input: "F92\x1CC30000897\x1CF92.4201\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120716\x1C351.02\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4201
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120716'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '351.02
+
+'
+- input: "F92\x1CC30000897\x1CF92.4141\x1C\x1C\x1CIND\x1C\x1CBloomberg\x1CMichael\x1CR.\x1C\x1C\x1C909
+    Third Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20120726\x1C29836.59\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4141
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Bloomberg
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: R.
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 909 Third Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120726'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '29836.59
+
+'
+- input: "F92\x1CC30000897\x1CF92.4111\x1C\x1C\x1CIND\x1C\x1CBroad\x1CEli\x1C\x1C\x1C\x1C10900
+    Wilshire Blvd.\x1C\x1CLos Angeles\x1CCA\x1C90024\x1C20110815\x1C250000.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4111
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Broad
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Eli
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 10900 Wilshire Blvd.
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Los Angeles
+  - name: DONOR STATE
+    number: '16'
+    value: CA
+  - name: DONOR ZIP
+    number: '17'
+    value: '90024'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110815'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '250000.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4114\x1C\x1C\x1CIND\x1C\x1CHawkins\x1CAnn\x1C\x1C\x1C\x1C155
+    W. Chickasaw Parkway\x1C\x1CMemphis\x1CTN\x1C38111\x1C20120208\x1C1000.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4114
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Hawkins
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Ann
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 155 W. Chickasaw Parkway
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: Memphis
+  - name: DONOR STATE
+    number: '16'
+    value: TN
+  - name: DONOR ZIP
+    number: '17'
+    value: '38111'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20120208'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1000.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4116\x1C\x1C\x1CIND\x1C\x1CLord\x1CHenry\x1C\x1C\x1C\x1C313
+    Audubon Court\x1C\x1CNew Haven\x1CCT\x1C06510\x1C20111112\x1C500.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4116
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Lord
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Henry
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 313 Audubon Court
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New Haven
+  - name: DONOR STATE
+    number: '16'
+    value: CT
+  - name: DONOR ZIP
+    number: '17'
+    value: '06510'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111112'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '500.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4118\x1C\x1C\x1CIND\x1C\x1CLord\x1CHenry\x1C\x1C\x1C\x1C313
+    Audubon Court\x1C\x1CNew Haven\x1CCT\x1C06510\x1C20111219\x1C1000.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4118
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Lord
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Henry
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 313 Audubon Court
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New Haven
+  - name: DONOR STATE
+    number: '16'
+    value: CT
+  - name: DONOR ZIP
+    number: '17'
+    value: '06510'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111219'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1000.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4103\x1C\x1C\x1CIND\x1C\x1CRaiser\x1CHelen\x1C\x1C\x1C\x1C2256
+    Hyde Street\x1C\x1CSan Francisco\x1CCA\x1C94109\x1C20110217\x1C1000.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4103
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Raiser
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Helen
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 2256 Hyde Street
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: San Francisco
+  - name: DONOR STATE
+    number: '16'
+    value: CA
+  - name: DONOR ZIP
+    number: '17'
+    value: '94109'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110217'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '1000.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4110\x1C\x1C\x1CIND\x1C\x1CRaiser\x1CHelen\x1C\x1C\x1C\x1C2256
+    Hyde Street\x1C\x1CSan Francisco\x1CCA\x1C94109\x1C20110715\x1C500.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4110
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Raiser
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Helen
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 2256 Hyde Street
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: San Francisco
+  - name: DONOR STATE
+    number: '16'
+    value: CA
+  - name: DONOR ZIP
+    number: '17'
+    value: '94109'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20110715'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '500.00
+
+'
+- input: "F92\x1CC30000897\x1CF92.4119\x1C\x1C\x1CIND\x1C\x1CReiss\x1CBrad\x1C\x1C\x1C\x1C505
+    Park Avenue\x1C\x1CNew York\x1CNY\x1C10022\x1C20111113\x1C5000.00\n"
+  record: fec.version.v8_0.F92
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F92
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F92.4119
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: DONOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: DONOR LAST NAME
+    number: '8'
+    value: Reiss
+  - name: DONOR FIRST NAME
+    number: '9'
+    value: Brad
+  - name: DONOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: DONOR PREFIX
+    number: '11'
+    value: ''
+  - name: DONOR SUFFIX
+    number: '12'
+    value: ''
+  - name: DONOR STREET 1
+    number: '13'
+    value: 505 Park Avenue
+  - name: DONOR STREET 2
+    number: '14'
+    value: ''
+  - name: DONOR CITY
+    number: '15'
+    value: New York
+  - name: DONOR STATE
+    number: '16'
+    value: NY
+  - name: DONOR ZIP
+    number: '17'
+    value: '10022'
+  - name: DATE RECEIVED
+    number: '18'
+    value: '20111113'
+  - name: AMOUNT RECEIVED
+    number: '19'
+    value: '5000.00
+
+'
+- input: "F93\x1CC30000897\x1CF93.4197\x1C\x1C\x1CORG\x1CAssociated Press\x1C\x1C\x1C\x1C\x1C\x1C450
+    West 33rd Street\x1C\x1CNew York\x1CNY\x1C10001\x1CP2012\x1C\x1C20120803\x1C2440.00\x1CLicensing
+    Fees - Demand A Plan\x1C\x1C\x1C20120805\n"
+  record: fec.version.v8_0.F93
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.4197
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Associated Press
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 450 West 33rd Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10001'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120803'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2440.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Licensing Fees - Demand A Plan
+  - name: PAYEE EMPLOYER
+    number: '23'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '24'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '25'
+    value: '20120805
+
+'
+- input: "F93\x1CC30000897\x1CF93.4174\x1C\x1C\x1CORG\x1CBuying Time, LLC\x1C\x1C\x1C\x1C\x1C\x1C650
+    Massachusetts Avenue. SW\x1CSuite 210\x1CWashington\x1CDC\x1C20001\x1CP2012\x1C\x1C20120803\x1C101400.00\x1CMedia
+    Buy - Demand A Plan\x1C\x1C\x1C20120805\n"
+  record: fec.version.v8_0.F93
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.4174
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Buying Time, LLC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 650 Massachusetts Avenue. SW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 210
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20001'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120803'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '101400.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Media Buy - Demand A Plan
+  - name: PAYEE EMPLOYER
+    number: '23'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '24'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '25'
+    value: '20120805
+
+'
+- input: "F93\x1CC30000897\x1CF93.4199\x1C\x1C\x1CORG\x1CDevine Mulvey, Inc.\x1C\x1C\x1C\x1C\x1C\x1C2141
+    Wisconsin Avenue, NW\x1CSuite H\x1CWashington\x1CDC\x1C20007\x1CP2012\x1C\x1C20120805\x1C29146.55\x1CProduction
+    Costs - Demand A Plan\x1C\x1C\x1C20120805\n"
+  record: fec.version.v8_0.F93
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.4199
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Devine Mulvey, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2141 Wisconsin Avenue, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite H
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120805'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '29146.55'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Production Costs - Demand A Plan
+  - name: PAYEE EMPLOYER
+    number: '23'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '24'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '25'
+    value: '20120805
+
+'
+- input: "F94\x1CC30000897\x1CF94.4176F93.4197\x1CF93.4197\x1CF93\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CP2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4176F93.4197
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4197
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: P80003338
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: OBAMA
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: BARACK
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: ''
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000897\x1CF94.4177F93.4197\x1CF93.4197\x1CF93\x1CP80003353\x1CROMNEY\x1CMITT\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CP2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4177F93.4197
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4197
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: P80003353
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: ROMNEY
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: MITT
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: ''
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000897\x1CF94.4176F93.4174\x1CF93.4174\x1CF93\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CP2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4176F93.4174
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4174
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: P80003338
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: OBAMA
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: BARACK
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: ''
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000897\x1CF94.4177F93.4174\x1CF93.4174\x1CF93\x1CP80003353\x1CROMNEY\x1CMITT\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CP2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4177F93.4174
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4174
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: P80003353
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: ROMNEY
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: MITT
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: ''
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000897\x1CF94.4176F93.4199\x1CF93.4199\x1CF93\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CP2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4176F93.4199
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4199
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: P80003338
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: OBAMA
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: BARACK
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: ''
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30000897\x1CF94.4177F93.4199\x1CF93.4199\x1CF93\x1CP80003353\x1CROMNEY\x1CMITT\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CP2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30000897
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.4177F93.4199
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.4199
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: P80003353
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: ROMNEY
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: MITT
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: ''
+  - name: CANDIDATE DIST
+    number: '14'
+    value: '00'
+  - name: ELECTION CODE
+    number: '15'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+sourceurl: !!python/unicode 20120806
+type: chunk

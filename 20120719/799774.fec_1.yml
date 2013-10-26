@@ -1,0 +1,2861 @@
+countrows: 22
+filename: 799774.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00509893\x1C48\x1C\x1CNational Right to Life Victory Fund\x1C512
+    10th Street, NW\x1C\x1CWashington\x1CDC\x1C20004    \x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: National Right to Life Victory Fund
+  - name: STREET 1
+    number: '6'
+    value: 512 10th Street, NW
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Washington
+  - name: STATE
+    number: '9'
+    value: DC
+  - name: ZIP
+    number: '10'
+    value: '20004    '
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Landrum
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Joseph
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20120719
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2777B6CE5F8C40D7A2A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120717'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '728.28'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '177245.11'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE2777B6CE5F8C40D7A2A\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120717\x1C728.28\x1C177245.11\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0B5B736241174673A29
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120715'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '497.04'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '172201.43'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE0B5B736241174673A29\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120715\x1C497.04\x1C172201.43\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E14C17E836B634F3B9C5
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120713'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '275.38'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '170458.78'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE14C17E836B634F3B9C5\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120713\x1C275.38\x1C170458.78\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2A687898B7C44DFDA54
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120711'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '154.23'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '168428.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE2A687898B7C44DFDA54\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120711\x1C154.23\x1C168428.00\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ED1C4788993D741CA849
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120714'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '425.92'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '171644.58'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CED1C4788993D741CA849\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120714\x1C425.92\x1C171644.58\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC2192961366F45A387D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120717'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '602.14'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '177245.11'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CEC2192961366F45A387D\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120717\x1C602.14\x1C177245.11\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC7369C69B80B4D7AB9A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: MDS Communications Corporation
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 545 W. Juanita Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mesa
+  - name: PAYEE STATE
+    number: '16'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '17'
+    value: '85210'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120712'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '645.48'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '170183.40'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CEC7369C69B80B4D7AB9A\x1C\x1C\x1CORG\x1CMDS Communications
+    Corporation\x1C\x1C\x1C\x1C\x1C\x1C545 W. Juanita Ave.\x1C\x1CMesa\x1CAZ\x1C85210\x1CG2012\x1C\x1C20120712\x1C645.48\x1C170183.40\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EED63753527544E52BC9
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120712'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '512.40'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '170183.40'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CEED63753527544E52BC9\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120712\x1C512.40\x1C170183.40\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E1371CCC08ED641E297A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: FaceBook
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1601 Willow Road
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Menlo Park
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94025'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120712'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '74.62'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '170183.40'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Web Page Ads
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE1371CCC08ED641E297A\x1C\x1C\x1CORG\x1CFaceBook\x1C\x1C\x1C\x1C\x1C\x1C1601
+    Willow Road\x1C\x1CMenlo Park\x1CCA\x1C94025\x1CG2012\x1C\x1C20120712\x1C74.62\x1C170183.40\x1CWeb
+    Page Ads\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC58A3E59B9D84B1DBE2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120712'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '522.90'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '170183.40'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CEC58A3E59B9D84B1DBE2\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120712\x1C522.90\x1C170183.40\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8C989C5C3F6841E5AAA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: MDS Communications Corporation
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 545 W. Juanita Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mesa
+  - name: PAYEE STATE
+    number: '16'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '17'
+    value: '85210'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120714'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '312.84'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '171644.58'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE8C989C5C3F6841E5AAA\x1C\x1C\x1CORG\x1CMDS Communications
+    Corporation\x1C\x1C\x1C\x1C\x1C\x1C545 W. Juanita Ave.\x1C\x1CMesa\x1CAZ\x1C85210\x1CG2012\x1C\x1C20120714\x1C312.84\x1C171644.58\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E234C2EAABB50491F897
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120716'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1421.97'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '174251.26'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE234C2EAABB50491F897\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120716\x1C1421.97\x1C174251.26\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0EAEC3E80B524AC5AA8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: FaceBook
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1601 Willow Road
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Menlo Park
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94025'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120717'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '55.23'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '177245.11'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Web Page Ads
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE0EAEC3E80B524AC5AA8\x1C\x1C\x1CORG\x1CFaceBook\x1C\x1C\x1C\x1C\x1C\x1C1601
+    Willow Road\x1C\x1CMenlo Park\x1CCA\x1C94025\x1CG2012\x1C\x1C20120717\x1C55.23\x1C177245.11\x1CWeb
+    Page Ads\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E0E1151091BC44F10AD9
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: FaceBook
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1601 Willow Road
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Menlo Park
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94025'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120715'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '59.81'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '172201.43'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Web Page Ads
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE0E1151091BC44F10AD9\x1C\x1C\x1CORG\x1CFaceBook\x1C\x1C\x1C\x1C\x1C\x1C1601
+    Willow Road\x1C\x1CMenlo Park\x1CCA\x1C94025\x1CG2012\x1C\x1C20120715\x1C59.81\x1C172201.43\x1CWeb
+    Page Ads\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E34AAA7F0210647528F2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120711'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '602.14'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '168428.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CE34AAA7F0210647528F2\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120711\x1C602.14\x1C168428.00\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EB0433498D2FF4F2AB54
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: FaceBook
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1601 Willow Road
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Menlo Park
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '94025'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120716'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '54.98'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '174251.26'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Web Page Ads
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CEB0433498D2FF4F2AB54\x1C\x1C\x1CORG\x1CFaceBook\x1C\x1C\x1C\x1C\x1C\x1C1601
+    Willow Road\x1C\x1CMenlo Park\x1CCA\x1C94025\x1CG2012\x1C\x1C20120716\x1C54.98\x1C174251.26\x1CWeb
+    Page Ads\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ECEB6095B35B74C04A5E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: MDS Communications Corporation
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 545 W. Juanita Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mesa
+  - name: PAYEE STATE
+    number: '16'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '17'
+    value: '85210'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120717'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1608.20'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '177245.11'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CECEB6095B35B74C04A5E\x1C\x1C\x1CORG\x1CMDS Communications
+    Corporation\x1C\x1C\x1C\x1C\x1C\x1C545 W. Juanita Ave.\x1C\x1CMesa\x1CAZ\x1C85210\x1CG2012\x1C\x1C20120717\x1C1608.20\x1C177245.11\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EF5022EAA95AC4F48976
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: MDS Communications Corporation
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 545 W. Juanita Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Mesa
+  - name: PAYEE STATE
+    number: '16'
+    value: AZ
+  - name: PAYEE ZIP
+    number: '17'
+    value: '85210'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120711'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2385.16'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '168428.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CEF5022EAA95AC4F48976\x1C\x1C\x1CORG\x1CMDS Communications
+    Corporation\x1C\x1C\x1C\x1C\x1C\x1C545 W. Juanita Ave.\x1C\x1CMesa\x1CAZ\x1C85210\x1CG2012\x1C\x1C20120711\x1C2385.16\x1C168428.00\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EBB6E62B50EDF4A42B4E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120714'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '447.04'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '171644.58'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CEBB6E62B50EDF4A42B4E\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120714\x1C447.04\x1C171644.58\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EE0480FBD32724BF086F
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: InfoCision
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 325 Springside Dr.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Akron
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '44333'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120716'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '572.88'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '174251.26'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Fundraising Phone Calls (EST)
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Landrum
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120719'
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00509893\x1CEE0480FBD32724BF086F\x1C\x1C\x1CORG\x1CInfoCision\x1C\x1C\x1C\x1C\x1C\x1C325
+    Springside Dr.\x1C\x1CAkron\x1COH\x1C44333\x1CG2012\x1C\x1C20120716\x1C572.88\x1C174251.26\x1CFundraising
+    Phone Calls (EST)\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C00\x1CLandrum\x1CJoseph\x1C\x1C\x1C\x1C20120719\x1CX\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20120719
+type: chunk
