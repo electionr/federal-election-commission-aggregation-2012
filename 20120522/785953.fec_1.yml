@@ -1,0 +1,201 @@
+countrows: 3
+filename: 785953.fec
+header: {}
+rows:
+- 2
+- input: "F9N\x1CC30001994\x1CORG\x1CFrag Out Marketing\x1CConny\x1CDlany\x1C\x1C\x1C\x1C\x1C1411
+    SW 13th St\x1CApt. 201 G\x1CTopeka\x1CKS\x1C66604\x1C\x1CStudent\x1C20120521\x1C20500521\x1C\x1C\x1CUNO\x1C\x1C\x1CConny\x1CDlany\x1C\x1C\x1C\x1C1411
+    SW 13th St\x1CApt. 201 G\x1CTopeka\x1CKS\x1C66604\x1C\x1C\x1C.00\x1C.00\x1CConny\x1CDlany\x1C\x1C\x1C\x1C20120521\n"
+  record: fec.version.v8_0.F9
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F9N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001994
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: Frag Out Marketing
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: Conny
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: Dlany
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 1411 SW 13th St
+  - name: STREET 2
+    number: '12'
+    value: Apt. 201 G
+  - name: CITY
+    number: '13'
+    value: Topeka
+  - name: STATE
+    number: '14'
+    value: KS
+  - name: ZIP
+    number: '15'
+    value: '66604'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: Student
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20120521'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20500521'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: ''
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: ''
+  - name: FILER CODE
+    number: '22'
+    value: UNO
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: ''
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: Conny
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: Dlany
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: 1411 SW 13th St
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: Apt. 201 G
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: Topeka
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: KS
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '66604'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: ''
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: ''
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: Conny
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: Dlany
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20120521
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001994
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000001
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Alex
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Sonnich
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: Duncan
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 1411 SW 13th St
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: Apt. 201 G
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Topeka
+  - name: CONTROLLER STATE
+    number: '12'
+    value: KS
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '66604'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: ''
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: ''
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30001994\x1CF91.000001\x1CAlex\x1CSonnich\x1CDuncan\x1C\x1C\x1C1411
+    SW 13th St\x1CApt. 201 G\x1CTopeka\x1CKS\x1C66604\x1C\x1C\x1C\n"
+  input_count: 16
+  record: fec.version.v8_0.F91
+  result: []
+sourceurl: !!python/unicode 20120522
+type: chunk

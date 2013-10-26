@@ -1,0 +1,326 @@
+countrows: 6
+filename: 787639.fec
+header: {}
+rows:
+- 2
+- input: "F6A\x1CC00433524\x1C20120529\x1CDuncan D. Hunter for Congress\x1C9340 Fuerte
+    Drive Suite 302\x1C\x1CLa Mesa\x1CCA\x1C91941\x1CH8CA52052\x1CHunter\x1CDuncan\x1CD.\x1C\x1C\x1CH\x1CCA\x1C50\x1CYoung\x1CBruce\x1C\x1C\x1C\x1C20120528\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433524
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: '20120529'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Duncan D. Hunter for Congress
+  - name: STREET 1
+    number: '5'
+    value: 9340 Fuerte Drive Suite 302
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: La Mesa
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '91941'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8CA52052
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Hunter
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Duncan
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: D.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '50'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Young
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Bruce
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120528
+
+'
+- input: "TEXT\x1CC00433524\x1C1\x1C\x1CF6A\x1C48 Hour report Originally filed  on
+    May 22, 2012. No record of FEC acceptance. Could not find on fec.gov so as a precaution
+    tried to file on May 27 2012 and got rejected because of text error. Tried to
+    amend report of May 27 2012 but was rejected because of text error. Refilling
+    with text error corrections.\n"
+  record: fec.version.v8_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433524
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F6A
+  - name: TEXT4000
+    number: '6'
+    value: '48 Hour report Originally filed  on May 22, 2012. No record of FEC acceptance.
+      Could not find on fec.gov so as a precaution tried to file on May 27 2012 and
+      got rejected because of text error. Tried to amend report of May 27 2012 but
+      was rejected because of text error. Refilling with text error corrections.
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433524
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 60170AAF662374A8BB05
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Dethloff
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Glenn
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3561 Silvergate Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Diego
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '921063332'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Allenbrooke Insurance
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00433524\x1C60170AAF662374A8BB05\x1CIND\x1C\x1CDethloff\x1CGlenn\x1C\x1C\x1C\x1C3561
+    Silvergate Place\x1C\x1CSan Diego\x1CCA\x1C921063332\x1C\x1C20120521\x1C1000.00\x1CAllenbrooke
+    Insurance\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433524
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6A988B02D54E740AA83B
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Entertainment Software Association PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 575 Seventh Street, NW, Suite 300
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00433524\x1C6A988B02D54E740AA83B\x1CPAC\x1CEntertainment Software
+    Association PAC\x1C\x1C\x1C\x1C\x1C\x1C575 Seventh Street, NW, Suite 300\x1C\x1CWashington\x1CDC\x1C20004\x1C\x1C20120521\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00433524
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6010DA66E183F4C77987
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Kelley Drye & Warren PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3050 'K' St., NW, Suite 400
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20007'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00433524\x1C6010DA66E183F4C77987\x1CPAC\x1CKelley Drye & Warren
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C3050 'K' St., NW, Suite 400\x1C\x1CWashington\x1CDC\x1C20007\x1C\x1C20120521\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120530
+type: chunk

@@ -1,0 +1,369 @@
+countrows: 6
+filename: 788786.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00511725\x1C\x1CChad Prosser for Congress\x1CPO Box 591\x1C\x1CMurrells
+    Inlet\x1CSC\x1C29576\x1CH2SC07124\x1CProsser\x1CChad\x1CC\x1C\x1C\x1CH\x1CSC\x1C07\x1CParker\x1CClark\x1C\x1C\x1C\x1C20120606\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00511725
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Chad Prosser for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 591
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Murrells Inlet
+  - name: STATE
+    number: '8'
+    value: SC
+  - name: ZIP
+    number: '9'
+    value: '29576'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2SC07124
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Prosser
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Chad
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: C
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Parker
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Clark
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120606
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00511725
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 630F8E3F622794557B00
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Eliatamby
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Deepal
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 303 Deer Crossing Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Elgin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '290458675'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Alliance Consulting Engineers
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00511725\x1C630F8E3F622794557B00\x1CIND\x1C\x1CEliatamby\x1CDeepal\x1CS\x1C\x1C\x1C303
+    Deer Crossing Rd\x1C\x1CElgin\x1CSC\x1C290458675\x1C\x1C20120604\x1C1000.00\x1CAlliance
+    Consulting Engineers\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00511725
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6D247AE46E53846ABBB0
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Prosser
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Chad
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 697 Wedgewood Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Murrells Inlet
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '295767745'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '35000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Chad Prosser for Congress
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Candidate
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00511725\x1C6D247AE46E53846ABBB0\x1CCAN\x1C\x1CProsser\x1CChad\x1CC\x1C\x1C\x1C697
+    Wedgewood Drive\x1C\x1CMurrells Inlet\x1CSC\x1C295767745\x1C\x1C20120604\x1C35000.00\x1CChad
+    Prosser for Congress\x1CCandidate\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00511725
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 61D55AEF9E40342B095D
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Williams
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Roy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: IV
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11551 Gun Fight Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '787481926'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SunPop Studios
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Director
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00511725\x1C61D55AEF9E40342B095D\x1CIND\x1C\x1CWilliams\x1CRoy\x1C\x1C\x1CIV\x1C11551
+    Gun Fight Lane\x1C\x1CAustin\x1CTX\x1C787481926\x1C\x1C20120604\x1C2000.00\x1CSunPop
+    Studios\x1CDirector\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00511725
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6BE239D32794D408F84F
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Prosser
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Chad
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 697 Wedgewood Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Murrells Inlet
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '295767745'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1635.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Chad Prosser for Congress
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Candidate
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00511725\x1C6BE239D32794D408F84F\x1CCAN\x1C\x1CProsser\x1CChad\x1CC\x1C\x1C\x1C697
+    Wedgewood Drive\x1C\x1CMurrells Inlet\x1CSC\x1C295767745\x1C\x1C20120604\x1C1635.00\x1CChad
+    Prosser for Congress\x1CCandidate\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120606
+type: chunk

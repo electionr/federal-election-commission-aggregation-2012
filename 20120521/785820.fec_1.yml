@@ -1,0 +1,225 @@
+countrows: 4
+filename: 785820.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00472241\x1C\x1CBILL FLORES FOR CONGRESS\x1CPO Box 6207\x1C\x1CBryan\x1CTX\x1C778056207\x1CH0TX17104\x1CFlores\x1CBill\x1C\x1C\x1C\x1CH\x1CTX\x1C17\x1CPearce\x1CPhilip\x1C\x1C\x1C\x1C20120521\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472241
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: BILL FLORES FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO Box 6207
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bryan
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '778056207'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0TX17104
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Flores
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Bill
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '17'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Pearce
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Philip
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120521
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472241
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '8033000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: National Corn Growers Association (NCGA CornPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 20  F Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200016700'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00376343
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1250'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00472241\x1C8033000\x1CCOM\x1CNational Corn Growers Association
+    (NCGA CornPAC)\x1C\x1C\x1C\x1C\x1C\x1C20  F Street NW\x1CSuite 600\x1CWashington\x1CDC\x1C200016700\x1CC00376343\x1C20120521\x1C1250\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472241
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '8034000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Butt
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Charles
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 335  King William
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Antonio
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '782041317'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HEB Grocery Company LP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman/CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00472241\x1C8034000\x1CIND\x1C\x1CButt\x1CCharles\x1CC\x1C\x1C\x1C335
+    \ King William\x1C\x1CSan Antonio\x1CTX\x1C782041317\x1C\x1C20120521\x1C1500\x1CHEB
+    Grocery Company LP\x1CChairman/CEO\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120521
+type: chunk
