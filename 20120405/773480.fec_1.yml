@@ -1,0 +1,506 @@
+countrows: 8
+filename: 773480.fec
+header: {}
+rows:
+- 2
+- input: "F9N\x1CC30001986\x1CORG\x1CFREEDOM PATH\x1C\x1C\x1C\x1C\x1C\x1C\x1C2150
+    SOUTH 1300 EAST\x1CSUITE 500\x1CSALT LAKE CITY\x1CUT\x1C84106\x1C\x1C\x1C20120330\x1C20120404\x1C20120404\x1C\"Three
+    Men Again\"\x1CCLQ\x1C\x1C\x1CPhillips\x1CValerie\x1C\x1C\x1C\x1CPO BOX 1093\x1C\x1CAustin\x1CTX\x1C78767\x1CGober
+    Hilgers PLLC\x1CCompliance\x1C.00\x1C26940.00\x1CPhillips\x1CValerie\x1C\x1C\x1C\x1C20120405\n"
+  record: fec.version.v8_0.F9
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F9N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001986
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: FREEDOM PATH
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 2150 SOUTH 1300 EAST
+  - name: STREET 2
+    number: '12'
+    value: SUITE 500
+  - name: CITY
+    number: '13'
+    value: SALT LAKE CITY
+  - name: STATE
+    number: '14'
+    value: UT
+  - name: ZIP
+    number: '15'
+    value: '84106'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20120330'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20120404'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20120404'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: Three Men Again
+  - name: FILER CODE
+    number: '22'
+    value: CLQ
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: ''
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: Phillips
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: Valerie
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: PO BOX 1093
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: ''
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: Austin
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: TX
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '78767'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: Gober Hilgers PLLC
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: Compliance
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '26940.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: Phillips
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: Valerie
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20120405
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001986
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000001
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Emerson
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Mark
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 2150 South 1300 East
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: Suite 500
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Salt Lake City
+  - name: CONTROLLER STATE
+    number: '12'
+    value: UT
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '84106'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: Pearson Digital Learning
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Director
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30001986\x1CF91.000001\x1CEmerson\x1CMark\x1C\x1C\x1C\x1C2150 South
+    1300 East\x1CSuite 500\x1CSalt Lake City\x1CUT\x1C84106\x1CPearson Digital Learning\x1CDirector\x1C\n"
+  input_count: 16
+  record: fec.version.v8_0.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001986
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000002
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Bensing
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: J. Scott
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 2150 South 1300 East
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: Suite 500
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Salt Lake City
+  - name: CONTROLLER STATE
+    number: '12'
+    value: UT
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '84106'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: SB Strategic Consulting, Inc.
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30001986\x1CF91.000002\x1CBensing\x1CJ. Scott\x1C\x1C\x1C\x1C2150
+    South 1300 East\x1CSuite 500\x1CSalt Lake City\x1CUT\x1C84106\x1C\"SB Strategic
+    Consulting, Inc.\"\x1COwner\x1C\n"
+  input_count: 16
+  record: fec.version.v8_0.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001986
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000003
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Troop
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Steven
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 2150 South 1300 East
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: Suite 500
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Salt Lake City
+  - name: CONTROLLER STATE
+    number: '12'
+    value: UT
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '84106'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: Unity Title
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Escrow Officer
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30001986\x1CF91.000003\x1CTroop\x1CSteven\x1C\x1C\x1C\x1C2150 South
+    1300 East\x1CSuite 500\x1CSalt Lake City\x1CUT\x1C84106\x1CUnity Title\x1CEscrow
+    Officer\x1C\n"
+  input_count: 16
+  record: fec.version.v8_0.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001986
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Media Services Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K Street NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 200
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120330'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '26940.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: TV Media Buy and Shipping - Three Men Again
+  - name: PAYEE EMPLOYER
+    number: '23'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '24'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '25'
+    value: '20120404'
+  - value: '
+
+'
+  expected_count: 25
+  input: "F93\x1CC30001986\x1CF93.000001\x1C\x1C\x1CORG\x1CStrategic Media Services
+    Inc.\x1C\x1C\x1C\x1C\x1C\x1C3299 K Street NW\x1CSuite 200\x1CWashington\x1CDC\x1C20007\x1CP2012\x1C\x1C20120330\x1C26940.00\x1CTV
+    Media Buy and Shipping - \"Three Men Again\"\x1C\x1C\x1C20120404\x1C\n"
+  input_count: 26
+  record: fec.version.v8_0.F93
+  result: []
+- input: "F94\x1CC30001986\x1CF94.000002\x1CF93.000001\x1CF93\x1CP80003353\x1CRomney\x1CMitt\x1C\x1C\x1C\x1CP\x1CUT\x1C\x1CP2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001986
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000002
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: P80003353
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Romney
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Mitt
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: P
+  - name: CANDIDATE STATE
+    number: '13'
+    value: UT
+  - name: CANDIDATE DIST
+    number: '14'
+    value: ''
+  - name: ELECTION CODE
+    number: '15'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- input: "F94\x1CC30001986\x1CF94.000003\x1CF93.000001\x1CF93\x1CS6UT00063\x1CHatch\x1COrrin\x1C\x1C\x1C\x1CS\x1CUT\x1C\x1CP2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30001986
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000003
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: S6UT00063
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Hatch
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Orrin
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: UT
+  - name: CANDIDATE DIST
+    number: '14'
+    value: ''
+  - name: ELECTION CODE
+    number: '15'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+sourceurl: !!python/unicode 20120405
+type: chunk
