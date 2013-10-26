@@ -1,0 +1,366 @@
+countrows: 6
+filename: 783498.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00472241\x1C\x1CBILL FLORES FOR CONGRESS\x1CPO Box 6207\x1C\x1CBryan\x1CTX\x1C778056207\x1CH0TX17104\x1CFlores\x1CBill\x1C\x1C\x1C\x1CH\x1CTX\x1C17\x1CPearce\x1CPhilip\x1C\x1C\x1C\x1C20120515\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472241
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: BILL FLORES FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO Box 6207
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bryan
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '778056207'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0TX17104
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Flores
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Bill
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '17'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Pearce
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Philip
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120515
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472241
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '8010000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Brown
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: J. Dan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8711  Johnny Morris Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '787242006'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120515'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Brown Leasing Co
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00472241\x1C8010000\x1CIND\x1C\x1CBrown\x1CJ. Dan\x1C\x1C\x1C\x1C8711
+    \ Johnny Morris Road\x1C\x1CAustin\x1CTX\x1C787242006\x1C\x1C20120515\x1C2000\x1CBrown
+    Leasing Co\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472241
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '8003000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Flores
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bill
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 6207
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bryan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '778056207'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120515'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1345.63'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Candidate
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Candidate
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00472241\x1C8003000\x1CIND\x1C\x1CFlores\x1CBill\x1C\x1C\x1C\x1CPO
+    Box 6207\x1C\x1CBryan\x1CTX\x1C778056207\x1C\x1C20120515\x1C1345.63\x1CCandidate\x1CCandidate\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472241
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '8009000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Johnson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Thomas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4105  Shimmering Cove
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '787315138'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120515'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2166.67'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AGC of Texas
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive VP
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00472241\x1C8009000\x1CIND\x1C\x1CJohnson\x1CThomas\x1CL\x1C\x1C\x1C4105
+    \ Shimmering Cove\x1C\x1CAustin\x1CTX\x1C787315138\x1C\x1C20120515\x1C2166.67\x1CAGC
+    of Texas\x1CExecutive VP\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472241
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '8011000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Schieffer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Tracy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 70
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Kurten
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '778620070'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120515'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Mcamp Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ALHE
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00472241\x1C8011000\x1CIND\x1C\x1CSchieffer\x1CTracy\x1C\x1C\x1C\x1CPO
+    Box 70\x1C\x1CKurten\x1CTX\x1C778620070\x1C\x1C20120515\x1C1000\x1CMcamp Inc\x1CALHE\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120515
+type: chunk

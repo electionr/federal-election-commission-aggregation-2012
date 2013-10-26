@@ -1,0 +1,877 @@
+countrows: 9
+filename: 780596.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90012824
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: ''
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: Appel
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: Martin
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 10161 Park Run Drive, Suite 150
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: Las Vegas
+  - name: STATE
+    number: '14'
+    value: NV
+  - name: ZIP
+    number: '15'
+    value: '89145'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: ''
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: Self-employed
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: Q1
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: '20120101'
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: '20120331'
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '16064.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Appel
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Martin
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20120416'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90012824\x1CIND\x1C\x1CAppel\x1CMartin\x1C\x1C\x1C\x1C\x1C\"10161
+    Park Run Drive, Suite 150\"\x1C\x1CLas Vegas\x1CNV\x1C89145\x1C\x1CSelf-employed\x1C\x1CQ1\x1C\x1C20120101\x1C20120331\x1C.00\x1C16064.00\x1CAppel\x1CMartin\x1C\x1C\x1C\x1C20120416\x1C\n"
+  input_count: 31
+  record: fec.version.v8_0.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90012824
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Maddin Hauser Wartell Roth & Heller PC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 28400 Northwestern Hwy,
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Third Floor
+  - name: PAYEE CITY
+    number: '13'
+    value: Southfield
+  - name: PAYEE STATE
+    number: '14'
+    value: MI
+  - name: PAYEE ZIP
+    number: '15'
+    value: '48034'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120113'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1337.50'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '1337.50'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: attorney fee's
+  - name: CATEGORY CODE
+    number: '22'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90012824\x1CF57.000001\x1CORG\x1CMaddin Hauser Wartell Roth & Heller
+    PC\x1C\x1C\x1C\x1C\x1C\x1C\"28400 Northwestern Hwy,\"\x1CThird Floor\x1CSouthfield\x1CMI\x1C48034\x1CG2012\x1C\x1C20120113\x1C1337.50\x1C1337.50\x1Cattorney
+    fee's\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90012824
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: The James R. Whelan Agency
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 444 Bunker Rd, Suite 207
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: West Palm Beach
+  - name: PAYEE STATE
+    number: '14'
+    value: FL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '33405'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120130'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '750.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '2087.50'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: online advertising
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90012824\x1CF57.000002\x1CORG\x1CThe James R. Whelan Agency\x1C\x1C\x1C\x1C\x1C\x1C\"444
+    Bunker Rd, Suite 207\"\x1C\x1CWest Palm Beach\x1CFL\x1C33405\x1CG2012\x1C\x1C20120130\x1C750.00\x1C2087.50\x1Conline
+    advertising\x1C004\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90012824
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Maddin Hauser Wartell Roth & Heller PC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2840 Northwestern Hwy,
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Third Floor
+  - name: PAYEE CITY
+    number: '13'
+    value: Southfield
+  - name: PAYEE STATE
+    number: '14'
+    value: MI
+  - name: PAYEE ZIP
+    number: '15'
+    value: '48034'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120130'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1083.50'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3171.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: attorney fee's
+  - name: CATEGORY CODE
+    number: '22'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90012824\x1CF57.000003\x1CORG\x1CMaddin Hauser Wartell Roth & Heller
+    PC\x1C\x1C\x1C\x1C\x1C\x1C\"2840 Northwestern Hwy,\"\x1CThird Floor\x1CSouthfield\x1CMI\x1C48034\x1CG2012\x1C\x1C20120130\x1C1083.50\x1C3171.00\x1Cattorney
+    fee's\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90012824
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Dobrusin Thennisch PC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 29 W. Lawrence St., Suite 210
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Pontiac
+  - name: PAYEE STATE
+    number: '14'
+    value: MI
+  - name: PAYEE ZIP
+    number: '15'
+    value: '48342'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120207'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1229.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '4400.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: attorney fee's
+  - name: CATEGORY CODE
+    number: '22'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90012824\x1CF57.000004\x1CORG\x1CDobrusin Thennisch PC\x1C\x1C\x1C\x1C\x1C\x1C\"29
+    W. Lawrence St., Suite 210\"\x1C\x1CPontiac\x1CMI\x1C48342\x1CG2012\x1C\x1C20120207\x1C1229.00\x1C4400.00\x1Cattorney
+    fee's\x1C\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90012824
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: The James R. Whelan Agency
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 444 Bunker Rd, Suite 207
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: West Palm Beach
+  - name: PAYEE STATE
+    number: '14'
+    value: FL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '33405'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120220'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '3500.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '7900.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: online advertising
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90012824\x1CF57.000005\x1CORG\x1CThe James R. Whelan Agency\x1C\x1C\x1C\x1C\x1C\x1C\"444
+    Bunker Rd, Suite 207\"\x1C\x1CWest Palm Beach\x1CFL\x1C33405\x1CG2012\x1C\x1C20120220\x1C3500.00\x1C7900.00\x1Conline
+    advertising\x1C004\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90012824
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000006
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Dandheiser
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: John
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 13530 Fonseca Av.
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: La Mirada
+  - name: PAYEE STATE
+    number: '14'
+    value: CA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '90638'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120320'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5164.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '13064.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: website development
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90012824\x1CF57.000006\x1CIND\x1C\x1CDandheiser\x1CJohn\x1C\x1C\x1C\x1C13530
+    Fonseca Av.\x1C\x1CLa Mirada\x1CCA\x1C90638\x1CG2012\x1C\x1C20120320\x1C5164.00\x1C13064.00\x1Cwebsite
+    development\x1C004\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90012824
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000007
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: The James R. Whelan Agency
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 444 Bunker Rd, Suite 207
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: West Palm Beach
+  - name: PAYEE STATE
+    number: '14'
+    value: FL
+  - name: PAYEE ZIP
+    number: '15'
+    value: '33405'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120320'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '3000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '16064.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: online advertising
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90012824\x1CF57.000007\x1CORG\x1CThe James R. Whelan Agency\x1C\x1C\x1C\x1C\x1C\x1C\"444
+    Bunker Rd, Suite 207\"\x1C\x1CWest Palm Beach\x1CFL\x1C33405\x1CG2012\x1C\x1C20120320\x1C3000.00\x1C16064.00\x1Conline
+    advertising\x1C004\x1C\x1CO\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+sourceurl: !!python/unicode 20120423
+type: chunk

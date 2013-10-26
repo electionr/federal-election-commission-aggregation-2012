@@ -1,0 +1,156 @@
+countrows: 3
+filename: 781830.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00493395\x1C\x1CMark Greenberg for Congress\x1C53 Peck Road\x1C\x1CTorrington\x1CCT\x1C067906106\x1CH0CT05150\x1CGreenberg\x1CMark\x1C\x1C\x1C\x1CH\x1CCT\x1C05\x1CNowell,
+    CPA\x1CJ Kenneth\x1C\x1C\x1C\x1C20120507\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00493395
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Mark Greenberg for Congress
+  - name: STREET 1
+    number: '5'
+    value: 53 Peck Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Torrington
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: 067906106
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0CT05150
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Greenberg
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Mark
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CT
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Nowell, CPA
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: J Kenneth
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120507
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00493395
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1613000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Grinspoon
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Harold
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 380 Union Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 300
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Springfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 010894128
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00493395\x1C1613000\x1CIND\x1C\x1CGrinspoon\x1CHarold\x1C\x1C\x1C\x1C380
+    Union Street\x1CSuite 300\x1CWest Springfield\x1CMA\x1C010894128\x1C\x1C20120507\x1C1000\x1CSelf\x1CReal
+    Estate\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20120507
+type: chunk

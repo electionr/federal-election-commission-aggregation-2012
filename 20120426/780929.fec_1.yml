@@ -1,0 +1,481 @@
+countrows: 5
+filename: 780929.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00488742\x1C48\x1C\x1CNational Association of Realtors Congressional
+    Fund\x1C430 North Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114011\x1CArmstrong\x1CWilliam\x1C\x1C\x1C\x1C20120426\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00488742
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: National Association of Realtors Congressional Fund
+  - name: STREET 1
+    number: '6'
+    value: 430 North Michigan Avenue
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Chicago
+  - name: STATE
+    number: '9'
+    value: IL
+  - name: ZIP
+    number: '10'
+    value: '606114011'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Armstrong
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: William
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20120426
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00488742
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E2D2ACCEC4E5B4FC8900
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: National Association of REALTORS
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 430 N. Michigan Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Chicago
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '606114087'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120426'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '450.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '136314.95'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Consulting Services
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H8CA41063
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Miller
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Gary
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: G.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '42'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Armstrong
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: William
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120426'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00488742\x1CE2D2ACCEC4E5B4FC8900\x1C\x1C\x1CORG\x1CNational Association
+    of REALTORS\x1C\x1C\x1C\x1C\x1C\x1C430 N. Michigan Avenue\x1C\x1CChicago\x1CIL\x1C606114087\x1CP2012\x1C\x1C20120426\x1C450.00\x1C136314.95\x1CConsulting
+    Services\x1C\x1C\x1CS\x1CH8CA41063\x1CMiller\x1CGary\x1CG.\x1CRep.\x1C\x1CH\x1CCA\x1C42\x1CArmstrong\x1CWilliam\x1C\x1C\x1C\x1C20120426\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00488742
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E8BCB40BECA2E4AD9B1E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Majority Strategies
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 135 Professional Drive
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 104
+  - name: PAYEE CITY
+    number: '15'
+    value: Ponte Vedra Beach
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '32082'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120426'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '118385.95'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '136314.95'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Direct Mail Costs
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H8CA41063
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Miller
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Gary
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: G.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '42'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Armstrong
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: William
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120426'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00488742\x1CE8BCB40BECA2E4AD9B1E\x1C\x1C\x1CORG\x1CMajority Strategies\x1C\x1C\x1C\x1C\x1C\x1C135
+    Professional Drive\x1CSuite 104\x1CPonte Vedra Beach\x1CFL\x1C32082\x1CP2012\x1C\x1C20120426\x1C118385.95\x1C136314.95\x1CDirect
+    Mail Costs\x1C\x1C\x1CS\x1CH8CA41063\x1CMiller\x1CGary\x1CG.\x1CRep.\x1C\x1CH\x1CCA\x1C42\x1CArmstrong\x1CWilliam\x1C\x1C\x1C\x1C20120426\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00488742
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EEC2A68BE3A1B4150B94
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Tarrance Group Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 201 N Union Street, Ste 410
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120426'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '17479.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '136314.95'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Polling Expense
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H8CA41063
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Miller
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Gary
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: G.
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '42'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Armstrong
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: William
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20120426'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00488742\x1CEEC2A68BE3A1B4150B94\x1C\x1C\x1CORG\x1CTarrance Group
+    Inc\x1C\x1C\x1C\x1C\x1C\x1C201 N Union Street, Ste 410\x1C\x1CAlexandria\x1CVA\x1C22314\x1CP2012\x1C\x1C20120426\x1C17479.00\x1C136314.95\x1CPolling
+    Expense\x1C\x1C\x1CS\x1CH8CA41063\x1CMiller\x1CGary\x1CG.\x1CRep.\x1C\x1CH\x1CCA\x1C42\x1CArmstrong\x1CWilliam\x1C\x1C\x1C\x1C20120426\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20120426
+type: chunk
