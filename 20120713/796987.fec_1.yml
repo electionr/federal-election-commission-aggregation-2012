@@ -1,0 +1,7208 @@
+countrows: 69
+filename: 796987.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: HUMANE SOCIETY LEGISLATIVE FUND
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 2100 L Street, NW
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: WASHINGTON
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '20037'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: Y
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: Q2
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: '20120401'
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: '20120630'
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '0'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '50769.32'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Piateski
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Janet
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20120713'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90009358\x1CORG\x1CHUMANE SOCIETY LEGISLATIVE FUND\x1C\x1C\x1C\x1C\x1C\x1C\x1C2100
+    L Street, NW\x1C\x1CWASHINGTON\x1CDC\x1C20037\x1CY\x1C\x1C\x1CQ2\x1C\x1C20120401\x1C20120630\x1C0\x1C50769.32\x1CPiateski\x1CJanet\x1C\x1C\x1C\x1C20120713\x1C\n"
+  input_count: 31
+  record: fec.version.v8_0.F5
+  result: []
+- input: "F57\x1CC90009358\x1C2412001\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C1627
+    A Street, NE\x1C\x1CWashington\x1CDC\x1C20002\x1CP2012\x1C\x1C20120528\x1C62.11\x1C62.11\x1CStaff
+    time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412001'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1627 A Street, NE
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20002'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120528'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '62.11'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '62.11'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412002\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C1206
+    Maryland Avenue, NE\x1C\x1CWashington\x1CDC\x1C20002\x1CP2012\x1C\x1C20120528\x1C23.37\x1C85.48\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412002'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1206 Maryland Avenue, NE
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20002'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120528'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '23.37'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '85.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412003\x1CORG\x1CCandidate Command. LLC\x1C\x1C\x1C\x1C\x1C\x1C1831
+    NW Vivion\x1CSuite 101\x1CRiverside\x1CMO\x1C64150\x1CP2012\x1C\x1C20120528\x1C19952.00\x1C20037.48\x1CMailer\x1C006\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412003'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Candidate Command. LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1831 NW Vivion
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 101
+  - name: PAYEE CITY
+    number: '13'
+    value: Riverside
+  - name: PAYEE STATE
+    number: '14'
+    value: MO
+  - name: PAYEE ZIP
+    number: '15'
+    value: '64150'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120528'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '19952.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20037.48'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mailer
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412059\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120531\x1C6.08\x1C20043.56\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412059'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '6.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20043.56'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412060\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120531\x1C36.24\x1C20079.8\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412060'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '36.24'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20079.8'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412061\x1CIND\x1C\x1CTucker\x1CScott\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120531\x1C27.56\x1C20107.36\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412061'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Tucker
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Scott
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '27.56'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20107.36'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412062\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120531\x1C6.08\x1C20113.44\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412062'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '6.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20113.44'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412063\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120531\x1C60.41\x1C20173.85\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412063'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '60.41'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20173.85'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412064\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120531\x1C5.24\x1C20179.09\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412064'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5.24'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20179.09'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412065\x1CIND\x1C\x1CSullivan\x1CHeather\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120531\x1C57.26\x1C20236.35\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412065'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Sullivan
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Heather
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '57.26'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20236.35'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412066\x1CIND\x1C\x1CPacelle\x1CWayne\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120531\x1C17.18\x1C20253.53\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412066'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Pacelle
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Wayne
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '17.18'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20253.53'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412067\x1CIND\x1C\x1CTucker\x1CScott\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120531\x1C8.27\x1C20261.8\x1CStaff
+    Time\x1C001\x1CC00524157\x1CO\x1CH2IA02095\x1CSeng\x1CJoe\x1C\x1C\x1C\x1CH\x1CIA\x1C02\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412067'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Tucker
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Scott
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '8.27'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20261.8'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00524157
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2IA02095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Seng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: IA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '02
+
+'
+- input: "F57\x1CC90009358\x1C2412004\x1CIND\x1C\x1CBallard\x1CPepper\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120223\x1C25\x1C25\x1CStaff
+    Time\x1C001\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412004'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Ballard
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Pepper
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120223'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '25'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '25'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412005\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120223\x1C18.24\x1C43.24\x1CStaff
+    Time\x1C001\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412005'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120223'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '18.24'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '43.24'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412006\x1CIND\x1C\x1CPacelle\x1CWayne\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120223\x1C171.75\x1C214.99\x1CStaff
+    Time\x1C001\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412006'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Pacelle
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Wayne
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120223'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '171.75'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '214.99'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412007\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120223\x1C24.16\x1C239.15\x1CStaff
+    Time\x1C001\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412007'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120223'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '24.16'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '239.15'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412008\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120223\x1C13.09\x1C252.24\x1CStaff
+    Time\x1C001\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412008'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120223'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '13.09'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '252.24'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412009\x1CIND\x1C\x1CTucker\x1CScott\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120223\x1C5.51\x1C257.75\x1CStaff
+    Time\x1C001\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412009'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Tucker
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Scott
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120223'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5.51'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '257.75'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412010\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120509\x1C1533.81\x1C1791.56\x1CMass
+    Mailings\x1C006\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412010'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120509'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1533.81'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '1791.56'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412011\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120531\x1C4364.32\x1C6155.88\x1CMass
+    Mailings\x1C006\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412011'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120531'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '4364.32'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '6155.88'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412012\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120521\x1C416.67\x1C6572.55\x1CMass
+    Mailings\x1C006\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412012'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120521'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '416.67'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '6572.55'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412013\x1CORG\x1CList America\x1C\x1C\x1C\x1C\x1C\x1C5151
+    Wisconsin Ave. NW\x1CSuite 400\x1CWashington\x1CDC\x1C20016\x1CP2012\x1C\x1C20120510\x1C2771.09\x1C9343.64\x1CSolicitation
+    & Fundraising Exp\x1C003\x1CC00147686\x1CS\x1CH2CA26026\x1CBerman\x1CHoward\x1CL\x1C\x1C\x1CH\x1CCA\x1C30\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412013'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: List America
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 5151 Wisconsin Ave. NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 400
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20016'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120510'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2771.09'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '9343.64'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Solicitation & Fundraising Exp
+  - name: CATEGORY CODE
+    number: '22'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00147686
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2CA26026
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Berman
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Howard
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: CA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '30
+
+'
+- input: "F57\x1CC90009358\x1C2412014\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120605\x1C6.08\x1C6.08\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412014'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '6.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '6.08'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412015\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120605\x1C2.62\x1C8.7\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412015'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2.62'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '8.7'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412016\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120605\x1C12.08\x1C20.78\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412016'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '12.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20.78'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412017\x1CIND\x1C\x1CButler\x1CSarah\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120605\x1C15.21\x1C35.99\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412017'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Butler
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sarah
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '15.21'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '35.99'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412018\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120510\x1C121.62\x1C157.61\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412018'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120510'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '121.62'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '157.61'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412019\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120510\x1C24.16\x1C181.77\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412019'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120510'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '24.16'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '181.77'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412020\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120510\x1C10.47\x1C192.24\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412020'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120510'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '10.47'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '192.24'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412021\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120604\x1C6.08\x1C198.32\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412021'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120604'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '6.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '198.32'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412022\x1CIND\x1C\x1CPascale\x1CEllen\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120604\x1C23.24\x1C221.56\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412022'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Pascale
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Ellen
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120604'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '23.24'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '221.56'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412023\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120604\x1C5.24\x1C226.8\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412023'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120604'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5.24'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '226.8'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412024\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120329\x1C24.32\x1C251.12\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412024'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120329'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '24.32'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '251.12'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412025\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120329\x1C12.08\x1C263.2\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412025'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120329'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '12.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '263.2'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412026\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120329\x1C13.09\x1C276.29\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412026'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120329'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '13.09'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '276.29'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412027\x1CIND\x1C\x1CTucker\x1CScott\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120329\x1C5.51\x1C281.8\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412027'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Tucker
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Scott
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120329'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5.51'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '281.8'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412028\x1CIND\x1C\x1CSullivan\x1CHeather\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120329\x1C38.17\x1C319.97\x1CStaff
+    Time\x1C001\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412028'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Sullivan
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Heather
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120329'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '38.17'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '319.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412029\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120523\x1C1899.38\x1C2219.35\x1CMass
+    Mailings\x1C006\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412029'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120523'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1899.38'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '2219.35'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412030\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120606\x1C1177.38\x1C3396.73\x1CMass
+    Mailings\x1C006\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412030'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120606'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1177.38'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3396.73'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412031\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120521\x1C416.66\x1C3813.39\x1CMass
+    Mailings\x1C006\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412031'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120521'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '416.66'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3813.39'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412032\x1CORG\x1CList America\x1C\x1C\x1C\x1C\x1C\x1C5151
+    Wisconsin Ave. NW\x1CSuite 400\x1CWashington\x1CDC\x1C20016\x1CP2012\x1C\x1C20120507\x1C1444.64\x1C5258.03\x1CSolicitation
+    & Fundraising Exp\x1C003\x1CC00450577\x1CS\x1CH8NV03036\x1CTitus\x1CDina\x1C\x1C\x1C\x1CH\x1CNV\x1C03\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412032'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: List America
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 5151 Wisconsin Ave. NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 400
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20016'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120507'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1444.64'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '5258.03'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Solicitation & Fundraising Exp
+  - name: CATEGORY CODE
+    number: '22'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00450577
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H8NV03036
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Titus
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dina
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03
+
+'
+- input: "F57\x1CC90009358\x1C2412033\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120605\x1C6.08\x1C6.08\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412033'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '6.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '6.08'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412034\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120605\x1C2.62\x1C8.7\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412034'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2.62'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '8.7'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412035\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120605\x1C12.08\x1C20.78\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412035'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '12.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '20.78'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412036\x1CIND\x1C\x1CButler\x1CSarah\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120605\x1C15.21\x1C35.99\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412036'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Butler
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sarah
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '15.21'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '35.99'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412037\x1CIND\x1C\x1CWaters\x1CDane\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120605\x1C156.3\x1C192.29\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412037'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Waters
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Dane
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '156.3'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '192.29'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412038\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120510\x1C121.62\x1C313.91\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412038'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120510'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '121.62'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '313.91'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412039\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120510\x1C24.16\x1C338.07\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412039'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120510'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '24.16'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '338.07'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412040\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120510\x1C10.47\x1C348.54\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412040'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120510'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '10.47'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '348.54'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412041\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120604\x1C6.08\x1C354.62\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412041'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120604'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '6.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '354.62'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412042\x1CIND\x1C\x1CPascale\x1CEllen\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120604\x1C23.24\x1C377.86\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412042'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Pascale
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Ellen
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120604'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '23.24'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '377.86'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412043\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120604\x1C5.24\x1C383.1\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412043'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120604'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5.24'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '383.1'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412044\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120507\x1C1351.92\x1C1735.02\x1CMass
+    Mailings\x1C006\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412044'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120507'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1351.92'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '1735.02'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412045\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120606\x1C3817.7\x1C5552.72\x1CMass
+    Mailings\x1C006\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412045'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120606'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '3817.7'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '5552.72'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412046\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120521\x1C416.66\x1C5969.38\x1CMass
+    Mailings\x1C006\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412046'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120521'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '416.66'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '5969.38'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412047\x1CORG\x1CLagana Printing\x1C\x1C\x1C\x1C\x1C\x1C5113
+    C Street NE\x1C\x1CWashington\x1CDC\x1C20002\x1CP2012\x1C\x1C20120605\x1C1378.53\x1C7347.91\x1CDoor
+    hangers, leaflets\x1C007\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412047'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Lagana Printing
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 5113 C Street NE
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20002'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120605'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1378.53'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '7347.91'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Door hangers, leaflets
+  - name: CATEGORY CODE
+    number: '22'
+    value: '007'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412048\x1CORG\x1CList America\x1C\x1C\x1C\x1C\x1C\x1C5151
+    Wisconsin Ave. NW\x1CSuite 400\x1CWashington\x1CDC\x1C20016\x1CP2012\x1C\x1C20120507\x1C2431.65\x1C9779.56\x1CSolicitation
+    & Fundraising Exp\x1C003\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412048'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: List America
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 5151 Wisconsin Ave. NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 400
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20016'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120507'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2431.65'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '9779.56'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Solicitation & Fundraising Exp
+  - name: CATEGORY CODE
+    number: '22'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412049\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120610\x1C241.62\x1C10021.18\x1CStaff
+    Time\x1C001\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412049'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120610'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '241.62'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '10021.18'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412050\x1CORG\x1CLagana Printing\x1C\x1C\x1C\x1C\x1C\x1C5113
+    C Street NE\x1C\x1CWashington\x1CDC\x1C20002\x1CP2012\x1C\x1C20120610\x1C1378.53\x1C11399.71\x1CDoor
+    hangers, leaflets\x1C007\x1CC00241349\x1CS\x1CH0VA08040\x1CMoran\x1CJames\x1CP\x1C\x1C\x1CH\x1CVA\x1C08\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412050'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Lagana Printing
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 5113 C Street NE
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20002'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120610'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1378.53'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '11399.71'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Door hangers, leaflets
+  - name: CATEGORY CODE
+    number: '22'
+    value: '007'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00241349
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA08040
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Moran
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: James
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '08
+
+'
+- input: "F57\x1CC90009358\x1C2412051\x1CIND\x1C\x1CAmundson\x1CSara\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120618\x1C30.4\x1C30.4\x1CStaff
+    Time\x1C001\x1CC00516666\x1CS\x1CH2NY06116\x1CMeng\x1CGrace\x1C\x1C\x1C\x1CH\x1CNY\x1C06\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412051'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Amundson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Sara
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120618'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '30.4'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '30.4'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00516666
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2NY06116
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Meng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Grace
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '06
+
+'
+- input: "F57\x1CC90009358\x1C2412052\x1CIND\x1C\x1CCrinion\x1CColleen Elizabeth\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120618\x1C13.09\x1C43.49\x1CStaff
+    Time\x1C001\x1CC00516666\x1CS\x1CH2NY06116\x1CMeng\x1CGrace\x1C\x1C\x1C\x1CH\x1CNY\x1C06\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412052'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Crinion
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Colleen Elizabeth
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120618'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '13.09'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '43.49'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00516666
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2NY06116
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Meng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Grace
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '06
+
+'
+- input: "F57\x1CC90009358\x1C2412053\x1CIND\x1C\x1CMarkarian\x1CMichael\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120618\x1C12.08\x1C55.57\x1CStaff
+    Time\x1C001\x1CC00516666\x1CS\x1CH2NY06116\x1CMeng\x1CGrace\x1C\x1C\x1C\x1CH\x1CNY\x1C06\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412053'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Markarian
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Michael
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120618'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '12.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '55.57'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00516666
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2NY06116
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Meng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Grace
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '06
+
+'
+- input: "F57\x1CC90009358\x1C2412054\x1CIND\x1C\x1CPascale\x1CEllen\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120618\x1C20.65\x1C76.22\x1CStaff
+    Time\x1C001\x1CC00516666\x1CS\x1CH2NY06116\x1CMeng\x1CGrace\x1C\x1C\x1C\x1CH\x1CNY\x1C06\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412054'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Pascale
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Ellen
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120618'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '20.65'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '76.22'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00516666
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2NY06116
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Meng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Grace
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '06
+
+'
+- input: "F57\x1CC90009358\x1C2412055\x1CIND\x1C\x1CKwan\x1CPatrick\x1C\x1C\x1C\x1C2100
+    L Street NW\x1CSuite 310\x1CWashington\x1CDC\x1C20037\x1CP2012\x1C\x1C20120618\x1C17.19\x1C93.41\x1CStaff
+    Time\x1C001\x1CC00516666\x1CS\x1CH2NY06116\x1CMeng\x1CGrace\x1C\x1C\x1C\x1CH\x1CNY\x1C06\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412055'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Kwan
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Patrick
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2100 L Street NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 310
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20037'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120618'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '17.19'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '93.41'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff Time
+  - name: CATEGORY CODE
+    number: '22'
+    value: '001'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00516666
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2NY06116
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Meng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Grace
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '06
+
+'
+- input: "F57\x1CC90009358\x1C2412056\x1CORG\x1CWinning Mark\x1C\x1C\x1C\x1C\x1C\x1C1220
+    SW Morrison St\x1C#910\x1CPortland\x1COR\x1C97205\x1CP2012\x1C\x1C20120618\x1C3712.73\x1C3806.14\x1CMass
+    Mailings\x1C006\x1CC00516666\x1CS\x1CH2NY06116\x1CMeng\x1CGrace\x1C\x1C\x1C\x1CH\x1CNY\x1C06\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412056'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Winning Mark
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 1220 SW Morrison St
+  - name: PAYEE STREET 2
+    number: '12'
+    value: '#910'
+  - name: PAYEE CITY
+    number: '13'
+    value: Portland
+  - name: PAYEE STATE
+    number: '14'
+    value: OR
+  - name: PAYEE ZIP
+    number: '15'
+    value: '97205'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120618'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '3712.73'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3806.14'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mass Mailings
+  - name: CATEGORY CODE
+    number: '22'
+    value: '006'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00516666
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2NY06116
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Meng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Grace
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '06
+
+'
+- input: "F57\x1CC90009358\x1C2412057\x1CORG\x1CList America\x1C\x1C\x1C\x1C\x1C\x1C5151
+    Wisconsin Ave. NW\x1CSuite 400\x1CWashington\x1CDC\x1C20016\x1CP2012\x1C\x1C20120601\x1C553.28\x1C4359.42\x1CSolicitation
+    & Fundraising Exp\x1C003\x1CC00516666\x1CS\x1CH2NY06116\x1CMeng\x1CGrace\x1C\x1C\x1C\x1CH\x1CNY\x1C06\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412057'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: List America
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 5151 Wisconsin Ave. NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 400
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20016'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120601'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '553.28'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '4359.42'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Solicitation & Fundraising Exp
+  - name: CATEGORY CODE
+    number: '22'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00516666
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2NY06116
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Meng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Grace
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '06
+
+'
+- input: "F57\x1CC90009358\x1C2412058\x1CORG\x1CList America\x1C\x1C\x1C\x1C\x1C\x1C5151
+    Wisconsin Ave. NW\x1CSuite 400\x1CWashington\x1CDC\x1C20016\x1CP2012\x1C\x1C20120601\x1C146.72\x1C4506.14\x1CSolicitation
+    & Fundraising Exp\x1C003\x1CC00516666\x1CS\x1CH2NY06116\x1CMeng\x1CGrace\x1C\x1C\x1C\x1CH\x1CNY\x1C06\n"
+  record: fec.version.v8_0.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90009358
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2412058'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: List America
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 5151 Wisconsin Ave. NW
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 400
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20016'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20120601'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '146.72'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '4506.14'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Solicitation & Fundraising Exp
+  - name: CATEGORY CODE
+    number: '22'
+    value: '003'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: C00516666
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2NY06116
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Meng
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Grace
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NY
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '06
+
+'
+sourceurl: !!python/unicode 20120713
+type: chunk
