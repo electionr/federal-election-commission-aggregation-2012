@@ -1,0 +1,343 @@
+countrows: 4
+filename: 813931.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00493924
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: Reinventing a New Direction - RANDPAC
+  - name: STREET 1
+    number: '6'
+    value: PO Box 72598
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Newport
+  - name: STATE
+    number: '9'
+    value: KY
+  - name: ZIP
+    number: '10'
+    value: '410720598'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Broghamer
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Kevin
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20121009'
+  - value: '
+
+'
+  expected_count: 16
+  input: "F24N\x1CC00493924\x1C48\x1C\x1CReinventing a New Direction - RANDPAC\x1CPO
+    Box 72598\x1C\x1CNewport\x1CKY\x1C410720598\x1CBroghamer\x1CKevin\x1C\x1C\x1C\x1C20121009\x1C\n"
+  input_count: 17
+  record: fec.version.v8_0.F24
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00493924
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Media Placement Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7669 Stagers Loop
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Delaware
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '430157010'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121005'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '75000'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '75000'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Media
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S0WV00090
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Manchin
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Joe
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: III
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: WV
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Broghamer
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121009'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00493924\x1C2\x1C\x1C\x1CORG\x1CStrategic Media Placement Inc.\x1C\x1C\x1C\x1C\x1C\x1C7669
+    Stagers Loop\x1C\x1CDelaware\x1COH\x1C430157010\x1CG2012\x1C\x1C20121005\x1C75000\x1C75000\x1CMedia\x1C\x1C\x1CO\x1CS0WV00090\x1CManchin\x1CJoe\x1C\x1C\x1CIII\x1CS\x1CWV\x1C00\x1CBroghamer\x1CKevin\x1C\x1C\x1C\x1C20121009\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00493924
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Strategic Media Placement Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 7669 Stagers Loop
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Delaware
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '430157010'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121005'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '125000'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '125000'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Media
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S8FL00166
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Nelson
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Bill
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: FL
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Broghamer
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121009'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00493924\x1C1\x1C\x1C\x1CORG\x1CStrategic Media Placement Inc.\x1C\x1C\x1C\x1C\x1C\x1C7669
+    Stagers Loop\x1C\x1CDelaware\x1COH\x1C430157010\x1CG2012\x1C\x1C20121005\x1C125000\x1C125000\x1CMedia\x1C\x1C\x1CO\x1CS8FL00166\x1CNelson\x1CBill\x1C\x1C\x1C\x1CS\x1CFL\x1C00\x1CBroghamer\x1CKevin\x1C\x1C\x1C\x1C20121009\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20121009
+type: chunk

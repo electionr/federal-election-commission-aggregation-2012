@@ -1,0 +1,181 @@
+countrows: 4
+filename: 811970.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00509612\x1C\x1CHealy-Abrams for Congress\x1C2548 Glenmont Rd NW\x1C\x1CCanton\x1COH\x1C44708\x1CH2OH07167\x1CHealy-Abrams\x1CJoyce\x1C\x1C\x1C\x1CH\x1COH\x1C07\x1CBrunner\x1CJennifer\x1CL\x1C\x1C\x1C20120928\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509612
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Healy-Abrams for Congress
+  - name: STREET 1
+    number: '5'
+    value: 2548 Glenmont Rd NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Canton
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44708'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2OH07167
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Healy-Abrams
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Joyce
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Brunner
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Jennifer
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: L
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20120928
+
+'
+- input: "F65\x1CC00509612\x1CC5717746\x1CPAC\x1CPAC To The Future\x1C\x1C\x1C\x1C\x1C\x1C700
+    13th St NW\x1CSte 600\x1CWashington\x1CDC\x1C200053960\x1CC00344234\x1C20120228\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509612
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C5717746
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PAC To The Future
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 700 13th St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200053960'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00344234
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20120228'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "TEXT\x1CC00509612\x1CX0\x1C\x1CF6N\x1CWith respect to PAC to the Future,
+    the discrepancy arises from a contribution made on February 28, 2012 of $5000.00,
+    which was inadvertently not submitted during the 48 hour notice period.  As recognized
+    by your request, the incorrect contribution is generally the result of data entry
+    errors that led to it not being identified in the Committee's electronic records.\n"
+  record: fec.version.v8_0.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509612
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F6N
+  - name: TEXT4000
+    number: '6'
+    value: 'With respect to PAC to the Future, the discrepancy arises from a contribution
+      made on February 28, 2012 of $5000.00, which was inadvertently not submitted
+      during the 48 hour notice period.  As recognized by your request, the incorrect
+      contribution is generally the result of data entry errors that led to it not
+      being identified in the Committee''s electronic records.
+
+'
+sourceurl: !!python/unicode 20120928
+type: chunk

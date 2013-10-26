@@ -1,0 +1,2087 @@
+countrows: 20
+filename: 813054.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: Heritage Action for America
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 214 Massachusetts Ave NE
+  - name: STREET 2
+    number: '12'
+    value: Suite 400
+  - name: CITY
+    number: '13'
+    value: Washington
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '20002'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: N
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: '48'
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: ''
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: ''
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '24700.49'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Needham
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Michael
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: A.
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20121004'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90013525\x1CORG\x1CHeritage Action for America\x1C\x1C\x1C\x1C\x1C\x1C\x1C214
+    Massachusetts Ave NE\x1CSuite 400\x1CWashington\x1CDC\x1C20002\x1CN\x1C\x1C\x1C\x1C48\x1C\x1C\x1C.00\x1C24700.49\x1CNeedham\x1CMichael\x1CA.\x1C\x1C\x1C20121004\x1C\n"
+  input_count: 31
+  record: fec.version.v8_0.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Anderson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Jessica
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 162 Thompson Blvd
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Watertown
+  - name: PAYEE STATE
+    number: '14'
+    value: NY
+  - name: PAYEE ZIP
+    number: '15'
+    value: '13601'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '211.54'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '11533.94'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Palm Card Distribution
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000001\x1CIND\x1C\x1CAnderson\x1CJessica\x1C\x1C\x1C\x1C162
+    Thompson Blvd\x1C\x1CWatertown\x1CNY\x1C13601\x1CG2012\x1C\x1C20121003\x1C211.54\x1C11533.94\x1CStaff
+    - GOTV/Palm Card Distribution\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Anderson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Jessica
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 162 Thompson Blvd
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Watertown
+  - name: PAYEE STATE
+    number: '14'
+    value: NY
+  - name: PAYEE ZIP
+    number: '15'
+    value: '13601'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '211.54'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '5341.61'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Palm Card Distribution
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S6OH00163
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: BROWN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: SHERROD
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000002\x1CIND\x1C\x1CAnderson\x1CJessica\x1C\x1C\x1C\x1C162
+    Thompson Blvd\x1C\x1CWatertown\x1CNY\x1C13601\x1CG2012\x1C\x1C20121003\x1C211.54\x1C5341.61\x1CStaff
+    - GOTV/Palm Card Distribution\x1C004\x1C\x1CO\x1CS6OH00163\x1CBROWN\x1CSHERROD\x1C\x1C\x1C\x1CS\x1COH\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Anderson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Jessica
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 162 Thompson Blvd
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Watertown
+  - name: PAYEE STATE
+    number: '14'
+    value: NY
+  - name: PAYEE ZIP
+    number: '15'
+    value: '13601'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '211.54'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '15446.41'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Palm Card Distribution
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000003\x1CIND\x1C\x1CAnderson\x1CJessica\x1C\x1C\x1C\x1C162
+    Thompson Blvd\x1C\x1CWatertown\x1CNY\x1C13601\x1CG2012\x1C\x1C20121003\x1C211.54\x1C15446.41\x1CStaff
+    - GOTV/Palm Card Distribution\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Thompson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Jessica
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 162 Thompson Blvd
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Watertown
+  - name: PAYEE STATE
+    number: '14'
+    value: NY
+  - name: PAYEE ZIP
+    number: '15'
+    value: '13601'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '211.54'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3912.47'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Palm Card Distribution
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S6PA00217
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: CASEY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: ROBERT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: JR
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000004\x1CIND\x1C\x1CThompson\x1CJessica\x1C\x1C\x1C\x1C162
+    Thompson Blvd\x1C\x1CWatertown\x1CNY\x1C13601\x1CG2012\x1C\x1C20121003\x1C211.54\x1C3912.47\x1CStaff
+    - GOTV/Palm Card Distribution\x1C004\x1C\x1CO\x1CS6PA00217\x1CCASEY\x1CROBERT\x1CP\x1C\x1CJR\x1CS\x1CPA\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Anderson
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Jessica
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 162 Thompson Blvd
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Watertown
+  - name: PAYEE STATE
+    number: '14'
+    value: NY
+  - name: PAYEE ZIP
+    number: '15'
+    value: '13601'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '423.08'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '6192.33'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Phone Banks
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000005\x1CIND\x1C\x1CAnderson\x1CJessica\x1C\x1C\x1C\x1C162
+    Thompson Blvd\x1C\x1CWatertown\x1CNY\x1C13601\x1CG2012\x1C\x1C20121003\x1C423.08\x1C6192.33\x1CStaff
+    - GOTV/Phone Banks\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000006
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Beckett
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Brad
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 3405 Oak Ln
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Cincinnati
+  - name: PAYEE STATE
+    number: '14'
+    value: OH
+  - name: PAYEE ZIP
+    number: '15'
+    value: '45209'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2884.63'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '11322.40'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Palm Card Distribution
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000006\x1CIND\x1C\x1CBeckett\x1CBrad\x1C\x1C\x1C\x1C3405
+    Oak Ln\x1C\x1CCincinnati\x1COH\x1C45209\x1CG2012\x1C\x1C20121003\x1C2884.63\x1C11322.40\x1CStaff
+    - GOTV/Palm Card Distribution\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000007
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Beckett
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Brad
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 3405 Oak Ln
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Cincinnati
+  - name: PAYEE STATE
+    number: '14'
+    value: OH
+  - name: PAYEE ZIP
+    number: '15'
+    value: '45209'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2884.63'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '5130.07'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Palm Card Distribution
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S6OH00163
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: BROWN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: SHERROD
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000007\x1CIND\x1C\x1CBeckett\x1CBrad\x1C\x1C\x1C\x1C3405
+    Oak Ln\x1C\x1CCincinnati\x1COH\x1C45209\x1CG2012\x1C\x1C20121003\x1C2884.63\x1C5130.07\x1CStaff
+    - GOTV/Palm Card Distribution\x1C004\x1C\x1CO\x1CS6OH00163\x1CBROWN\x1CSHERROD\x1C\x1C\x1C\x1CS\x1COH\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000008
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Brown
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Kurt
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 11 Mt Lebanon Blvd
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Pittsburgh
+  - name: PAYEE STATE
+    number: '14'
+    value: PA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '15228'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1153.88'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '15234.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Palm Card Distribution
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000008\x1CIND\x1C\x1CBrown\x1CKurt\x1C\x1C\x1C\x1C11
+    Mt Lebanon Blvd\x1C\x1CPittsburgh\x1CPA\x1C15228\x1CG2012\x1C\x1C20121003\x1C1153.88\x1C15234.87\x1CStaff
+    - GOTV/Palm Card Distribution\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000009
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Brown
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Kurt
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 11 Mt Lebanon Blvd
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Pittsburgh
+  - name: PAYEE STATE
+    number: '14'
+    value: PA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '15228'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1153.88'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '3700.93'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Palm Card Distribution
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S6PA00217
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: CASEY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: ROBERT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: JR
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000009\x1CIND\x1C\x1CBrown\x1CKurt\x1C\x1C\x1C\x1C11
+    Mt Lebanon Blvd\x1C\x1CPittsburgh\x1CPA\x1C15228\x1CG2012\x1C\x1C20121003\x1C1153.88\x1C3700.93\x1CStaff
+    - GOTV/Palm Card Distribution\x1C004\x1C\x1CO\x1CS6PA00217\x1CCASEY\x1CROBERT\x1CP\x1C\x1CJR\x1CS\x1CPA\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000010
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Curry Printing Co LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 10730 Reading Rd
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Cincinnati
+  - name: PAYEE STATE
+    number: '14'
+    value: OH
+  - name: PAYEE ZIP
+    number: '15'
+    value: '45241'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '942.43'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '8437.77'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Collateral Materials/Palm Cards
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000010\x1CORG\x1CCurry Printing Co LLC\x1C\x1C\x1C\x1C\x1C\x1C10730
+    Reading Rd\x1C\x1CCincinnati\x1COH\x1C45241\x1CG2012\x1C\x1C20121003\x1C942.43\x1C8437.77\x1CCollateral
+    Materials/Palm Cards\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000011
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Curry Printing Co LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 10730 Reading Rd
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Cincinnati
+  - name: PAYEE STATE
+    number: '14'
+    value: OH
+  - name: PAYEE ZIP
+    number: '15'
+    value: '45241'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '942.43'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '2245.44'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Collateral Materials/Palm Cards
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S6OH00163
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: BROWN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: SHERROD
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000011\x1CORG\x1CCurry Printing Co LLC\x1C\x1C\x1C\x1C\x1C\x1C10730
+    Reading Rd\x1C\x1CCincinnati\x1COH\x1C45241\x1CG2012\x1C\x1C20121003\x1C942.43\x1C2245.44\x1CCollateral
+    Materials/Palm Cards\x1C004\x1C\x1CO\x1CS6OH00163\x1CBROWN\x1CSHERROD\x1C\x1C\x1C\x1CS\x1COH\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000012
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: Evans
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: Ben
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 128 Ladue Oaks
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: St Louis
+  - name: PAYEE STATE
+    number: '14'
+    value: MO
+  - name: PAYEE ZIP
+    number: '15'
+    value: '63141'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5769.25'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '5769.25'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Staff - GOTV/Phone Banks
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000012\x1CIND\x1C\x1CEvans\x1CBen\x1C\x1C\x1C\x1C128
+    Ladue Oaks\x1C\x1CSt Louis\x1CMO\x1C63141\x1CG2012\x1C\x1C20121003\x1C5769.25\x1C5769.25\x1CStaff
+    - GOTV/Phone Banks\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000013
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Minuteman Press
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 920 7th Ave
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Beaver Falls
+  - name: PAYEE STATE
+    number: '14'
+    value: PA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '15010'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '664.99'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '14080.99'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Collateral Materials/Palm Cards
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000013\x1CORG\x1CMinuteman Press\x1C\x1C\x1C\x1C\x1C\x1C920
+    7th Ave\x1C\x1CBeaver Falls\x1CPA\x1C15010\x1CG2012\x1C\x1C20121003\x1C664.99\x1C14080.99\x1CCollateral
+    Materials/Palm Cards\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000014
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Minuteman Press
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 920 7th Ave
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Beaver Falls
+  - name: PAYEE STATE
+    number: '14'
+    value: PA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '15010'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '664.99'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '2547.05'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Collateral Materials/Palm Cards
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S6PA00217
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: CASEY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: ROBERT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: JR
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000014\x1CORG\x1CMinuteman Press\x1C\x1C\x1C\x1C\x1C\x1C920
+    7th Ave\x1C\x1CBeaver Falls\x1CPA\x1C15010\x1CG2012\x1C\x1C20121003\x1C664.99\x1C2547.05\x1CCollateral
+    Materials/Palm Cards\x1C004\x1C\x1CO\x1CS6PA00217\x1CCASEY\x1CROBERT\x1CP\x1C\x1CJR\x1CS\x1CPA\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000015
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Stoneridge Group
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 4400 North Point Pkwy
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 190
+  - name: PAYEE CITY
+    number: '13'
+    value: Alpharetta
+  - name: PAYEE STATE
+    number: '14'
+    value: GA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '30022'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1303.01'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '7495.34'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Collateral Materials/Palm Cards
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACk
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000015\x1CORG\x1CStoneridge Group\x1C\x1C\x1C\x1C\x1C\x1C4400
+    North Point Pkwy\x1CSuite 190\x1CAlpharetta\x1CGA\x1C30022\x1CG2012\x1C\x1C20121003\x1C1303.01\x1C7495.34\x1CCollateral
+    Materials/Palm Cards\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACk\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000016
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Stoneridge Group
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 4400 North Point Pkwy
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 190
+  - name: PAYEE CITY
+    number: '13'
+    value: Alpharetta
+  - name: PAYEE STATE
+    number: '14'
+    value: GA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '30022'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1303.01'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '1303.01'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Collateral Materials/Palm Cards
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S6OH00163
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: BROWN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: SHERROD
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000016\x1CORG\x1CStoneridge Group\x1C\x1C\x1C\x1C\x1C\x1C4400
+    North Point Pkwy\x1CSuite 190\x1CAlpharetta\x1CGA\x1C30022\x1CG2012\x1C\x1C20121003\x1C1303.01\x1C1303.01\x1CCollateral
+    Materials/Palm Cards\x1C004\x1C\x1CO\x1CS6OH00163\x1CBROWN\x1CSHERROD\x1C\x1C\x1C\x1CS\x1COH\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000017
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Stoneridge Group
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 4400 North Point Pkwy
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Alpharetta
+  - name: PAYEE STATE
+    number: '14'
+    value: GA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '30022'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1882.06'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '13416.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Collateral Materials/Palm Cards
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: OBAMA
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: BARACK
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000017\x1CORG\x1CStoneridge Group\x1C\x1C\x1C\x1C\x1C\x1C4400
+    North Point Pkwy\x1C\x1CAlpharetta\x1CGA\x1C30022\x1CG2012\x1C\x1C20121003\x1C1882.06\x1C13416.00\x1CCollateral
+    Materials/Palm Cards\x1C004\x1C\x1CO\x1CP80003338\x1COBAMA\x1CBARACK\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013525
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000018
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Stoneridge Group
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 4400 North Point Pkwy
+  - name: PAYEE STREET 2
+    number: '12'
+    value: Suite 190
+  - name: PAYEE CITY
+    number: '13'
+    value: Alpharetta
+  - name: PAYEE STATE
+    number: '14'
+    value: GA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '30022'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121003'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1882.06'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '1882.06'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Collateral Materials/Palm Cards
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S6PA00217
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: CASEY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: ROBERT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: P
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: JR
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: PA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013525\x1CF57.000018\x1CORG\x1CStoneridge Group\x1C\x1C\x1C\x1C\x1C\x1C4400
+    North Point Pkwy\x1CSuite 190\x1CAlpharetta\x1CGA\x1C30022\x1CG2012\x1C\x1C20121003\x1C1882.06\x1C1882.06\x1CCollateral
+    Materials/Palm Cards\x1C004\x1C\x1CO\x1CS6PA00217\x1CCASEY\x1CROBERT\x1CP\x1C\x1CJR\x1CS\x1CPA\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+sourceurl: !!python/unicode 20121004
+type: chunk

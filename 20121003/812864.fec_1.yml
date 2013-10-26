@@ -1,0 +1,196 @@
+countrows: 4
+filename: 812864.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH2MA00014\x1C\"Tisei\"\x1C\"Richard\"\x1C\"R.\"\x1C\x1C\x1C\x1C\"703
+    Main St.\"\x1C\x1C\"Wakefield\"\x1CMA\x1C01880\x1CREP\x1CH\x1CMA\x1C06\x1C2012\x1CC00506170\x1C\"Tisei
+    Congressional Committee\"\x1C\"932 Lynnfield Street\"\x1C\x1C\"Lynnfield\"\x1CMA\x1C01940\x1CC00521294\x1C\"Young
+    Guns 2012 Round 1 (Joint Fundraising Representative)\"\x1C\"228 S Washington St\"\x1C\"STE
+    115\"\x1C\"Alexandria\"\x1CVA\x1C22314\x1C\"Cresta\"\x1C\"Brian\"\x1C\"M\"\x1C\x1C\x1C20121003\n"
+  record: fec.version.v8_0.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2MA00014
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Tisei
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Richard
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: R.
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 703 Main St.
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Wakefield
+  - name: CANDIDATE STATE
+    number: '12'
+    value: MA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: 01880
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: MA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '06'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2012'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00506170
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Tisei Congressional Committee
+  - name: PCC STREET 1
+    number: '21'
+    value: 932 Lynnfield Street
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Lynnfield
+  - name: PCC STATE
+    number: '24'
+    value: MA
+  - name: PCC ZIP
+    number: '25'
+    value: 01940
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00521294
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Young Guns 2012 Round 1 (Joint Fundraising Representative)
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S Washington St
+  - name: AUTH STREET 2
+    number: '29'
+    value: STE 115
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22314'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Cresta
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Brian
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: M
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20121003
+
+'
+- input: "F2S\x1CH2MA00014\x1CC00521559\x1C\"New England Victory Fund\"\x1C\"2470
+    Daniell's Bridge Rd\"\x1C\"Ste 121\"\x1C\"Athens\"\x1CGA\x1C30606\n"
+  record: fec.version.v8_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2MA00014
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00521559
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: New England Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: 2470 Daniell's Bridge Rd
+  - name: AUTH STREET 2
+    number: '6'
+    value: Ste 121
+  - name: AUTH CITY
+    number: '7'
+    value: Athens
+  - name: AUTH STATE
+    number: '8'
+    value: GA
+  - name: AUTH ZIP
+    number: '9'
+    value: '30606
+
+'
+- input: "F2S\x1CH2MA00014\x1CC00526384\x1C\"National Security Victory Committee\"\x1C\"228
+    S Washington Street\"\x1C\"Suite 115\"\x1C\"Alexandria\"\x1CVA\x1C22314\n"
+  record: fec.version.v8_0.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2MA00014
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00526384
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: National Security Victory Committee
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S Washington Street
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+sourceurl: !!python/unicode 20121003
+type: chunk

@@ -1,0 +1,481 @@
+countrows: 5
+filename: 814039.fec
+header: {}
+rows:
+- 2
+- input: "F24A\x1CC00524751\x1C48\x1C20121008\x1CCONNECTICUT'S FUTURE PAC INC\x1C100
+    PEARL STREET 14TH FLOOR\x1C\x1CHARTFORD\x1CCT\x1C06103\x1CTaborsak\x1CJoseph\x1C\x1C\x1C\x1C20121009\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00524751
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: '20121008'
+  - name: COMMITTEE NAME
+    number: '5'
+    value: CONNECTICUT'S FUTURE PAC INC
+  - name: STREET 1
+    number: '6'
+    value: 100 PEARL STREET 14TH FLOOR
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: HARTFORD
+  - name: STATE
+    number: '9'
+    value: CT
+  - name: ZIP
+    number: '10'
+    value: '06103'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Taborsak
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Joseph
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20121009
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00524751
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT2012981325-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Capitol Report Media Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 314 Town Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: East Haddam
+  - name: PAYEE STATE
+    number: '16'
+    value: CT
+  - name: PAYEE ZIP
+    number: '17'
+    value: '06423'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20120926'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Online Advertisement
+  - name: CATEGORY CODE
+    number: '24'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Murphy
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Chris
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: CT
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: pcf_fname
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: pcf_lname
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: pcf_mname
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: pcf_prefix
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: pcf_suffix
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121008'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00524751\x1CWFT2012981325-1\x1C\x1C\x1CORG\x1CCapitol Report Media
+    Group\x1C\x1C\x1C\x1C\x1C\x1C314 Town Street\x1C\x1CEast Haddam\x1CCT\x1C06423\x1CG2012\x1C\x1C20120926\x1C1000.00\x1C\x1COnline
+    Advertisement\x1C004\x1C\x1CS\x1C\x1CMurphy\x1CChris\x1C\x1C\x1C\x1CS\x1CCT\x1C\x1Cpcf_fname\x1Cpcf_lname\x1Cpcf_mname\x1Cpcf_prefix\x1Cpcf_suffix\x1C20121008\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00524751
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT2012981328-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: MD Tech Team
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 18 Hendee Road
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Manchester
+  - name: PAYEE STATE
+    number: '16'
+    value: CT
+  - name: PAYEE ZIP
+    number: '17'
+    value: '06040'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121002'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '69.13'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '595.12'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Website Update
+  - name: CATEGORY CODE
+    number: '24'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Murphy
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Chris
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: CT
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Taborsak
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121009'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00524751\x1CWFT2012981328-1\x1C\x1C\x1CORG\x1CMD Tech Team\x1C\x1C\x1C\x1C\x1C\x1C18
+    Hendee Road\x1C\x1CManchester\x1CCT\x1C06040\x1CG2012\x1C\x1C20121002\x1C69.13\x1C595.12\x1CWebsite
+    Update\x1C004\x1C\x1CS\x1C\x1CMurphy\x1CChris\x1C\x1C\x1C\x1CS\x1CCT\x1C\x1CTaborsak\x1CJoseph\x1C\x1C\x1C\x1C20121009\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00524751
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT2012981329-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Waterfront Strategies
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3050 K Street, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: Suite 100
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121007'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '19921.26'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '119608.96'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Television Advertisement
+  - name: CATEGORY CODE
+    number: '24'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Murphy
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Chris
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: CT
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Taborsak
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Joseph
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121009'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00524751\x1CWFT2012981329-1\x1C\x1C\x1CORG\x1CWaterfront Strategies\x1C\x1C\x1C\x1C\x1C\x1C3050
+    K Street, NW\x1CSuite 100\x1CWashington\x1CDC\x1C20007\x1CG2012\x1C\x1C20121007\x1C19921.26\x1C119608.96\x1CTelevision
+    Advertisement\x1C004\x1C\x1CS\x1C\x1CMurphy\x1CChris\x1C\x1C\x1C\x1CS\x1CCT\x1C\x1CTaborsak\x1CJoseph\x1C\x1C\x1C\x1C20121009\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20121009
+type: chunk
