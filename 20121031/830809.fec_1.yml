@@ -1,0 +1,658 @@
+countrows: 7
+filename: 830809.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90008673
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: Planned Parenthood Advocates of Wisconsin
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 111 King Street
+  - name: STREET 2
+    number: '12'
+    value: Suite 23
+  - name: CITY
+    number: '13'
+    value: Madison
+  - name: STATE
+    number: '14'
+    value: WI
+  - name: ZIP
+    number: '15'
+    value: '53703'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: Y
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: '24'
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: '20121029'
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: '20121029'
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '14617.34'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Wendelberger
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Atty. Jeralyn
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: B.
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20121030'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90008673\x1CORG\x1CPlanned Parenthood Advocates of Wisconsin\x1C\x1C\x1C\x1C\x1C\x1C\x1C111
+    King Street\x1CSuite 23\x1CMadison\x1CWI\x1C53703\x1CY\x1C\x1C\x1C\x1C24\x1C20121029\x1C20121029\x1C.00\x1C14617.34\x1CWendelberger\x1CAtty.
+    Jeralyn\x1CB.\x1C\x1C\x1C20121030\x1C\n"
+  input_count: 31
+  record: fec.version.v8_0.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90008673
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Scasey Communications
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2472 South Graham Street
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Milwaukee
+  - name: PAYEE STATE
+    number: '14'
+    value: WI
+  - name: PAYEE ZIP
+    number: '15'
+    value: '53207'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2010
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5901.40'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '5901.40'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: GOTV mail piece supporting President Obama
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Obama
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Barack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90008673\x1CF57.000001\x1CORG\x1CScasey Communications\x1C\x1C\x1C\x1C\x1C\x1C2472
+    South Graham Street\x1C\x1CMilwaukee\x1CWI\x1C53207\x1CG2010\x1C\x1C20121029\x1C5901.40\x1C5901.40\x1CGOTV
+    mail piece supporting President Obama\x1C004\x1C\x1CS\x1CP80003338\x1CObama\x1CBarack\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90008673
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Scasey Communications
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2472 South Graham Street
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Milwaukee
+  - name: PAYEE STATE
+    number: '14'
+    value: WI
+  - name: PAYEE ZIP
+    number: '15'
+    value: '53207'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5901.42'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '5901.40'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: GOTV mail piece supporting Tammy Baldwin
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003338
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Baldwin
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Tammy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90008673\x1CF57.000002\x1CORG\x1CScasey Communications\x1C\x1C\x1C\x1C\x1C\x1C2472
+    South Graham Street\x1C\x1CMilwaukee\x1CWI\x1C53207\x1CG2012\x1C\x1C20121029\x1C5901.42\x1C5901.40\x1CGOTV
+    mail piece supporting Tammy Baldwin\x1C004\x1C\x1CS\x1CP80003338\x1CBaldwin\x1CTammy\x1C\x1C\x1C\x1CS\x1CWI\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90008673
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Scasey Communications
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2472 South Graham Street
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Milwaukee
+  - name: PAYEE STATE
+    number: '14'
+    value: WI
+  - name: PAYEE ZIP
+    number: '15'
+    value: '53207'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '325.76'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '325.76'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: GOTV mail piece supporting Ron Zerban
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2WI01084
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Zerban
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Ron
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '01'
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90008673\x1CF57.000003\x1CORG\x1CScasey Communications\x1C\x1C\x1C\x1C\x1C\x1C2472
+    South Graham Street\x1C\x1CMilwaukee\x1CWI\x1C53207\x1CG2012\x1C\x1C20121029\x1C325.76\x1C325.76\x1CGOTV
+    mail piece supporting Ron Zerban\x1C004\x1C\x1CS\x1CH2WI01084\x1CZerban\x1CRon\x1C\x1C\x1C\x1CH\x1CWI\x1C01\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90008673
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Scasey Communications
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2472 South Graham Street
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Milwaukee
+  - name: PAYEE STATE
+    number: '14'
+    value: WI
+  - name: PAYEE ZIP
+    number: '15'
+    value: '53207'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1103.52'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '1103.52'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: GOTV mail piece supporting Pat Kreitlow
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H2WI07065
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Kreitlow
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Pat
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '07'
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90008673\x1CF57.000004\x1CORG\x1CScasey Communications\x1C\x1C\x1C\x1C\x1C\x1C2472
+    South Graham Street\x1C\x1CMilwaukee\x1CWI\x1C53207\x1CG2012\x1C\x1C20121029\x1C1103.52\x1C1103.52\x1CGOTV
+    mail piece supporting Pat Kreitlow\x1C004\x1C\x1CS\x1CH2WI07065\x1CKreitlow\x1CPat\x1C\x1C\x1C\x1CH\x1CWI\x1C07\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90008673
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Scasey Communications
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: 2472 South Graham Street
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Milwaukee
+  - name: PAYEE STATE
+    number: '14'
+    value: WI
+  - name: PAYEE ZIP
+    number: '15'
+    value: '53207'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '1385.24'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '1385.24'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: GOTV mail piece supporting Ron Kind
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H6WI03099
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Kind
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Ron
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '03'
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90008673\x1CF57.000005\x1CORG\x1CScasey Communications\x1C\x1C\x1C\x1C\x1C\x1C2472
+    South Graham Street\x1C\x1CMilwaukee\x1CWI\x1C53207\x1CG2012\x1C\x1C20121029\x1C1385.24\x1C1385.24\x1CGOTV
+    mail piece supporting Ron Kind\x1C004\x1C\x1CS\x1CH6WI03099\x1CKind\x1CRon\x1C\x1C\x1C\x1CH\x1CWI\x1C03\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+sourceurl: !!python/unicode 20121031
+type: chunk

@@ -1,0 +1,157 @@
+countrows: 3
+filename: 830904.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00332890\x1C\x1CMary Bono Mack Committee\x1CPO Box 3370\x1C\x1CPalm
+    Springs\x1CCA\x1C922633370\x1CH8CA44034\x1CBono Mack\x1CMary\x1C\x1C\x1C\x1CH\x1CCA\x1C36\x1CPowers\x1CWilliam
+    T.\x1C\x1C\x1C\x1C20121031\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Mary Bono Mack Committee
+  - name: STREET 1
+    number: '5'
+    value: PO Box 3370
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Palm Springs
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '922633370'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8CA44034
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Bono Mack
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Mary
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '36'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Powers
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: William T.
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121031
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00332890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '31842000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Powers
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1201 The Strand
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Manhattan Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '902664729'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Strand Partners
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: General Partner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00332890\x1C31842000\x1CIND\x1C\x1CPowers\x1CWilliam\x1CC.\x1C\x1C\x1C1201
+    The Strand\x1C\x1CManhattan Beach\x1CCA\x1C902664729\x1C\x1C20121029\x1C2500\x1CThe
+    Strand Partners\x1CGeneral Partner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20121031
+type: chunk

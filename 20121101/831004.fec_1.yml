@@ -1,0 +1,231 @@
+countrows: 4
+filename: 831004.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00504399
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Citizens to Elect Sue Thorn Congress 2012
+  - name: STREET 1
+    number: '5'
+    value: 182 Thorn Hill
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Wheeling
+  - name: STATE
+    number: '8'
+    value: WV
+  - name: ZIP
+    number: '9'
+    value: '26003'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2WV01094
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Thorn
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Sue
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: Carol
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: WV
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Hunter
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Jon
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: Blair
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121031'
+  - value: '
+
+'
+  expected_count: 24
+  input: "F6N\x1CC00504399\x1C\x1CCitizens to Elect Sue Thorn Congress 2012\x1C182
+    Thorn Hill\x1C\x1CWheeling\x1CWV\x1C26003\x1CH2WV01094\x1CThorn\x1CSue\x1CCarol\x1C\x1C\x1CH\x1CWV\x1C01\x1CHunter\x1CJon\x1CBlair\x1C\x1C\x1C20121031\x1C\n"
+  input_count: 25
+  record: fec.version.v8_0.F6
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00504399
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: A-1842
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cassidy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Patrick
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 39 Hamilton Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wheeling
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '260036659'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121029'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Cassidy, Myers, Cogan
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Lawyer
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00504399\x1CA-1842\x1CIND\x1C\x1CCassidy\x1CPatrick\x1CS\x1C\x1C\x1C39
+    Hamilton Ave\x1C\x1CWheeling\x1CWV\x1C260036659\x1C\x1C20121029\x1C1500.00\x1CCassidy,
+    Myers, Cogan\x1CLawyer\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00504399
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: A-1851
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jividen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1782 National Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wheeling
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '260035519'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121031'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Jividen Law Offices
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00504399\x1CA-1851\x1CIND\x1C\x1CJividen\x1CDavid\x1CA\x1C\x1C\x1C1782
+    National Rd\x1C\x1CWheeling\x1CWV\x1C260035519\x1C\x1C20121031\x1C1000.00\x1CJividen
+    Law Offices\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20121101
+type: chunk

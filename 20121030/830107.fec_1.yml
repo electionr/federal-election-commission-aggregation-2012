@@ -1,0 +1,150 @@
+countrows: 3
+filename: 830107.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00472878\x1C\x1C\"Diane Black for Congress\"\x1C\"PO Box 1437\"\x1C\x1C\"Gallatin\"\x1CTN\x1C370661437\x1CH0TN06257\x1C\"Black\"\x1C\"Diane\"\x1C\"L\"\x1C\"Mrs.\"\x1C\x1CH\x1CTN\x1C06\x1C\"Whittaker\"\x1C\"Tommy\"\x1C\x1C\"Mr.\"\x1C\x1C20121030\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472878
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Diane Black for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1437
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Gallatin
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '370661437'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0TN06257
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Black
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Diane
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: L
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mrs.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TN
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Whittaker
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Tommy
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121030
+
+'
+- input: "F65\x1CC00472878\x1CTX4360\x1CPAC\x1C\"INTUIT 21ST CENTURY LEADERSHIP FUND\"\x1C\x1C\x1C\x1C\x1C\x1C\"2700
+    COAST AVE.\"\x1C\x1C\"MOUNTAIN VIEW\"\x1CCA\x1C94043\x1CC00361741\x1C20121030\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_0.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00472878
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX4360
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: INTUIT 21ST CENTURY LEADERSHIP FUND
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2700 COAST AVE.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MOUNTAIN VIEW
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94043'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00361741
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121030'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20121030
+type: chunk

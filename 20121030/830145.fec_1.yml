@@ -1,0 +1,901 @@
+countrows: 8
+filename: 830145.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00003590\x1C24\x1C\x1CUnited Steelworkers Political Action Fund
+    \x1CFive Gateway Center   \x1C\x1CPittsburgh    \x1CPA\x1C15222    \x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20121030\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: 'United Steelworkers Political Action Fund '
+  - name: STREET 1
+    number: '6'
+    value: 'Five Gateway Center   '
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: 'Pittsburgh    '
+  - name: STATE
+    number: '9'
+    value: PA
+  - name: ZIP
+    number: '10'
+    value: '15222    '
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Johnson
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Stanley
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20121030
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EA2AF734A767B4C50BA3
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Newswire Association, LLC
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PR
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: G.P.O. Box 5897
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '100875897'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1850.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '121180.33'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Press Release
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003353
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Romney
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Mitt
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: DC
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121030'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CEA2AF734A767B4C50BA3\x1C\x1C\x1CIND\x1C\x1CNewswire Association,
+    LLC\x1CPR\x1C\x1C\x1C\x1CG.P.O. Box 5897\x1C\x1CNew York\x1CNY\x1C100875897\x1CG2012\x1C\x1C20121029\x1C1850.00\x1C121180.33\x1CPress
+    Release\x1C\x1C\x1CO\x1CP80003353\x1CRomney\x1CMitt\x1C\x1C\x1C\x1CP\x1CDC\x1C00\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20121030\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E9E3BEC65CE4A4928A47
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Printing Inc.
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Delft
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 4401 Walden Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lancaster
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '140869013'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '732.67'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '732.67'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Door Hangers
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2CT00132
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Murphy
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Christopher
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: Scott
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: CT
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121030'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CE9E3BEC65CE4A4928A47\x1C\x1C\x1CIND\x1C\x1CPrinting Inc.\x1CDelft\x1C\x1C\x1C\x1C4401
+    Walden Avenue\x1C\x1CLancaster\x1CNY\x1C140869013\x1CG2012\x1C\x1C20121029\x1C732.67\x1C732.67\x1CDoor
+    Hangers\x1C\x1C\x1CS\x1CS2CT00132\x1CMurphy\x1CChristopher\x1CScott\x1C\x1C\x1CS\x1CCT\x1C\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20121030\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E15B3BF404CC1449CAB5
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: General Fund
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: USW
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: Five Gateway Center
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Pittsburgh
+  - name: PAYEE STATE
+    number: '16'
+    value: PA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '15222'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2257.39'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '121180.33'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Web Costs
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003353
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Romney
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Mitt
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: DC
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121030'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CE15B3BF404CC1449CAB5\x1C\x1C\x1CIND\x1C\x1CGeneral Fund\x1CUSW\x1C\x1C\x1C\x1CFive
+    Gateway Center\x1C\x1CPittsburgh\x1CPA\x1C15222\x1CG2012\x1C\x1C20121029\x1C2257.39\x1C121180.33\x1CWeb
+    Costs\x1C\x1C\x1CO\x1CP80003353\x1CRomney\x1CMitt\x1C\x1C\x1C\x1CP\x1CDC\x1C00\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20121030\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: ED84949029DAB4232AEC
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Direct
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Boyds
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 100B Maple Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Stoneham
+  - name: PAYEE STATE
+    number: '16'
+    value: MA
+  - name: PAYEE ZIP
+    number: '17'
+    value: 021803143
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '199.54'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '352.51'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Inv.# 11290 - Signs
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2MA00170
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Warren
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Elizabeth
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121030'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CED84949029DAB4232AEC\x1C\x1C\x1CIND\x1C\x1CDirect\x1CBoyds\x1C\x1C\x1C\x1C100B
+    Maple Street\x1C\x1CStoneham\x1CMA\x1C021803143\x1CG2012\x1C\x1C20121029\x1C199.54\x1C352.51\x1CInv.#
+    11290 - Signs\x1C\x1C\x1CS\x1CS2MA00170\x1CWarren\x1CElizabeth\x1C\x1C\x1C\x1CS\x1CMA\x1C\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20121030\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EA569B9CF06644E2D81A
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Newswire Association, LLC
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PR
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: G.P.O. Box 5897
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '100875897'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '575.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '121180.33'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Press Release
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: P80003353
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Romney
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Mitt
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: DC
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121030'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CEA569B9CF06644E2D81A\x1C\x1C\x1CIND\x1C\x1CNewswire Association,
+    LLC\x1CPR\x1C\x1C\x1C\x1CG.P.O. Box 5897\x1C\x1CNew York\x1CNY\x1C100875897\x1CG2012\x1C\x1C20121029\x1C575.00\x1C121180.33\x1CPress
+    Release\x1C\x1C\x1CO\x1CP80003353\x1CRomney\x1CMitt\x1C\x1C\x1C\x1CP\x1CDC\x1C00\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20121030\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00003590
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E1ABE91CA46074B6B9DC
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Newswire Association, LLC
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: PR
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: G.P.O. Box 5897
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '100875897'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121029'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '290.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '290.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Press Release
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: H2CO03138
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: Pace
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: Sal
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: Rep.
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: CO
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '03'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: Johnson
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: Stanley
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121030'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00003590\x1CE1ABE91CA46074B6B9DC\x1C\x1C\x1CIND\x1C\x1CNewswire Association,
+    LLC\x1CPR\x1C\x1C\x1C\x1CG.P.O. Box 5897\x1C\x1CNew York\x1CNY\x1C100875897\x1CG2012\x1C\x1C20121029\x1C290.00\x1C290.00\x1CPress
+    Release\x1C\x1C\x1CS\x1CH2CO03138\x1CPace\x1CSal\x1C\x1CRep.\x1C\x1CH\x1CCO\x1C03\x1CJohnson\x1CStanley\x1C\x1C\x1C\x1C20121030\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20121030
+type: chunk

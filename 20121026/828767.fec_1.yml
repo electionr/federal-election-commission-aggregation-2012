@@ -1,0 +1,768 @@
+countrows: 8
+filename: 828767.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013301
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: NATIONAL RIFLE ASSOCIATION INSTITUTE FOR LEGISLATIVE ACTION
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 11250 WAPLES MILL ROAD
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: FAIRFAX
+  - name: STATE
+    number: '14'
+    value: VA
+  - name: ZIP
+    number: '15'
+    value: '22030'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: N
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: ''
+  - name: REPORT CODE
+    number: '19'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: '24'
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: '20121025'
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: '20121025'
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '20910.14'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Adkins
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Mary Rose
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20121026'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90013301\x1C\x1CNATIONAL RIFLE ASSOCIATION INSTITUTE FOR LEGISLATIVE
+    ACTION\x1C\x1C\x1C\x1C\x1C\x1C\x1C11250 WAPLES MILL ROAD\x1C\x1CFAIRFAX\x1CVA\x1C22030\x1CN\x1C\x1C\x1C\x1C24\x1C20121025\x1C20121025\x1C.00\x1C20910.14\x1CAdkins\x1CMary
+    Rose\x1C\x1C\x1C\x1C20121026\x1C\n"
+  input_count: 31
+  record: fec.version.v8_0.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013301
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Broadnet Teleservices, LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: PO Box 975202
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Dallas
+  - name: PAYEE STATE
+    number: '14'
+    value: TX
+  - name: PAYEE ZIP
+    number: '15'
+    value: '75397'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121025'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5721.80'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Phone Calls
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Thompson
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Tommy
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013301\x1CF57.000001\x1CORG\x1C\"Broadnet Teleservices, LLC\"\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 975202\x1C\x1CDallas\x1CTX\x1C75397\x1CG2012\x1C\x1C20121025\x1C5721.80\x1C.00\x1CPhone
+    Calls\x1C004\x1C\x1CS\x1C\x1CThompson\x1CTommy\x1C\x1C\x1C\x1CS\x1CWI\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013301
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Broadnet Teleservices
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: PO Box 975202
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Dallas
+  - name: PAYEE STATE
+    number: '14'
+    value: TX
+  - name: PAYEE ZIP
+    number: '15'
+    value: '75397'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121025'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '4816.46'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Phone Calls
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Mandel
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Josh
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: OH
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013301\x1CF57.000002\x1CORG\x1CBroadnet Teleservices\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 975202\x1C\x1CDallas\x1CTX\x1C75397\x1CG2012\x1C\x1C20121025\x1C4816.46\x1C.00\x1CPhone
+    Calls\x1C004\x1C\x1CS\x1C\x1CMandel\x1CJosh\x1C\x1C\x1C\x1CS\x1COH\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013301
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Broadnet Teleservices, LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: PO Box 975202
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Dallas
+  - name: PAYEE STATE
+    number: '14'
+    value: TX
+  - name: PAYEE ZIP
+    number: '15'
+    value: '75397'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121025'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2155.48'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Phone Calls
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Summers
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Charlie
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ME
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013301\x1CF57.000003\x1CORG\x1C\"Broadnet Teleservices, LLC\"\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 975202\x1C\x1CDallas\x1CTX\x1C75397\x1CG2012\x1C\x1C20121025\x1C2155.48\x1C.00\x1CPhone
+    Calls\x1C004\x1C\x1CS\x1C\x1CSummers\x1CCharlie\x1C\x1C\x1C\x1CS\x1CME\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013301
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Broadnet Teleservices, LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: PO Box 875202
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Dallas
+  - name: PAYEE STATE
+    number: '14'
+    value: TX
+  - name: PAYEE ZIP
+    number: '15'
+    value: '75397'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121025'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '649.11'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Phone Calls
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Heller
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dean
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013301\x1CF57.000004\x1CORG\x1C\"Broadnet Teleservices, LLC\"\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 875202\x1C\x1CDallas\x1CTX\x1C75397\x1CG2012\x1C\x1C20121025\x1C649.11\x1C.00\x1CPhone
+    Calls\x1C004\x1C\x1CS\x1C\x1CHeller\x1CDean\x1C\x1C\x1C\x1CS\x1CNV\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013301
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Broadnet Teleservices, LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: PO Box 9795202
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Dallas
+  - name: PAYEE STATE
+    number: '14'
+    value: TX
+  - name: PAYEE ZIP
+    number: '15'
+    value: '75397'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121025'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '2486.84'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Phone Calls
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Allen
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: George
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013301\x1CF57.000005\x1CORG\x1C\"Broadnet Teleservices, LLC\"\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 9795202\x1C\x1CDallas\x1CTX\x1C75397\x1CG2012\x1C\x1C20121025\x1C2486.84\x1C.00\x1CPhone
+    Calls\x1C004\x1C\x1CS\x1C\x1CAllen\x1CGeorge\x1C\x1C\x1C\x1CS\x1CVA\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013301
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000006
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Broadnet Teleservices, LLC
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: PO Box 975202
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Dallas
+  - name: PAYEE STATE
+    number: '14'
+    value: TX
+  - name: PAYEE ZIP
+    number: '15'
+    value: '75397'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121025'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '5080.45'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Phone Calls
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Flake
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Jeff
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013301\x1CF57.000006\x1CORG\x1C\"Broadnet Teleservices, LLC\"\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 975202\x1C\x1CDallas\x1CTX\x1C75397\x1CG2012\x1C\x1C20121025\x1C5080.45\x1C.00\x1CPhone
+    Calls\x1C004\x1C\x1CS\x1C\x1CFlake\x1CJeff\x1C\x1C\x1C\x1CS\x1CAZ\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+sourceurl: !!python/unicode 20121026
+type: chunk

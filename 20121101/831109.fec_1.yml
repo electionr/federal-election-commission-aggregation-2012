@@ -1,0 +1,650 @@
+countrows: 10
+filename: 831109.fec
+header: {}
+rows:
+- 2
+- input: "F9N\x1CC30002125\x1CORG\x1CHealth Coalition on Liability and Access\x1C\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 78096\x1C\x1CWashington\x1CDC\x1C200138096\x1CN/A\x1C\x1C20121026\x1C20121030\x1C20121030\x1CHCLA
+    - Heller\x1CUNO\x1C\x1C\x1CStinson\x1CMichael\x1CC.\x1C\x1C\x1C2275 Research Boulevard\x1CSte
+    250\x1CRockville\x1CMD\x1C20850\x1CPhysician Insurers Assn. of America\x1CDir.
+    of Gov't Relations\x1C.00\x1C54108.29\x1CStinson\x1CMichael\x1CC.\x1C\x1C\x1C20121031\n"
+  record: fec.version.v8_0.F9
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F9N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30002125
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: Health Coalition on Liability and Access
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: PO Box 78096
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: Washington
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '200138096'
+  - name: INDIVIDUAL EMPLOYER
+    number: '16'
+    value: N/A
+  - name: INDIVIDUAL OCCUPATION
+    number: '17'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '18'
+    value: '20121026'
+  - name: COVERAGE THROUGH DATE
+    number: '19'
+    value: '20121030'
+  - name: DATE OF PUBLIC DISTRIBUTION
+    number: '20'
+    value: '20121030'
+  - name: COMMUNICATION TITLE
+    number: '21'
+    value: HCLA - Heller
+  - name: FILER CODE
+    number: '22'
+    value: UNO
+  - name: FILER CODE DESCRIPTION
+    number: '23'
+    value: ''
+  - name: SEGREGATED BANK ACCOUNT
+    number: '24'
+    value: ''
+  - name: CUSTODIAN LAST NAME
+    number: '25'
+    value: Stinson
+  - name: CUSTODIAN FIRST NAME
+    number: '26'
+    value: Michael
+  - name: CUSTODIAN MIDDLE NAME
+    number: '27'
+    value: C.
+  - name: CUSTODIAN PREFIX
+    number: '28'
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: '29'
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: '30'
+    value: 2275 Research Boulevard
+  - name: CUSTODIAN STREET 2
+    number: '31'
+    value: Ste 250
+  - name: CUSTODIAN CITY
+    number: '32'
+    value: Rockville
+  - name: CUSTODIAN STATE
+    number: '33'
+    value: MD
+  - name: CUSTODIAN ZIP
+    number: '34'
+    value: '20850'
+  - name: CUSTODIAN EMPLOYER
+    number: '35'
+    value: Physician Insurers Assn. of America
+  - name: CUSTODIAN OCCUPATION
+    number: '36'
+    value: Dir. of Gov't Relations
+  - name: TOTAL DONATIONS THIS STATEMENT
+    number: 37-9.
+    value: '.00'
+  - name: TOTAL DISB./OBLIG. THIS STATEMENT
+    number: 38-10.
+    value: '54108.29'
+  - name: PERSON COMPLETING LAST NAME
+    number: '39'
+    value: Stinson
+  - name: PERSON COMPLETING FIRST NAME
+    number: '40'
+    value: Michael
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '41'
+    value: C.
+  - name: PERSON COMPLETING PREFIX
+    number: '42'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '43'
+    value: ''
+  - name: DATE SIGNED
+    number: '44'
+    value: '20121031
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30002125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000001
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Stinson
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Michael
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: C.
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 2275 Research Boulevard,
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: Ste. 250
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Rockville
+  - name: CONTROLLER STATE
+    number: '12'
+    value: MD
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '20850'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: Physician Insurers Assn. of America
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Dir. of Gov't Relations
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30002125\x1CF91.000001\x1CStinson\x1CMichael\x1CC.\x1C\x1C\x1C\"2275
+    Research Boulevard,\"\x1CSte. 250\x1CRockville\x1CMD\x1C20850\x1CPhysician Insurers
+    Assn. of America\x1CDir. of Gov't Relations\x1C\n"
+  input_count: 16
+  record: fec.version.v8_0.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30002125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000002
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Orrico
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Katie
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 725 15th St., NW, Suite 500
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Washington
+  - name: CONTROLLER STATE
+    number: '12'
+    value: DC
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '20005'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: American Assn of Neurologic Surgeons
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Director
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30002125\x1CF91.000002\x1COrrico\x1CKatie\x1C\x1C\x1C\x1C\"725 15th
+    St., NW, Suite 500\"\x1C\x1CWashington\x1CDC\x1C20005\x1CAmerican Assn of Neurologic
+    Surgeons\x1CDirector\x1C\n"
+  input_count: 16
+  record: fec.version.v8_0.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30002125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000003
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Newson
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: Graham
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 317 Massachusetts Ave., Suite 600
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Washington
+  - name: CONTROLLER STATE
+    number: '12'
+    value: DC
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '20002'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: American Assn of Orthopaedic Surgeons
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Assoc. Dir. Gov't Rel.
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30002125\x1CF91.000003\x1CNewson\x1CGraham\x1C\x1C\x1C\x1C\"317
+    Massachusetts Ave., Suite 600\"\x1C\x1CWashington\x1CDC\x1C20002\x1CAmerican Assn
+    of Orthopaedic Surgeons\x1CAssoc. Dir. Gov't Rel.\x1C\n"
+  input_count: 16
+  record: fec.version.v8_0.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F91
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30002125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F91.000004
+  - name: CONTROLLER LAST NAME (Share/Exer Control)
+    number: '4'
+    value: Cox
+  - name: CONTROLLER FIRST NAME
+    number: '5'
+    value: George
+  - name: CONTROLLER MIDDLE NAME
+    number: '6'
+    value: ''
+  - name: CONTROLLER PREFIX
+    number: '7'
+    value: ''
+  - name: CONTROLLER SUFFIX
+    number: '8'
+    value: ''
+  - name: CONTROLLER STREET 1
+    number: '9'
+    value: 25 Massachusetts Ave., Suite 600
+  - name: CONTROLLER STREET 2
+    number: '10'
+    value: ''
+  - name: CONTROLLER CITY
+    number: '11'
+    value: Washington
+  - name: CONTROLLER STATE
+    number: '12'
+    value: DC
+  - name: CONTROLLER ZIP
+    number: '13'
+    value: '20001'
+  - name: CONTROLLER EMPLOYER
+    number: '14'
+    value: American Medical Assn.
+  - name: CONTROLLER OCCUPATION
+    number: '15'
+    value: Director, Div of Lgl Cnsl
+  - value: '
+
+'
+  expected_count: 15
+  input: "F91\x1CC30002125\x1CF91.000004\x1CCox\x1CGeorge\x1C\x1C\x1C\x1C\"25 Massachusetts
+    Ave., Suite 600\"\x1C\x1CWashington\x1CDC\x1C20001\x1CAmerican Medical Assn.\x1C\"Director,
+    Div of Lgl Cnsl\"\x1C\n"
+  input_count: 16
+  record: fec.version.v8_0.F91
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30002125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000001
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: McCarthy Hennings Media, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1850 M Street, NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20036'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121026'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1108.29'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Production of radio ad - HCLA Heller
+  - name: PAYEE EMPLOYER
+    number: '23'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '24'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '25'
+    value: '20121030'
+  - value: '
+
+'
+  expected_count: 25
+  input: "F93\x1CC30002125\x1CF93.000001\x1C\x1C\x1CORG\x1C\"McCarthy Hennings Media,
+    Inc.\"\x1C\x1C\x1C\x1C\x1C\x1C\"1850 M Street, NW\"\x1C\x1CWashington\x1CDC\x1C20036\x1CG2012\x1C\x1C20121026\x1C1108.29\x1CProduction
+    of radio ad - \"HCLA Heller\"\x1C\x1C\x1C20121030\x1C\n"
+  input_count: 26
+  record: fec.version.v8_0.F93
+  result: []
+- input: "F94\x1CC30002125\x1CF94.000002\x1CF93.000001\x1CF93\x1CS2NV00183\x1CHeller\x1CDean\x1C\x1C\x1C\x1CS\x1CNV\x1C\x1CG2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30002125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000002
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000001
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: S2NV00183
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Heller
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Dean
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: NV
+  - name: CANDIDATE DIST
+    number: '14'
+    value: ''
+  - name: ELECTION CODE
+    number: '15'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F93
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30002125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F93.000002
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Mentzer Media Services, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 600 Fairmount Avenue, Ste. 306
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Towson
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '21286'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121026'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '53000.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '22'
+    value: Placement of radio ad - HCLA Heller
+  - name: PAYEE EMPLOYER
+    number: '23'
+    value: ''
+  - name: PAYEE OCCUPATION
+    number: '24'
+    value: ''
+  - name: COMMUNICATION DATE
+    number: '25'
+    value: '20121030'
+  - value: '
+
+'
+  expected_count: 25
+  input: "F93\x1CC30002125\x1CF93.000002\x1C\x1C\x1CORG\x1C\"Mentzer Media Services,
+    Inc.\"\x1C\x1C\x1C\x1C\x1C\x1C\"600 Fairmount Avenue, Ste. 306\"\x1C\x1CTowson\x1CMD\x1C21286\x1CG2012\x1C\x1C20121026\x1C53000.00\x1CPlacement
+    of radio ad - \"HCLA Heller\"\x1C\x1C\x1C20121030\x1C\n"
+  input_count: 26
+  record: fec.version.v8_0.F93
+  result: []
+- input: "F94\x1CC30002125\x1CF94.000004\x1CF93.000002\x1CF93\x1CS2NV00183\x1CHeller\x1CDean\x1C\x1C\x1C\x1CS\x1CNV\x1C\x1CG2012\x1C\n"
+  record: fec.version.v8_0.F94
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F94
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C30002125
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F94.000004
+  - name: BACK REFERENCE TRAN ID
+    number: '4'
+    value: F93.000002
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: F93
+  - name: CANDIDATE ID NUMBER
+    number: '6'
+    value: S2NV00183
+  - name: CANDIDATE LAST NAME
+    number: '7'
+    value: Heller
+  - name: CANDIDATE FIRST NAME
+    number: '8'
+    value: Dean
+  - name: CANDIDATE MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '10'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '11'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '12'
+    value: S
+  - name: CANDIDATE STATE
+    number: '13'
+    value: NV
+  - name: CANDIDATE DIST
+    number: '14'
+    value: ''
+  - name: ELECTION CODE
+    number: '15'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '16'
+    value: '
+
+'
+sourceurl: !!python/unicode 20121101
+type: chunk
