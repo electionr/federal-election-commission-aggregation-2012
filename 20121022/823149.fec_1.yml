@@ -1,0 +1,835 @@
+countrows: 9
+filename: 823149.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013889
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: ''
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: Bates
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: Brian
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: D.
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ''
+  - name: STREET 1
+    number: '11'
+    value: 390 Mt. Rush Highway
+  - name: STREET 2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: Dillwyn
+  - name: STATE
+    number: '14'
+    value: VA
+  - name: ZIP
+    number: '15'
+    value: '23936'
+  - name: Qualified Non-Profit Corporation
+    number: 16-
+    value: ''
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: Longwood University
+  - name: INDIVIDUAL OCCUPATION
+    number: '18'
+    value: Professor
+  - name: REPORT CODE
+    number: '19'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 20-24
+    value: '24'
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: ''
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: ''
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '1756.28'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '1756.28'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Bates
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Brian
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: D.
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20121022'
+  - value: '
+
+'
+  expected_count: 30
+  input: "F5N\x1CC90013889\x1CIND\x1C\x1CBates\x1CBrian\x1CD.\x1C\x1C\x1C\x1C390 Mt.
+    Rush Highway\x1C\x1CDillwyn\x1CVA\x1C23936\x1C\x1CLongwood University\x1CProfessor\x1C\x1C24\x1C\x1C\x1C1756.28\x1C1756.28\x1CBates\x1CBrian\x1CD.\x1C\x1C\x1C20121022\x1C\n"
+  input_count: 31
+  record: fec.version.v8_0.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F56
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013889
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F56.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bates
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Brian
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 390 Mt. Rush Highway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dillwyn
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '23936'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1756.28'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Longwood University
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Professor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F56\x1CC90013889\x1CF56.000001\x1CIND\x1C\x1CBates\x1CBrian\x1CD.\x1C\x1C\x1C390
+    Mt. Rush Highway\x1C\x1CDillwyn\x1CVA\x1C23936\x1C\x1C20121022\x1C1756.28\x1CLongwood
+    University\x1CProfessor\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F56
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013889
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000001
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: USA Printing Online.com
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: P.O. Box 430
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Asheboro
+  - name: PAYEE STATE
+    number: '14'
+    value: NC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '27204'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121022'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '180.28'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '180.28'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Production of Post Card
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003353
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Romney
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Mitt
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013889\x1CF57.000001\x1CORG\x1CUSA Printing Online.com\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 430\x1C\x1CAsheboro\x1CNC\x1C27204\x1CG2012\x1C\x1C20121022\x1C180.28\x1C180.28\x1CProduction
+    of Post Card\x1C004\x1C\x1CS\x1CP80003353\x1CRomney\x1CMitt\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013889
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000002
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: USA Printing Online.com
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: P.O. Box 430
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Asheboro
+  - name: PAYEE STATE
+    number: '14'
+    value: NC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '27204'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20021022'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '180.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '180.22'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Production of Post Card
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S8VA00214
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Allen
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: George
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013889\x1CF57.000002\x1CORG\x1CUSA Printing Online.com\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 430\x1C\x1CAsheboro\x1CNC\x1C27204\x1CG2012\x1C\x1C20021022\x1C180.22\x1C180.22\x1CProduction
+    of Post Card\x1C004\x1C\x1CS\x1CS8VA00214\x1CAllen\x1CGeorge\x1C\x1C\x1C\x1CS\x1CVA\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013889
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000003
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: USA Printing Online.com
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: P.O. Box 430
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Asheboro
+  - name: PAYEE STATE
+    number: '14'
+    value: NC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '27204'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121022'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '180.22'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '180.22'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Production of Post Card
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA05095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Hurt
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Robert
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '05'
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013889\x1CF57.000003\x1CORG\x1CUSA Printing Online.com\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 430\x1C\x1CAsheboro\x1CNC\x1C27204\x1CG2012\x1C\x1C20121022\x1C180.22\x1C180.22\x1CProduction
+    of Post Card\x1C004\x1C\x1CS\x1CH0VA05095\x1CHurt\x1CRobert\x1C\x1C\x1C\x1CH\x1CVA\x1C05\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013889
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000004
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Cape School, Inc
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: P.O. Box 169
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Buckingham
+  - name: PAYEE STATE
+    number: '14'
+    value: VA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '23921'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121022'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '405.26'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '585.54'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mailing/Postage
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: P80003353
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Romney
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Mitt
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: P
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013889\x1CF57.000004\x1CORG\x1C\"Cape School, Inc\"\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 169\x1C\x1CBuckingham\x1CVA\x1C23921\x1CG2012\x1C\x1C20121022\x1C405.26\x1C585.54\x1CMailing/Postage\x1C004\x1C\x1CS\x1CP80003353\x1CRomney\x1CMitt\x1C\x1C\x1C\x1CP\x1C\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013889
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000005
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Cape School, Inc
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: P.O. Box 169
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Buckingham
+  - name: PAYEE STATE
+    number: '14'
+    value: VA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '23921'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121022'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '405.15'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '585.37'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mailing/Postage
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: S8VA00214
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Allen
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: George
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: ''
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013889\x1CF57.000005\x1CORG\x1C\"Cape School, Inc\"\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 169\x1C\x1CBuckingham\x1CVA\x1C23921\x1CG2012\x1C\x1C20121022\x1C405.15\x1C585.37\x1CMailing/Postage\x1C004\x1C\x1CS\x1CS8VA00214\x1CAllen\x1CGeorge\x1C\x1C\x1C\x1CS\x1CVA\x1C\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013889
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F57.000006
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Cape School, Inc
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '11'
+    value: P.O. Box 169
+  - name: PAYEE STREET 2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Buckingham
+  - name: PAYEE STATE
+    number: '14'
+    value: VA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '23921'
+  - name: ELECTION CODE
+    number: '16'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '18'
+    value: '20121022'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '405.15'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '585.37'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: Mailing/Postage
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: H0VA05095
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Hurt
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Robert
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: H
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '05'
+  - value: '
+
+'
+  expected_count: 33
+  input: "F57\x1CC90013889\x1CF57.000006\x1CORG\x1C\"Cape School, Inc\"\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 169\x1C\x1CBuckingham\x1CVA\x1C23921\x1CG2012\x1C\x1C20121022\x1C405.15\x1C585.37\x1CMailing/Postage\x1C004\x1C\x1CS\x1CH0VA05095\x1CHurt\x1CRobert\x1C\x1C\x1C\x1CH\x1CVA\x1C05\x1C\n"
+  input_count: 34
+  record: fec.version.v8_0.F57
+  result: []
+sourceurl: !!python/unicode 20121022
+type: chunk

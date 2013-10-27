@@ -1,0 +1,155 @@
+countrows: 3
+filename: 823414.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00215905\x1C\x1CDeFazio for Congress\x1CPO Box 1316\x1C\x1CSpringfield\x1COR\x1C974770152\x1CH6OR04047\x1CDeFazio\x1CPeter\x1CA.\x1C\x1C\x1CH\x1COR\x1C04\x1CAckerman\x1CRobert
+    \x1C\x1C\x1C\x1C20121022\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00215905
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: DeFazio for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1316
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Springfield
+  - name: STATE
+    number: '8'
+    value: OR
+  - name: ZIP
+    number: '9'
+    value: '974770152'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H6OR04047
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: DeFazio
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Peter
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: A.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: OR
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Ackerman
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: 'Robert '
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121022
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00215905
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1000047832000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Pacificorp Fed PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 825 NE Multnomah Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 2000
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Portland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '972322152'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00082800
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121022'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00215905\x1C1000047832000\x1CCOM\x1CPacificorp Fed PAC\x1C\x1C\x1C\x1C\x1C\x1C825
+    NE Multnomah Street\x1CSuite 2000\x1CPortland\x1COR\x1C972322152\x1CC00082800\x1C20121022\x1C1500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20121022
+type: chunk

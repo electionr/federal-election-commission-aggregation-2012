@@ -1,0 +1,4098 @@
+countrows: 31
+filename: 822936.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00027466\x1C24\x1C\x1CNATIONAL REPUBLICAN SENATORIAL COMMITTEE\x1C425
+    SECOND STREET NE\x1C.\x1CWASHINGTON\x1CDC\x1C20002\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\n"
+  record: fec.version.v8_0.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: REPORT TYPE (24/48 Hour)
+    number: '3'
+    value: '24'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: NATIONAL REPUBLICAN SENATORIAL COMMITTEE
+  - name: STREET 1
+    number: '6'
+    value: 425 SECOND STREET NE
+  - name: STREET 2
+    number: '7'
+    value: .
+  - name: CITY
+    number: '8'
+    value: WASHINGTON
+  - name: STATE
+    number: '9'
+    value: DC
+  - name: ZIP
+    number: '10'
+    value: '20002'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: JAY
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: BANNING
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: C
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20121019
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221123-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121010'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '185418.15'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3001106.14'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2MT00162
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: JON
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: TESTER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MT
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221123-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121010\x1C185418.15\x1C3001106.14\x1CMEDIA\x1C\x1C\x1CO\x1CS2MT00162\x1CJON\x1CTESTER\x1C\x1C\x1C\x1CS\x1CMT\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221124-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NEBO MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. BOX 3775
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121010'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '459548.83'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1700040.33'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2NV00209
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: ROCHELLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: BERKLEY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221124-1\x1C\x1C\x1CORG\x1CNEBO MEDIA\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 3775\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121010\x1C459548.83\x1C1700040.33\x1CMEDIA\x1C\x1C\x1CO\x1CS2NV00209\x1CROCHELLE\x1CBERKLEY\x1C\x1C\x1C\x1CS\x1CNV\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221127-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121010'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '257925.56'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1999464.68'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2IN00091
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: JOSEPH
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: DONNELLY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: SIMON
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: SR.
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221127-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121010\x1C257925.56\x1C1999464.68\x1CMEDIA\x1C\x1C\x1CO\x1CS2IN00091\x1CJOSEPH\x1CDONNELLY\x1CSIMON\x1C\x1CSR.\x1CS\x1CIN\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221128-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121012'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '917190.78'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2361424.44'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2VA00142
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: TIMOTHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: KAINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: MICHAEL
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221128-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121012\x1C917190.78\x1C2361424.44\x1CMEDIA\x1C\x1C\x1CO\x1CS2VA00142\x1CTIMOTHY\x1CKAINE\x1CMICHAEL\x1C\x1C\x1CS\x1CVA\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221129-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121012'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '719904.09'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2593220.45'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2WI00219
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: TAMMY SUZANNE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: BALDWIN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: GREEN
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221129-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121012\x1C719904.09\x1C2593220.45\x1CMEDIA\x1C\x1C\x1CO\x1CS2WI00219\x1CTAMMY
+    SUZANNE\x1CBALDWIN\x1CGREEN\x1C\x1C\x1CS\x1CWI\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221130-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NEBO MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. BOX 3775
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121015'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '778.62'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2602211.74'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2ND00099
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: 'MARY '
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: HEITKAMP
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: KATHRYN
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ND
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221130-1\x1C\x1C\x1CORG\x1CNEBO MEDIA\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 3775\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121015\x1C778.62\x1C2602211.74\x1CMEDIA\x1C\x1C\x1CO\x1CS2ND00099\x1CMARY
+    \x1CHEITKAMP\x1CKATHRYN\x1C\x1C\x1CS\x1CND\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221131-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121016'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '197519.52'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2361424.44'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2VA00142
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: TIMOTHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: KAINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: MICHAEL
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221131-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121016\x1C197519.52\x1C2361424.44\x1CMEDIA\x1C\x1C\x1CO\x1CS2VA00142\x1CTIMOTHY\x1CKAINE\x1CMICHAEL\x1C\x1C\x1CS\x1CVA\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221133-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121017'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '28600.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2361424.44'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: PRODUCTION
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2VA00142
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: TIMOTHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: KAINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: MICHAEL
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221133-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121017\x1C28600.00\x1C2361424.44\x1CPRODUCTION\x1C\x1C\x1CO\x1CS2VA00142\x1CTIMOTHY\x1CKAINE\x1CMICHAEL\x1C\x1C\x1CS\x1CVA\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221134-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121017'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '31765.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2593220.45'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: PRODUCTION
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2WI00219
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: TAMMY SUZANNE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: BALDWIN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: GREEN
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221134-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121017\x1C31765.00\x1C2593220.45\x1CPRODUCTION\x1C\x1C\x1CO\x1CS2WI00219\x1CTAMMY
+    SUZANNE\x1CBALDWIN\x1CGREEN\x1C\x1C\x1CS\x1CWI\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221135-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NEBO MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. BOX 3775
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121017'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '29000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1700040.33'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: PRODUCTION
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2NV00209
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: ROCHELLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: BERKLEY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221135-1\x1C\x1C\x1CORG\x1CNEBO MEDIA\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 3775\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121017\x1C29000.00\x1C1700040.33\x1CPRODUCTION\x1C\x1C\x1CO\x1CS2NV00209\x1CROCHELLE\x1CBERKLEY\x1C\x1C\x1C\x1CS\x1CNV\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221136-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121017'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '28700.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1999464.68'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: PRODUCTION
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2IN00091
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: JOSEPH
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: DONNELLY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: SIMON
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: SR.
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221136-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121017\x1C28700.00\x1C1999464.68\x1CPRODUCTION\x1C\x1C\x1CO\x1CS2IN00091\x1CJOSEPH\x1CDONNELLY\x1CSIMON\x1C\x1CSR.\x1CS\x1CIN\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221137-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121017'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '650858.45'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1946537.96'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2AZ00232
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: RICHARD
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: CARMONA
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: HENRY
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221137-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121017\x1C650858.45\x1C1946537.96\x1CMEDIA\x1C\x1C\x1CO\x1CS2AZ00232\x1CRICHARD\x1CCARMONA\x1CHENRY\x1C\x1C\x1CS\x1CAZ\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221138-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1200.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1999464.68'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2IN00091
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: JOSEPH
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: DONNELLY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: SIMON
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: SR.
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221138-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121018\x1C1200.00\x1C1999464.68\x1CMEDIA\x1C\x1C\x1CO\x1CS2IN00091\x1CJOSEPH\x1CDONNELLY\x1CSIMON\x1C\x1CSR.\x1CS\x1CIN\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221139-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NEBO MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. BOX 3775
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '80785.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2602211.74'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2ND00099
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: MARY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: HEITKAMP
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: KATHRYN
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ND
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221139-1\x1C\x1C\x1CORG\x1CNEBO MEDIA\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 3775\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121018\x1C80785.00\x1C2602211.74\x1CMEDIA\x1C\x1C\x1CO\x1CS2ND00099\x1CMARY\x1CHEITKAMP\x1CKATHRYN\x1C\x1C\x1CS\x1CND\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221140-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NEBO MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. BOX 3775
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '29084.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2602211.74'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: PRODUCTION
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2ND00099
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: MARY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: HEITKAMP
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: KATHRYN
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ND
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221140-1\x1C\x1C\x1CORG\x1CNEBO MEDIA\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 3775\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121018\x1C29084.00\x1C2602211.74\x1CPRODUCTION\x1C\x1C\x1CO\x1CS2ND00099\x1CMARY\x1CHEITKAMP\x1CKATHRYN\x1C\x1C\x1CS\x1CND\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221141-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NEBO MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. BOX 3775
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1200.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1700040.33'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2NV00209
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: ROCHELLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: BERKLEY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221141-1\x1C\x1C\x1CORG\x1CNEBO MEDIA\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 3775\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121018\x1C1200.00\x1C1700040.33\x1CMEDIA\x1C\x1C\x1CO\x1CS2NV00209\x1CROCHELLE\x1CBERKLEY\x1C\x1C\x1C\x1CS\x1CNV\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221142-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '90996.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3001106.14'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S6MT00162
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: JON
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: TESTER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MT
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221142-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121018\x1C90996.00\x1C3001106.14\x1CMEDIA\x1C\x1C\x1CO\x1CS6MT00162\x1CJON\x1CTESTER\x1C\x1C\x1C\x1CS\x1CMT\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221143-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '29000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3001106.14'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: PRODUCTION
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S6MT00162
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: JON
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: TESTER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MT
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221143-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121018\x1C29000.00\x1C3001106.14\x1CPRODUCTION\x1C\x1C\x1CO\x1CS6MT00162\x1CJON\x1CTESTER\x1C\x1C\x1C\x1CS\x1CMT\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221144-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1200.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2593220.45'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2WI00219
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: TAMMY SUZANNE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: BALDWIN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: GREEN
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221144-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121018\x1C1200.00\x1C2593220.45\x1CMEDIA\x1C\x1C\x1CO\x1CS2WI00219\x1CTAMMY
+    SUZANNE\x1CBALDWIN\x1CGREEN\x1C\x1C\x1CS\x1CWI\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221145-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121018'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1200.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2361424.44'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2VA00142
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: TIMOTHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: KAINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: MICHAEL
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221145-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121018\x1C1200.00\x1C2361424.44\x1CMEDIA\x1C\x1C\x1CO\x1CS2VA00142\x1CTIMOTHY\x1CKAINE\x1CMICHAEL\x1C\x1C\x1CS\x1CVA\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221146-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '49778.44'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2361424.44'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2VA00142
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: TIMOTHY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: KAINE
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: MICHAEL
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: VA
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221146-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121019\x1C49778.44\x1C2361424.44\x1CMEDIA\x1C\x1C\x1CO\x1CS2VA00142\x1CTIMOTHY\x1CKAINE\x1CMICHAEL\x1C\x1C\x1CS\x1CVA\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221147-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '55532.85'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2593220.45'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2WI00219
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: TAMMY SUZANNE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: BALDWIN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: GREEN
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: WI
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221147-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121019\x1C55532.85\x1C2593220.45\x1CMEDIA\x1C\x1C\x1CO\x1CS2WI00219\x1CTAMMY
+    SUZANNE\x1CBALDWIN\x1CGREEN\x1C\x1C\x1CS\x1CWI\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221151-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '14476.42'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '3001106.14'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S6MT00162
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: JON
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: TESTER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: MT
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221151-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121019\x1C14476.42\x1C3001106.14\x1CMEDIA\x1C\x1C\x1CO\x1CS6MT00162\x1CJON\x1CTESTER\x1C\x1C\x1C\x1CS\x1CMT\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221152-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NEBO MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. BOX 3775
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '29244.47'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1700040.33'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2NV00209
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: ROCHELLE
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: BERKLEY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: NV
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221152-1\x1C\x1C\x1CORG\x1CNEBO MEDIA\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 3775\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121019\x1C29244.47\x1C1700040.33\x1CMEDIA\x1C\x1C\x1CO\x1CS2NV00209\x1CROCHELLE\x1CBERKLEY\x1C\x1C\x1C\x1CS\x1CNV\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221154-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NEBO MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. BOX 3775
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '5450.36'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2602211.74'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2ND00099
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: 'MARY '
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: HEITKAMP
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: KATHRYN
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ND
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221154-1\x1C\x1C\x1CORG\x1CNEBO MEDIA\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 3775\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121019\x1C5450.36\x1C2602211.74\x1CMEDIA\x1C\x1C\x1CO\x1CS2ND00099\x1CMARY
+    \x1CHEITKAMP\x1CKATHRYN\x1C\x1C\x1CS\x1CND\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221155-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '61880.13'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1999464.68'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2IN00091
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: JOSEPH
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: DONNELLY
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: SIMON
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: SR.
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: IN
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221155-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121019\x1C61880.13\x1C1999464.68\x1CMEDIA\x1C\x1C\x1CO\x1CS2IN00091\x1CJOSEPH\x1CDONNELLY\x1CSIMON\x1C\x1CSR.\x1CS\x1CIN\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221157-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121009'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '31040.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1946537.96'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: PRODUCTION
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2AZ00232
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: RICHARD
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: CARMONA
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: HENRY
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221157-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121009\x1C31040.00\x1C1946537.96\x1CPRODUCTION\x1C\x1C\x1CO\x1CS2AZ00232\x1CRICHARD\x1CCARMONA\x1CHENRY\x1C\x1C\x1CS\x1CAZ\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221158-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: STRATEGIC MEDIA SERVICES, INC.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3299 K ST., NW
+  - name: PAYEE STREET 2
+    number: '14'
+    value: SUITE 200
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '200070'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121019'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '30367.66'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '1946537.96'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2AZ00232
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: RICHARD
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: CARMONA
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: HENRY
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: AZ
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221158-1\x1C\x1C\x1CORG\x1CSTRATEGIC MEDIA SERVICES,
+    INC.\x1C\x1C\x1C\x1C\x1C\x1C3299 K ST., NW\x1CSUITE 200\x1CWASHINGTON\x1CDC\x1C200070\x1CG2012\x1C\x1C20121019\x1C30367.66\x1C1946537.96\x1CMEDIA\x1C\x1C\x1CO\x1CS2AZ00232\x1CRICHARD\x1CCARMONA\x1CHENRY\x1C\x1C\x1CS\x1CAZ\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00027466
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT20129221126-1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: NEBO MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. BOX 3775
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: WASHINGTON
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2012
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20121010'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '170929.58'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '22'
+    value: '2602211.74'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: MEDIA
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: PAYEE Committee FEC ID NUMBER
+    number: '25'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '26'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '27'
+    value: S2ND00099
+  - name: S/O CANDIDATE LAST NAME
+    number: '28'
+    value: MARY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '29'
+    value: HEITKAMP
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '30'
+    value: KATHRYN
+  - name: S/O CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '34'
+    value: ND
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: COMPLETING LAST NAME
+    number: '36'
+    value: JAY
+  - name: COMPLETING FIRST NAME
+    number: '37'
+    value: BANNING
+  - name: COMPLETING MIDDLE NAME
+    number: '38'
+    value: C
+  - name: COMPLETING PREFIX
+    number: '39'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '40'
+    value: ''
+  - name: DATE SIGNED
+    number: '41'
+    value: '20121019'
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - value: '
+
+'
+  expected_count: 43
+  input: "SE\x1CC00027466\x1CWFT20129221126-1\x1C\x1C\x1CORG\x1CNEBO MEDIA\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 3775\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CG2012\x1C\x1C20121010\x1C170929.58\x1C2602211.74\x1CMEDIA\x1C\x1C\x1CO\x1CS2ND00099\x1CMARY\x1CHEITKAMP\x1CKATHRYN\x1C\x1C\x1CS\x1CND\x1C00\x1CJAY\x1CBANNING\x1CC\x1C\x1C\x1C20121019\x1C\x1C\x1C\n"
+  input_count: 44
+  record: fec.version.v8_0.SE
+  result: []
+sourceurl: !!python/unicode 20121022
+type: chunk
