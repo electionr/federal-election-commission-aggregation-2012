@@ -1,0 +1,786 @@
+countrows: 12
+filename: 821941.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00498196\x1C\x1CKoster for Congress - 2012\x1CPO Box 231\x1C\x1CArlington\x1CWA\x1C982230231\x1CH0WA02098\x1CKoster\x1CJohn\x1CM\x1C\x1C\x1CH\x1CWA\x1C01\x1CRoulstone\x1CDouglas\x1C\x1C\x1C\x1C20121019\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Koster for Congress - 2012
+  - name: STREET 1
+    number: '5'
+    value: PO Box 231
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '982230231'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0WA02098
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Koster
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: M
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: WA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Roulstone
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Douglas
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121019
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20842000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Invest In A Strong And Secure America - ISSA PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 3799
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Vista
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '920853799'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00450320
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20842000\x1CCOM\x1CInvest In A Strong And Secure America
+    - ISSA PAC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 3799\x1C\x1CVista\x1CCA\x1C920853799\x1CC00450320\x1C20121018\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20805000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Liberty Fund; The
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 1992
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Vancouver
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '986681992'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00521310
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20805000\x1CCOM\x1CLiberty Fund; The\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 1992\x1C\x1CVancouver\x1CWA\x1C986681992\x1CC00521310\x1C20121018\x1C2400\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20849000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Rossi For Senate
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 12706  55th Avenue W
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mukilteo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '982755514'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00484824
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20849000\x1CCOM\x1CRossi For Senate\x1C\x1C\x1C\x1C\x1C\x1C12706
+    \ 55th Avenue W\x1C\x1CMukilteo\x1CWA\x1C982755514\x1CC00484824\x1C20121018\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20851000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Carlson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: V
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 14724  173rd Avenue NE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Woodinville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '980726512'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Seed Intellectual Property
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Patent Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20851000\x1CIND\x1C\x1CCarlson\x1CDavid\x1CV\x1C\x1C\x1C14724
+    \ 173rd Avenue NE\x1C\x1CWoodinville\x1CWA\x1C980726512\x1C\x1C20121018\x1C1000\x1CSeed
+    Intellectual Property\x1CPatent Attorney\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20841000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Conner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: M.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 846  108th Avenue NE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 202
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bellevue
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '980044671'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20841000\x1CIND\x1C\x1CConner\x1CWilliam\x1CM.\x1C\x1C\x1C846
+    \ 108th Avenue NE\x1CSuite 202\x1CBellevue\x1CWA\x1C980044671\x1C\x1C20121018\x1C1000\x1CRetired\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20845000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Satre
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: M.D.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 905  1st Street S
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Kirkland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '980336528'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Radia
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: MD
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20845000\x1CIND\x1C\x1CSatre\x1CRichard\x1CW\x1C\x1CM.D.\x1C905
+    \ 1st Street S\x1C\x1CKirkland\x1CWA\x1C980336528\x1C\x1C20121018\x1C1000\x1CRadia\x1CMD\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20854000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Skotdal
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Andrew
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 5267
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Everett
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '982065267'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Investments
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20854000\x1CIND\x1C\x1CSkotdal\x1CAndrew\x1C\x1C\x1C\x1CPO
+    Box 5267\x1C\x1CEverett\x1CWA\x1C982065267\x1C\x1C20121018\x1C1000\x1CSelf\x1CInvestments\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20855000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Skotdal
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Arthur
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 5267
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Everett
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '982065267'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Self-employed
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20855000\x1CIND\x1C\x1CSkotdal\x1CArthur\x1C\x1C\x1C\x1CPO
+    Box 5267\x1C\x1CEverett\x1CWA\x1C982065267\x1C\x1C20121018\x1C1000\x1CSelf-employed\x1CSelf-employed\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20853000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Skotdal
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Craig
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 5267
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Everett
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '982065267'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Skotdal Real Estate
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Investor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20853000\x1CIND\x1C\x1CSkotdal\x1CCraig\x1C\x1C\x1C\x1CPO
+    Box 5267\x1C\x1CEverett\x1CWA\x1C982065267\x1C\x1C20121018\x1C1000\x1CSkotdal
+    Real Estate\x1CInvestor\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00498196
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '20850000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Larson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dale
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 14224  168th Avenue NE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Woodinville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '980729094'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00498196\x1C20850000\x1CIND\x1C\x1CLarson\x1CDale\x1C\x1C\x1C\x1C14224
+    \ 168th Avenue NE\x1C\x1CWoodinville\x1CWA\x1C980729094\x1C\x1C20121019\x1C1000\x1CRetired\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20121020
+type: chunk

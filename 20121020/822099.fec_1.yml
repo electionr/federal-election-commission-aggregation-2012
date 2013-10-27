@@ -1,0 +1,438 @@
+countrows: 7
+filename: 822099.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00408534\x1C\x1CBilirakis for Congress\x1CPO Box 606\x1C\x1CTarpon
+    Springs\x1CFL\x1C346880606\x1CH6FL09070\x1CBilirakis\x1CGus\x1CM\x1C\x1C\x1CH\x1CFL\x1C12\x1CGrace\x1CErika
+    \x1C\x1C\x1C\x1C20121020\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00408534
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Bilirakis for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 606
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tarpon Springs
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '346880606'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H6FL09070
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Bilirakis
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Gus
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: M
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Grace
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: 'Erika '
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121020
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00408534
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '31195000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Goldberg
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: H.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6640 Embassy Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Port Richey
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '346684973'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: dentist
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00408534\x1C31195000\x1CIND\x1C\x1CGoldberg\x1CJoel\x1CH.\x1C\x1C\x1C6640
+    Embassy Boulevard\x1C\x1CPort Richey\x1CFL\x1C346684973\x1C\x1C20121019\x1C1000\x1Cself-employed\x1Cdentist\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00408534
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '31197000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Kelley Drye & Warren LLP, PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3050  K Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 400
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200075100'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00301929
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00408534\x1C31197000\x1CCOM\x1CKelley Drye & Warren LLP, PAC\x1C\x1C\x1C\x1C\x1C\x1C3050
+    \ K Street NW\x1CSuite 400\x1CWashington\x1CDC\x1C200075100\x1CC00301929\x1C20121020\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00408534
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '31198000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kosmas
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: S
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7309  Shady Glen Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbia
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '210461212'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kelley Drye & Warren LLP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00408534\x1C31198000\x1CIND\x1C\x1CKosmas\x1CMichael\x1CS\x1C\x1C\x1C7309
+    \ Shady Glen Drive\x1C\x1CColumbia\x1CMD\x1C210461212\x1C\x1C20121020\x1C1500\x1CKelley
+    Drye & Warren LLP\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00408534
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '31199000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Melissaratos
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Aris
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 13224  Longnecker Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Reisterstown
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '211364846'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: John Hopkins University
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Sr. Advisor to President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00408534\x1C31199000\x1CIND\x1C\x1CMelissaratos\x1CAris\x1C\x1C\x1C\x1C13224
+    \ Longnecker Road\x1C\x1CReisterstown\x1CMD\x1C211364846\x1C\x1C20121020\x1C1500\x1CJohn
+    Hopkins University\x1CSr. Advisor to President\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00408534
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '31196000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Schaeffer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Vicki
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5  Johnson Mill Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Towson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '212043549'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121020'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00408534\x1C31196000\x1CIND\x1C\x1CSchaeffer\x1CVicki\x1C\x1C\x1C\x1C5
+    \ Johnson Mill Road\x1C\x1CTowson\x1CMD\x1C212043549\x1C\x1C20121020\x1C1000\x1CN/A\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20121020
+type: chunk

@@ -1,0 +1,855 @@
+countrows: 13
+filename: 821955.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00512236\x1C\x1CMcSally for Congress\x1CPO Box 18612\x1C\x1CTucson\x1CAZ\x1C857318612\x1CH2AZ08102\x1CMcSally\x1CMartha\x1CE\x1C\x1C\x1CH\x1CAZ\x1C02\x1CKaucher\x1CJanine\x1C\x1C\x1C\x1C20121019\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: McSally for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 18612
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tucson
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '857318612'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2AZ08102
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: McSally
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Martha
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: E
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: AZ
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Kaucher
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Janine
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121019
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3863000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Security Pac
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 192 Liberty Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Anniston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '362072646'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00439521
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3863000\x1CCOM\x1CAmerican Security Pac\x1C\x1C\x1C\x1C\x1C\x1C192
+    Liberty Lane\x1C\x1CAnniston\x1CAL\x1C362072646\x1CC00439521\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3860000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Andy Harris For Congress
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 604
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bel Air
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '210140604'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00435974
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3860000\x1CCOM\x1CAndy Harris For Congress\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 604\x1C\x1CBel Air\x1CMD\x1C210140604\x1CC00435974\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3861000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Cemex Inc. Employees Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 929 Gessner Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1900
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '770242317'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00111880
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3861000\x1CCOM\x1CCemex Inc. Employees Political Action
+    Committee\x1C\x1C\x1C\x1C\x1C\x1C929 Gessner Road\x1CSuite 1900\x1CHouston\x1CTX\x1C770242317\x1CC00111880\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3862000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: New Pioneers Pac
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 228 S Washington Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 115
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '223145404'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00459123
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3862000\x1CCOM\x1CNew Pioneers Pac\x1C\x1C\x1C\x1C\x1C\x1C228
+    S Washington Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C223145404\x1CC00459123\x1C20121018\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3867000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Paul Gosar For Congress
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 3586
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Flagstaff
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '860033586'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00461806
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3867000\x1CCOM\x1CPaul Gosar For Congress\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 3586\x1C\x1CFlagstaff\x1CAZ\x1C860033586\x1CC00461806\x1C20121018\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3866000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Salmon For Congress
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 1290
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mesa
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '852111290'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00495630
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3866000\x1CCOM\x1CSalmon For Congress\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 1290\x1C\x1CMesa\x1CAZ\x1C852111290\x1CC00495630\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3859000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Upper Hand Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2485
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Springfield
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '221520485'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00503151
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3859000\x1CCOM\x1CUpper Hand Fund\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 2485\x1C\x1CSpringfield\x1CVA\x1C221520485\x1CC00503151\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3858000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Veterans Victory Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2776 S Arlington Mill Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '# 806'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '222063402'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00481085
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3858000\x1CCOM\x1CVeterans Victory Fund\x1C\x1C\x1C\x1C\x1C\x1C2776
+    S Arlington Mill Drive\x1C# 806\x1CArlington\x1CVA\x1C222063402\x1CC00481085\x1C20121018\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3790000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Davis
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jeannie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2403 E Sentry Ridge Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tucson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '857187867'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3790000\x1CIND\x1C\x1CDavis\x1CJeannie\x1C\x1C\x1C\x1C2403
+    E Sentry Ridge Court\x1C\x1CTucson\x1CAZ\x1C857187867\x1C\x1C20121018\x1C2500\x1CRetired\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3865000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hunter
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Janette
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: M
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3901 N Via Cordoba
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Tucson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '85749'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Global Innovations
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Consultant
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3865000\x1CIND\x1C\x1CHunter\x1CJanette\x1CM\x1C\x1C\x1C3901
+    N Via Cordoba\x1C\x1CTucson\x1CAZ\x1C85749\x1C\x1C20121018\x1C2500\x1CGlobal Innovations\x1CConsultant\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00512236
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3864000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Turner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Steve
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10395 E Groundcherry Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Scottsdale
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '852622946'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00512236\x1C3864000\x1CIND\x1C\x1CTurner\x1CSteve\x1C\x1C\x1C\x1C10395
+    E Groundcherry Lane\x1C\x1CScottsdale\x1CAZ\x1C852622946\x1C\x1C20121018\x1C1000\x1CSelf-Employed\x1CReal
+    Estate\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20121020
+type: chunk

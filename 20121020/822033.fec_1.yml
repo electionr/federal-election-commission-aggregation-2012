@@ -1,0 +1,365 @@
+countrows: 6
+filename: 822033.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00497180\x1C\x1CCoffman for Congress 2012\x1C9249 South Broadway
+    #200-501\x1C\x1CHighlands Ranch\x1CCO\x1C80129\x1CH8CO06138\x1CCoffman\x1CMike\x1C\x1CHon.\x1C\x1CH\x1CCO\x1C06\x1CNath\x1CFlorine\x1C\x1C\x1C\x1C20121020\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00497180
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Coffman for Congress 2012
+  - name: STREET 1
+    number: '5'
+    value: '9249 South Broadway #200-501'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Highlands Ranch
+  - name: STATE
+    number: '8'
+    value: CO
+  - name: ZIP
+    number: '9'
+    value: '80129'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8CO06138
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Coffman
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Mike
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Hon.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CO
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Nath
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Florine
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121020
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00497180
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6400E0C8D24A94FDABA8
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Exxon Mobil Corporation PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5959 Las Colinas Blvd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Irving
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75039'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00497180\x1C6400E0C8D24A94FDABA8\x1CPAC\x1CExxon Mobil Corporation
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C5959 Las Colinas Blvd.\x1C\x1CIrving\x1CCA\x1C75039\x1C\x1C20121019\x1C4000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00497180
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6F73015D189ED48DC9DD
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: National Assoc. of Home Builders PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1201 15TH ST NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00497180\x1C6F73015D189ED48DC9DD\x1CPAC\x1CNational Assoc. of Home
+    Builders PAC\x1C\x1C\x1C\x1C\x1C\x1C1201 15TH ST NW\x1C\x1CWASHINGTON\x1CDC\x1C20005\x1C\x1C20121019\x1C5000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00497180
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 664078AC92C944E95836
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: EADS PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2550 Wasser Terrace Ste. 9000
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Herndon
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '201716382'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00497180\x1C664078AC92C944E95836\x1CCOM\x1CEADS PAC\x1C\x1C\x1C\x1C\x1C\x1C2550
+    Wasser Terrace Ste. 9000\x1C\x1CHerndon\x1CVA\x1C201716382\x1C\x1C20121019\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00497180
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 668B55F3597D64A568EB
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WinNovember PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '2501 PORTER ST NW #421'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200081252'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121019'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00497180\x1C668B55F3597D64A568EB\x1CCOM\x1CWinNovember PAC\x1C\x1C\x1C\x1C\x1C\x1C2501
+    PORTER ST NW #421\x1C\x1CWashington\x1CDC\x1C200081252\x1C\x1C20121019\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20121020
+type: chunk

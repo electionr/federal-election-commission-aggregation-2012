@@ -1,0 +1,436 @@
+countrows: 7
+filename: 821802.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00370650\x1C\x1CFriends of Jeb Hensarling\x1CPO Box 820504\x1C\x1CDallas\x1CTX\x1C753820504\x1CH2TX05121\x1CHensarling\x1CJeb\x1C\x1C\x1C\x1CH\x1CTX\x1C05\x1CChandler\x1CJames
+    \x1C\x1C\x1C\x1C20121019\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Friends of Jeb Hensarling
+  - name: STREET 1
+    number: '5'
+    value: PO Box 820504
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dallas
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '753820504'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2TX05121
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Hensarling
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Jeb
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Chandler
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: 'James '
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121019
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '26375000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: A PAC of the National Mining Association (MINEPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 Constitution Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 500 East
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00304634
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C26375000\x1CCOM\x1CA PAC of the National Mining Association
+    (MINEPAC)\x1C\x1C\x1C\x1C\x1C\x1C101 Constitution Avenue NW\x1CSuite 500 East\x1CWashington\x1CDC\x1C20001\x1CC00304634\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '26376000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CoalPAC a PAC of the National Mining Assocaition
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 Constitution Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 500 East
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00109819
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C26376000\x1CCOM\x1CCoalPAC a PAC of the National Mining
+    Assocaition\x1C\x1C\x1C\x1C\x1C\x1C101 Constitution Avenue NW\x1CSuite 500 East\x1CWashington\x1CDC\x1C20001\x1CC00109819\x1C20121018\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '26373000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: KBW, Inc. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 787 Seventh Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 6th Floor
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10019'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00491928
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C26373000\x1CCOM\x1CKBW, Inc. PAC\x1C\x1C\x1C\x1C\x1C\x1C787
+    Seventh Avenue\x1C6th Floor\x1CNew York\x1CNY\x1C10019\x1CC00491928\x1C20121018\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '26374000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Nationwide Mutual Insurance Company Financial & Investments PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: One Nationwide Plaza
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 1-32-301
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbus
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '43215'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00406215
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C26374000\x1CCOM\x1CNationwide Mutual Insurance Company
+    Financial & Investments PAC\x1C\x1C\x1C\x1C\x1C\x1COne Nationwide Plaza\x1C1-32-301\x1CColumbus\x1COH\x1C43215\x1CC00406215\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00370650
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '26377000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McNeely
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Milton
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2495 East FM 1151
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Amarillo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '79118'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Independent Investment Corp.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: General Manager
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00370650\x1C26377000\x1CIND\x1C\x1CMcNeely\x1CMilton\x1CL.\x1C\x1C\x1C2495
+    East FM 1151\x1C\x1CAmarillo\x1CTX\x1C79118\x1C\x1C20121018\x1C1000\x1CIndependent
+    Investment Corp.\x1CGeneral Manager\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20121020
+type: chunk

@@ -1,0 +1,645 @@
+countrows: 10
+filename: 822249.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00476853\x1C\x1CKristi for Congress\x1CPO Box 852\x1C\x1CSioux Falls\x1CSD\x1C57101\x1CH0SD00054\x1CNoem\x1CKristi\x1CLynn\x1C\x1C\x1CH\x1CSD\x1C00\x1CHustead\x1CTed\x1C\x1C\x1C\x1C20121020\n"
+  record: fec.version.v8_0.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476853
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Kristi for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 852
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Sioux Falls
+  - name: STATE
+    number: '8'
+    value: SD
+  - name: ZIP
+    number: '9'
+    value: '57101'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0SD00054
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Noem
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Kristi
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: Lynn
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: SD
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '00'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Hustead
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Ted
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20121020
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476853
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '23448000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Society Of Association Executives PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1575 I Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200051105'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00041566
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476853\x1C23448000\x1CCOM\x1CAmerican Society Of Association Executives
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C1575 I Street NW\x1C\x1CWashington\x1CDC\x1C200051105\x1CC00041566\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476853
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '23450000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Association of Private Sector Colleges And Universities PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1101 Connecticut Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 900
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200364346'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00213066
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476853\x1C23450000\x1CCOM\x1CAssociation of Private Sector Colleges
+    And Universities PAC\x1C\x1C\x1C\x1C\x1C\x1C1101 Connecticut Avenue NW\x1CSuite
+    900\x1CWashington\x1CDC\x1C200364346\x1CC00213066\x1C20121018\x1C1500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476853
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '23451000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Capella Education Company PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 225 S 6th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Floor 9
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Minneapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '554024319'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00486209
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476853\x1C23451000\x1CCOM\x1CCapella Education Company PAC\x1C\x1C\x1C\x1C\x1C\x1C225
+    S 6th Street\x1CFloor 9\x1CMinneapolis\x1CMN\x1C554024319\x1CC00486209\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476853
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '23453000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Minn-Dak Sugar PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7525 Red River Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wahpeton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ND
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '580759705'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00164939
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476853\x1C23453000\x1CCOM\x1CMinn-Dak Sugar PAC\x1C\x1C\x1C\x1C\x1C\x1C7525
+    Red River Road\x1C\x1CWahpeton\x1CND\x1C580759705\x1CC00164939\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476853
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '23454000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: New Asurion Corp. Employees Federal PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 648 Grassmere Park
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 300
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Nashville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '372113667'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00450916
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476853\x1C23454000\x1CCOM\x1CNew Asurion Corp. Employees Federal
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C648 Grassmere Park\x1CSuite 300\x1CNashville\x1CTN\x1C372113667\x1CC00450916\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476853
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '23455000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Sioux Falls Surgical Physicians, LLC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 910 E 20th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Sioux Falls
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '571051012'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476853\x1C23455000\x1CORG\x1CSioux Falls Surgical Physicians,
+    LLC\x1C\x1C\x1C\x1C\x1C\x1C910 E 20th Street\x1C\x1CSioux Falls\x1CSD\x1C571051012\x1C\x1C20121018\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476853
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '23456000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Surgical Management Professionals
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 600 S Cliff Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 106
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Sioux Falls
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '571045355'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476853\x1C23456000\x1CORG\x1CSurgical Management Professionals\x1C\x1C\x1C\x1C\x1C\x1C600
+    S Cliff Avenue\x1CSuite 106\x1CSioux Falls\x1CSD\x1C571045355\x1C\x1C20121018\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476853
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '23457000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Syngenta Corporation Employee PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1775 Pennsylvania Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200064602'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00363945
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20121018'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00476853\x1C23457000\x1CCOM\x1CSyngenta Corporation Employee PAC\x1C\x1C\x1C\x1C\x1C\x1C1775
+    Pennsylvania Avenue NW\x1CSuite 600\x1CWashington\x1CDC\x1C200064602\x1CC00363945\x1C20121018\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_0.F65
+  result: []
+sourceurl: !!python/unicode 20121020
+type: chunk
